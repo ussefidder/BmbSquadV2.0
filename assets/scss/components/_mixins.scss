@@ -1,0 +1,81 @@
+// generic transform
+@mixin transform($transforms) {
+    transform: $transforms;
+}
+
+@mixin transition($transition) {
+    transition: $transition;
+}
+
+@mixin transition($property: all, $duration: .3s, $timing: ease, $delay: null) {
+    transition: $property $duration $timing $delay;
+}
+
+@mixin clearfix() {
+    &:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
+
+@mixin pseudo() {
+    position: absolute;
+    content: '';
+    display: block;
+}
+
+@mixin clear() {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+@mixin antialiased() {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@mixin box-shadow($top, $left, $blur, $color, $inset: false) {
+    @if $inset {
+        -webkit-box-shadow: inset $top $left $blur $color;
+        -moz-box-shadow: inset $top $left $blur $color;
+        box-shadow: inset $top $left $blur $color;
+    } @else {
+        -webkit-box-shadow: $top $left $blur $color;
+        -moz-box-shadow: $top $left $blur $color;
+        box-shadow: $top $left $blur $color;
+    }
+}
+
+@mixin fa() {
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+}
+
+@mixin background-gradient($start, $end) {
+    background: -moz-linear-gradient(180deg, $start 0%, $end 100%);
+    background: -webkit-linear-gradient(180deg, $start 0%, $end 100%);
+    background: -o-linear-gradient(180deg, $start 0%, $end 100%);
+    background: -ms-linear-gradient(180deg, $start 0%, $end 100%);
+    background: linear-gradient(180deg, $start 0%, $end 100%);
+}
+
+@mixin background-gradient-horizontal($start, $end) {
+    background: -moz-linear-gradient(90deg, $start 0%, $end 100%);
+    background: -webkit-linear-gradient(90deg, $start 0%, $end 100%);
+    background: -o-linear-gradient(90deg, $start 0%, $end 100%);
+    background: -ms-linear-gradient(90deg, $start 0%, $end 100%);
+    background: linear-gradient(90deg, $start 0%, $end 100%);
+}
+
+@mixin absoluted() {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}

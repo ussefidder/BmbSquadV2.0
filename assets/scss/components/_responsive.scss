@@ -1,0 +1,2113 @@
+.stm-players {
+    text-align: left;
+}
+
+@media (max-width: 1350px) {
+    .tp-arrow {
+        &.tp-arr-allwrapper {
+            display: none;
+        }
+    }
+    .tparrows.hades {
+        width: 30px;
+    }
+    .stm-players {
+        text-align: center;
+    }
+}
+
+@media (max-width: 1250px) {
+    .tparrows.hades {
+        display: none;
+    }
+}
+
+@media (max-width: 1200px) {
+    .cart-collaterals,
+    .woocommerce-tabs {
+        margin: 62px -15px 60px;
+    }
+    .cart-collaterals {
+        margin-bottom: -100px;
+    }
+
+}
+
+@media only screen and (max-width: 1199px) {
+    html body.header_4 {
+
+        .stm-ipad-block {
+            display: none;
+        }
+
+        .stm-ipad-none {
+            display: block;
+        }
+
+        ul.header-menu {
+            li {
+
+                &.menu-item-has-children {
+                    &:after {
+                        color: $bsb-base;
+                    }
+
+                    a {
+                        &:after {
+                            display: none !important;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+@media (max-width: 1100px) {
+    .stm-single-player-vc_stats {
+        padding-left: 350px;
+        .image {
+            max-width: 320px;
+            left: 0;
+            //transform: translateY(-50%);
+        }
+    }
+    .stm-single-player-vc_stats .stm-statistic-meta {
+        min-height: inherit;
+    }
+    .stm-player-statistic-unit .owl-nav {
+        left: 350px;
+    }
+    .menu-widget-menu-container li {
+        padding-right: 5px;
+    }
+
+    .stm-single-league table.sp-league-table tbody tr td {
+        &:last-child {
+            padding-right: 15px;
+        }
+    }
+    #sb_instagram.sbi_col_3 .sbi_photo_wrap .sbi_photo {
+        width: 50px !important;
+        height: 50px !important;
+
+    }
+
+    html body.header_4 {
+
+        .stm-ipad-block {
+            display: block;
+        }
+
+        .stm-ipad-none {
+            display: none;
+        }
+    }
+
+    .review_style_four .stm-reviews-carosel-wrapper {
+        margin-left: 1.5%;
+    }
+
+}
+
+/*laptops*/
+@media (max-width: 1100px) and (min-width: 992px) {
+    .stm-single-block-event-list .stm-single-block-unit .stm-teams-info .stm-team-results-outer > div {
+        display: none;
+    }
+    .stm-single-block-event-list .stm-single-block-unit .stm-teams-info .stm-latest-result_result {
+        display: inline-block !important;
+    }
+}
+
+@media (max-width: 1030px) {
+    .stm-header .stm-main-menu .stm-main-menu-unit .header-menu > li a {
+        padding: 0 20px;
+        font-size: 14px;
+    }
+
+    .review_style_three {
+        .stm-reviews-carosel-wrapper {
+            .stm-reviews {
+                .stm-review-single {
+                    .stm-review-container {
+                        .icon {
+                            left: 32% !important;
+                        }
+
+                        .review_author_img {
+                            width: 64.5% !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .addvert_wrapp {
+        .addvert_info_wrapp {
+            .addvert_title {
+                padding: 20px 30px 10px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    .stm-latest-results-units .stm-latest-results-info .stm-latest-result .stm-latest-result-win-label {
+        display: none;
+    }
+    .stm-header .stm-main-menu .stm-main-menu-unit .header-menu > li a {
+        padding: 0 15px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 992px) {
+    .stm-header .stm-main-menu .stm-main-menu-unit .header-menu > li a {
+        padding: 0 15px;
+        font-size: 13px;
+    }
+    .stm-statistic-tabs {
+        .sub-title {
+            margin-bottom: 10px !important;
+        }
+        .stm-media-tabs-nav {
+            clear: both;
+            margin-bottom: 35px;
+        }
+    }
+    .footer-widgets-wrapper .stm-cols-4 aside {
+        &:nth-child(2n+1) {
+            clear: both;
+        }
+        width: 50%;
+    }
+    body {
+        padding-bottom: 0 !important;
+    }
+    .stm-footer {
+        position: static;
+    }
+    .stm-single-block-event-list .stm-single-block-unit .stm-teams-info .stm-team-results-outer > div {
+        display: none;
+    }
+    .stm-single-block-event-list .stm-single-block-unit .stm-teams-info .stm-latest-result_result {
+        display: inline-block !important;
+    }
+
+    //Timeline
+    .stm-timeline__steps {
+        display: none;
+    }
+
+    .stm-timeline__nav-bar .stm-timeline__nav {
+        margin-top: 0;
+        float: left;
+    }
+
+    .stm-timeline__caption-inner {
+        h2 {
+            font-size: 26px;
+            margin-bottom: 10px;
+        }
+        .stm-timeline__caption-text span {
+            line-height: 26px !important;
+            font-size: 13px !important;
+        }
+    }
+
+    .stm-timeline__caption {
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 920px) {
+    .stm-header .stm-main-menu .stm-main-menu-unit .header-menu > li a {
+        padding: 0 10px;
+        font-size: 13px;
+    }
+    #stm-top-bar {
+        .stm-top-socials-holder {
+            margin-right: 5px;
+        }
+        .stm-top-bar_right {
+            .help-bar-shop > a {
+
+            }
+            .language-switcher-unit {
+                .stm-switcher-open {
+                    right: 0;
+                }
+                .stm-current-language {
+                    padding-right: 25px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 787px) {
+    html body.header_4.splashBaseball #wrapper #main {
+        margin-top: 0;
+    }
+    html body {
+        &.header_1, &.header_2, &.header_3 {
+            ul.stm-mobile-menu-list {
+                li {
+                    a span .stm_megaicon {
+                        margin-right: 20px;
+                    }
+                }
+
+                li.stm_menu_item_logo {
+                    display: none;
+                }
+
+                li.stm_megamenu {
+
+                    > ul.sub-menu {
+                        display: none;
+                        margin: 0;
+                        > li {
+                            > ul.sub-menu {
+                                width: 100%;
+                                margin: 0;
+
+                                li {
+                                    text-align: left;
+
+                                    a {
+                                        text-align: left;
+                                        padding: 20px !important;
+                                        span {
+                                            color: $black-22;
+
+                                            .stm_mega_textarea {
+                                                color: $black-22;
+                                                margin-bottom: 20px;
+                                            }
+                                        }
+
+                                        ul.mm-list {
+                                            display: block !important;
+                                            opacity: 1;
+
+                                            li {
+                                                color: $black-22;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    html body.header_4 {
+
+        .stm-ipad-block {
+            display: none;
+        }
+
+        .stm-ipad-none {
+            display: block;
+        }
+
+        #wrapper {
+            #main {
+                margin-top: 60px;
+            }
+
+            #stm-top-bar {
+                display: block;
+                min-height: 60px;
+                position: fixed;
+                width: 100%;
+                left: 0;
+                top: 0;
+
+                &.top-sticky {
+                    .container {
+                        .stm-ipad-none {
+                            .col-12 {
+                                .logo-main {
+                                    .bloglogo {
+                                        .stm-main-logo {
+                                            display: block;
+                                            opacity: 1;
+                                        }
+                                        .stm-sticky-logo {
+                                            display: none;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .container {
+                    .stm-ipad-none {
+                        .col-12 {
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: center;
+
+                            .logo-main {
+                                max-width: 70px;
+
+                                .bloglogo {
+                                    .stm-main-logo {
+                                        display: block;
+                                    }
+                                    .stm-sticky-logo {
+                                        display: none;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .stm-header {
+                .stm-header-inner {
+                    display: block;
+                    padding: 0;
+
+                    .stm-header-background, .stm-breadcrumbs-unit {
+                        display: none;
+                    }
+
+                    .stm-header-container {
+                        .stm-main-menu {
+                            .stm-main-menu-unit {
+                                margin-bottom: 200px;
+                                display: block;
+                                overflow-y: scroll;
+                                max-height: 80%;
+                                margin-top: 0 !important;
+
+                                ul.header-menu {
+                                    display: block;
+
+                                    > li {
+                                        padding-right: 0;
+
+                                        &.menu-item-has-children {
+                                            a {
+                                                width: 90%;
+                                            }
+                                        }
+
+                                        &:after {
+                                            top: 7px;
+                                            transform: none;
+                                        }
+
+                                        &:hover {
+                                            > ul.sub-menu {
+                                                height: 100%;
+                                                padding: 20px 0;
+
+                                                li {
+                                                    a {
+                                                        border-left: 0;
+                                                    }
+                                                }
+                                            }
+                                        }
+
+                                        > ul.sub-menu {
+                                            position: relative;
+                                            left: 0;
+                                            top: 0;
+                                            right: 0;
+                                            width: 100%;
+                                            height: 0;
+                                            max-width: 100%;
+                                            box-shadow: none;
+                                            padding: 0;
+
+                                            li {
+                                                &:after {
+                                                    top: 0;
+                                                    transform: none;
+                                                }
+
+                                                a {
+                                                    padding-bottom: 0 !important;
+                                                }
+
+                                                &:hover {
+                                                    > ul.sub-menu {
+                                                        height: 100%;
+                                                        padding: 20px 0;
+                                                    }
+                                                }
+
+                                                > ul.sub-menu {
+                                                    position: relative;
+                                                    left: 0;
+                                                    top: 0;
+                                                    right: 0;
+                                                    width: 100%;
+                                                    height: 0;
+                                                    max-width: 100%;
+                                                    box-shadow: none;
+                                                    padding: 0;
+
+                                                    li {
+                                                        a {
+                                                            padding: 0 0 0 20px !important;
+
+                                                            span {
+                                                                img {
+                                                                    height: inherit;
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+
+                                a.stm-cart-mobile {
+                                    padding: 0 10px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .stm-products-row {
+        &.row-2 {
+            .col-sm-6 {
+                &:nth-child(2n+1) {
+                    clear: none;
+                }
+            }
+        }
+        &.row-3 {
+            .col-sm-6 {
+                &:nth-child(3n+1) {
+                    clear: none;
+                }
+            }
+        }
+        &.row-4 {
+            .col-sm-6 {
+                &:nth-child(4n+1) {
+                    clear: none;
+                }
+            }
+        }
+        .col-sm-6 {
+            &:nth-child(2n+1) {
+                clear: both;
+            }
+        }
+        .stm-single-product-loop .stm-product-content-loop-inner .clearfix {
+            .title {
+                width: 100%;
+            }
+            .meta {
+                width: 100%;
+                float: none;
+                padding: 0;
+                text-align: left;
+                .price {
+                    position: static;
+                    del {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    .stm-player-statistic-baseball .stm-player-statistic-unit .owl-dots {
+        display: none !important;
+    }
+
+    .stm-single-player-vc_stats {
+        .stm-player-img {
+            min-height: auto !important;
+        }
+    }
+
+    .stm-single-player-vc_stats .stm-statistic-meta {
+        min-height: 357px;
+        padding-bottom: 21px;
+    }
+    .stm-media-tabs .stm-medias-unit-wider .stm-medias-unit .stm-media-single-unit .stm-media-preview .title {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .stm-call-to-action {
+        position: relative;
+        padding-bottom: 100px;
+        text-align: center;
+        .button {
+            position: absolute;
+            bottom: 25px;
+            left: 50%;
+            transform: translateX(-50%);
+            float: none;
+            margin: 0;
+            white-space: nowrap;
+        }
+    }
+    .stm-next-match-units .stm-next-match-unit .stm-next-match-opponents .stm-command {
+        padding: 0;
+        padding-top: 120px;
+        .stm-command-logo {
+            top: 0;
+            left: 50%;
+            margin: 0;
+            transform: translateX(-50%);
+            img {
+                max-height: 100px;
+                width: auto;
+            }
+        }
+        &.stm-command-right {
+            padding-right: 0;
+            .stm-command-logo {
+                margin: 0;
+                right: 50%;
+                left: inherit;
+                transform: translateX(50%);
+            }
+        }
+    }
+    .stm-next-match-title {
+        margin-right: 20px;
+    }
+    .stm-reviews-main-wrapper .stm-review-image {
+        display: none;
+    }
+    .stm-images-grid {
+        .col-md-3 {
+            text-align: center;
+            .stm-images-grid-single {
+                display: inline-block;
+                &.stm-waiting {
+                    display: none;
+                }
+            }
+        }
+    }
+    .stm-image-slider .stm-slider-control-prev,
+    .stm-image-slider .stm-slider-control-next {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 25px;
+        margin-top: -20px;
+    }
+    .stm-single-trophy .image {
+        width: 30%;
+        margin: 0 auto 20px;
+        min-height: 100px !important;
+        img {
+            max-height: 100px !important;
+        }
+    }
+    .stm-sportspress-sidebar {
+        display: none;
+    }
+
+    .stm-sportspress-sidebar-left,
+    .stm-sportspress-sidebar-right {
+        .col-md-9 {
+            .sp-template-league-table {
+                margin: 0 -15px;
+            }
+        }
+        .stm-single-sp_table-league .stm-title-box-unit {
+            margin: 0 -30px;
+        }
+    }
+    .sp-template-logo, .sp-template-photo {
+        float: none;
+    }
+    .stm-player-details-right .stm-player-team-logo {
+        margin-top: 25px;
+        img {
+            width: 10px;
+        }
+    }
+    .stm-player-stats {
+        margin-top: 15px;
+        .stm-player-stat {
+            padding: 17px 15px 10px;
+            width: 80px;
+            height: 80px;
+            margin-bottom: 10px;
+        }
+    }
+    .row-sm-2 {
+        .col-sm-6 {
+            &:nth-child(3n+1) {
+                clear: none;
+            }
+            &:nth-child(2n+1) {
+                clear: both;
+            }
+        }
+    }
+    .stm-single-product-loop .stm-product-content-loop-inner .clearfix .meta {
+        padding-left: 20px;
+    }
+    .woocommerce-checkout-review-order-table td.actions .coupon, .shop_table_responsive.cart td.actions .coupon {
+        margin-bottom: 35px;
+        float: none;
+    }
+    .woocommerce-checkout-review-order-table td.actions .stm-actions-right, .shop_table_responsive.cart td.actions .stm-actions-right {
+        float: none;
+        width: 100%;
+        text-align: left;
+    }
+    .cart-collaterals, .woocommerce-tabs {
+        margin-top: 30px;
+    }
+    .stm-team-staff-list .stm-single-staff {
+        width: 50%;
+        &:nth-child(2n+1) {
+            clear: both;
+        }
+    }
+
+    .news_style_baseball_grid .stm-single-post-loop .image .post-meta {
+        padding: 13px 0 13px 85px;
+    }
+    .news_style_baseball_grid .stm-single-post-loop .content .stm-content-wrap {
+        padding: 17px 0 10px 9px;
+    }
+
+    .stm-media-tabs {
+        &.stm-news-tabs-wrapper.style_baseball {
+            .tab-pane {
+                .stm-single-post-loop {
+                    .image {
+                        .post-meta {
+                            flex-direction: column;
+                            align-items: flex-start;
+                            padding: 13px 0 13px 80px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 740px) and (orientation: landscape) {
+
+    html body.header_4 #wrapper .stm-header .stm-header-inner .stm-header-container .stm-main-menu {
+        .stm-main-menu-unit {
+            padding-top: 60px;
+            max-height: 70%;
+        }
+
+        .stm-menu-socials {
+            bottom: 13%;
+            ul {
+                li {
+                    margin-bottom: 0;
+                }
+            }
+        }
+
+        .stm-menu-footer {
+            bottom: 2%;
+        }
+    }
+
+    .stm-contact-manager-block h4 {
+        margin-top: 30px;
+        margin-bottom: 5px;
+    }
+
+    .stm-media-tabs {
+        &.stm-news-tabs-wrapper.style_baseball {
+            .stm-title-left {
+                .stm-main-title-unit {
+                    margin-right: 20px;
+                }
+            }
+            .tab-pane {
+                .stm-single-post-loop {
+                    .image {
+                        .post-meta {
+                            flex-direction: column;
+                            align-items: flex-start;
+                            padding: 13px 0 3px 85px;
+
+                            .stm-cat-list-wrapp {
+                                line-height: 22px;
+                            }
+                        }
+
+                        .stm-post-format {
+                            &:before {
+                                //	font-size: 10px;
+                                left: 6px !important;
+                            }
+
+                            padding: 3px 10px 3px 29px;
+                            //font-size: 10px;
+                        }
+                    }
+
+                    .content {
+                        .date {
+                            //height: 53px;
+                            //padding: 10px 10px 0 10px;
+
+                            .stm-date-day {
+                                //	font-size: 28px;
+                                margin: 0;
+                            }
+                            .stm-date-month {
+                            }
+                        }
+
+                        .stm-content-wrap {
+                            padding: 7px 0 10px 7px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .stm_bsb_latest_results_wrapper {
+        .stm-latest-results-units {
+            .stm-teams-info-wrap {
+                .stm-info {
+                    .stm-event-date {
+                        padding: 6px 13px 5px;
+                    }
+
+                    .stm-event-venue {
+                        padding: 6px 43px 5px;
+                    }
+                }
+            }
+        }
+    }
+
+    .owl-carousel.stm-timeline-captions-carousel {
+        .stm-timeline__caption-inner {
+            .stm-timeline__caption-text {
+                p {
+                    font-size: 12px;
+                    line-height: 20px;
+                }
+            }
+        }
+    }
+
+    .news_style_baseball_list {
+        .stm-single-post-loop {
+            .stm-post-content-inner {
+                .stm-post-format {
+                    //font-size: 10px;
+                    padding-left: 30px;
+
+                    &:before {
+                        //font-size: 10px;
+                        left: 6px;
+                    }
+                }
+
+                a {
+                    .title {
+                        font-size: 20px;
+                        line-height: 20px;
+                        margin-bottom: 5px;
+                    }
+                }
+            }
+        }
+    }
+
+    .news_style_baseball_grid {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        .stm-single-post-loop {
+            .image {
+                .post-meta {
+                    flex-direction: column;
+                    align-items: flex-start;
+                    padding: 13px 0 3px 85px;
+
+                    .stm-cat-list-wrapp {
+                        line-height: 22px;
+                    }
+                }
+
+                .stm-post-format {
+                    &:before {
+                        //font-size: 10px;
+                        left: 6px !important;
+                    }
+
+                    padding: 3px 10px 3px 29px;
+                    //font-size: 10px;
+                }
+            }
+
+            .content {
+                .date {
+                    //height: 53px;
+                    //padding: 10px 10px 0 10px;
+
+                    .stm-date-day {
+                        //font-size: 28px;
+                        margin: 0;
+                    }
+                    .stm-date-month {
+                    }
+                }
+
+                .stm-content-wrap {
+                    padding: 7px 0 10px 7px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 668px) {
+    .review_style_four .stm-reviews-carosel-wrapper .stm-reviews .stm-review-single .stm-review-container .stm_review_bsb .review_content_bg {
+        padding: 70px 20px 25px !important;
+    }
+
+    .splashBaseball .dp-in a {
+        min-width: 120px;
+    }
+
+}
+
+@media (max-width: 650px) {
+    .stm-media-tabs .stm-medias-unit-wider .stm-medias-unit .stm-media-single-unit {
+        width: 100% !important;
+        img {
+            width: 100%;
+        }
+    }
+    .stm-team-history .stm-team-history-single .stm-team-history-linked {
+        width: 10%;
+    }
+    .stm-team-history .stm-team-history-single .year {
+        width: 12%;
+    }
+    .stm-team-history .stm-team-history-single .stm-team-history-content {
+        float: right !important;
+        width: 75%;
+    }
+    .stm-single-sp_table-league .sp-league-table .data-name .team-logo {
+        display: none;
+    }
+    .stm-single-sp_table-league .sp-league-table .data-name {
+        line-height: 20px;
+    }
+
+    .stm-single-block-event-list .stm-single-block-event-list-top .venue,
+    .stm-single-block-event-list .stm-single-block-event-list-top .time {
+        float: none;
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .stm-future-event-list-time {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        span {
+            display: block;
+            &:after {
+                display: none;
+            }
+        }
+    }
+
+    .stm-single-block-event-list .stm-single-block-unit .stm-team-logo {
+        display: none;
+    }
+    .stm-single-block-event-list .stm-single-block-unit .stm-teams-info {
+        width: 100%;
+        display: block;
+    }
+    .stm-single-block-event-list .stm-single-block-unit .stm-teams-info > div {
+        display: block;
+        text-align: center;
+        margin: 10px 0;
+    }
+    .stm-single-product-loop .stm-product-content-loop-inner .clearfix .meta {
+        float: none;
+        padding-left: 0;
+        text-align: left;
+        .price {
+            right: inherit;
+            left: 0;
+        }
+    }
+    .stm-single-product-loop .stm-product-content-loop-inner .clearfix .title {
+        float: none;
+        width: 100%;
+    }
+    .stm-single-product-content-right {
+        margin-top: 20px;
+    }
+    .woocommerce-tabs {
+        margin: 30px -15px;
+    }
+    .stm-fullwidth-row-js {
+        margin: 0 -15px !important;
+    }
+    .woocommerce-tabs .commentlist li img {
+        float: none;
+        margin: 0 0 15px;
+    }
+    .woocommerce p.stars a {
+        display: block;
+        border: 0 !important;
+    }
+    .woocommerce-info, .woocommerce-message {
+        padding: 15px;
+        //padding-bottom: 75px;
+    }
+    .woocommerce-info .button, .woocommerce-message .button {
+        display: block;
+        position: relative;
+        top: 0;
+        left: 0;
+        right: inherit;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .woocommerce-checkout-review-order-table td.product-name a, .shop_table_responsive.cart td.product-name a {
+        font-size: 16px;
+    }
+    .col2-set {
+        .col-2,
+        .col-1 {
+            width: 100%;
+        }
+    }
+    .customer_details tr td, .order_details tr td.product-total, .woocommerce-checkout-review-order-table tr td.product-total {
+        padding-right: 15px;
+    }
+    .myaccount_user, .myaccount_address {
+        padding-right: 0;
+    }
+    .my_account_orders {
+        tr {
+            display: block;
+        }
+        td {
+            padding: 15px !important;
+            width: 100%;
+            display: block;
+            &.order-actions {
+                text-align: left;
+            }
+        }
+    }
+    .stm-team-staff-list .stm-single-staff {
+        width: 100%;
+    }
+    .stm-single-player-vc_stats .image {
+        position: static;
+        margin: 15px 0 0 -15px;
+    }
+    .stm-single-player-vc_stats {
+        padding-left: 15px;
+        .stm-statistic-meta {
+            min-height: inherit;
+            padding-bottom: 40px;
+            padding-top: 20px;
+            .stat {
+                position: static;
+            }
+        }
+    }
+}
+
+@media (max-width: 500px) {
+
+    html body.header_4 #wrapper .stm-header .stm-header-inner .stm-header-container .stm-main-menu .stm-main-menu-unit {
+        max-height: 76%;
+    }
+
+    .stm-team-history .stm-team-history-single .stm-team-history-linked {
+        display: none;
+    }
+    .stm-team-history .stm-team-history-single .clearfix > div {
+        margin-top: 15px;
+        width: 100%;
+        float: none;
+    }
+    .stm-media-tabs-nav {
+        margin-bottom: 20px;
+        clear: both;
+    }
+    .stm-main-title-unit {
+        margin-bottom: 20px;
+    }
+    .stm-single-player-vc_stats {
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-top: 15px;
+        .image {
+            max-height: 240px;
+            width: 100%;
+            position: static !important;
+            transform: none !important;
+            overflow: hidden;
+        }
+        .stm-statistic-meta {
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+    }
+    .stm-player-statistic-unit .owl-nav {
+        position: static;
+        margin-left: 15px;
+        padding-bottom: 30px;
+    }
+    .footer-widgets-wrapper .stm-cols-4 aside {
+        width: 100% !important;
+    }
+    aside.widget .widget_title,
+    aside.widget .widget-title {
+        margin-top: 0;
+    }
+    #stm-footer-bottom {
+        .footer-bottom-left {
+            float: none;
+            width: 100%;
+            text-align: center;
+        }
+        .footer-bottom-right {
+            .footer-bottom-right-text {
+                margin-bottom: 15px;
+                float: none;
+                width: 100%;
+                text-align: center;
+            }
+            .footer-socials-title {
+                margin-right: 0 !important;
+                position: static !important;
+                text-align: center;
+                display: block !important;
+            }
+        }
+    }
+    .menu-widget-menu-container li {
+        width: 100%;
+    }
+    .stm-footer-image {
+        height: 230px;
+    }
+    .stm-footer-image .inner {
+        padding-top: 30px;
+    }
+    .stm-reviews .stm-review-container .content {
+        margin: 0;
+    }
+    .stm-media-tabs .stm-media-tabs-nav ul li a {
+        padding-top: 5px;
+        padding-left: 0;
+    }
+    .stm-single-league {
+        .data-rank {
+            display: none;
+        }
+        .data-name {
+            padding-left: 15px;
+        }
+    }
+    .stm-title-left {
+        float: none;
+    }
+    .stm-main-title-unit {
+        margin-bottom: 10px !important;
+    }
+    .stm-reviews-controls {
+        padding-left: 0;
+        margin-bottom: 20px;
+    }
+    .stm-reviews-carosel-wrapper {
+        margin-left: 0;
+    }
+    .stm-next-match-units .stm-next-match-unit .stm-next-match-time .heading-font span:after {
+        display: none;
+    }
+    .stm-next-match-units .stm-next-match-unit .stm-next-match-opponents {
+        display: block;
+    }
+    .stm-next-match-units .stm-next-match-unit .stm-next-match-time .heading-font span {
+        display: block;
+    }
+    .stm-next-match-units .stm-next-match-unit .stm-next-match-opponents .stm-command {
+        display: block;
+        margin-bottom: 50px;
+        width: 100%;
+        &.stm-command-right {
+            padding-left: 0;
+        }
+    }
+    .stm-next-match-units .stm-next-match-unit .stm-next-match-opponents .stm-command-vs {
+        display: block;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .stm-next-match-title {
+        float: none;
+    }
+    .stm-carousel-controls-right {
+        margin-bottom: 20px;
+        margin-left: -6px;
+        text-align: left;
+    }
+    .stm-media-tabs .stm-medias-unit-wider .stm-medias-unit .stm-media-single-unit {
+        width: 100% !important;
+        img {
+            width: 100%;
+        }
+    }
+    .stm-title-box-unit {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .stm-demo-typography .wpb_content_element .wpb_wrapper {
+        padding-left: 50px;
+    }
+    #main {
+        padding-bottom: 20px;
+    }
+    .mc4wp-form .mc4wp-form-fields p {
+        float: none;
+        &:first-child {
+            width: 100%;
+        }
+        &:nth-child(2) {
+            width: 100%;
+        }
+    }
+    body.page-template-coming-soon #wrapper {
+        height: 900px !important;
+
+    }
+    body.page-template-coming-soon .stm-coming-soon-centered {
+        //padding-top: 25px;
+    }
+    .stm-single-sp_calendar {
+        margin: 0 -15px;
+    }
+    .stm-upcoming-events_list ul li .event_date {
+        position: static;
+        width: 100%;
+        padding: 15px;
+        margin-bottom: 15px;
+        .date {
+            position: static;
+            transform: none;
+        }
+    }
+    .stm-upcoming-events_list ul li {
+        padding: 0;
+        padding-bottom: 25px;
+        .clearfix {
+            padding: 0 15px;
+            text-align: center;
+        }
+    }
+    .stm-upcoming-events_list ul li .commands {
+        float: none;
+    }
+    .stm-upcoming-events_list ul li .read_more {
+        margin: 15px 0 0;
+        float: none;
+    }
+    .stm-upcoming-events_list ul li .commands h3 .stm-red {
+        display: block;
+    }
+    .stm-single-sp_event {
+        margin: 0 -15px;
+    }
+    .stm-next-match-main-meta {
+        padding: 0 15px;
+    }
+    .stm-single-sp_event table.sp-data-table th:first-child, .stm-single-sp_event table.sp-data-table td:first-child {
+        padding-left: 10px;
+    }
+    .stm_author_box .author_avatar {
+        float: none;
+        margin-bottom: 15px;
+    }
+    .stm_post_comments .comment-list li.comment .comment-author-image {
+        float: none;
+        margin: 15px 0;
+    }
+    .stm_post_comments .comment-list li .children {
+        padding-left: 0;
+    }
+    .stm-donations-content .stm-donation-inner .image {
+        width: 100%;
+        float: none;
+        margin-bottom: 30px;
+        margin-right: 0;
+    }
+    .stm-single-donation .stm-donation-cash {
+        float: none;
+        margin-bottom: 20px;
+    }
+    .stm-single-donation .stm-donate {
+        text-align: left;
+    }
+    .stm-single-donation .stm-donation-cash .heading-font {
+        display: block;
+        margin-bottom: 5px;
+        &:after {
+            display: none;
+        }
+    }
+    .stm-title-box-title-wrapper h3 {
+        float: none;
+    }
+    .stm-title-box-title-wrapper .stm-shop-categories .stm-shop-category {
+        display: block;
+        margin-right: 0;
+    }
+    ul.page-numbers {
+        margin: 20px -5px 20px;
+    }
+    .stm-thumnails-single-product-wrapper {
+        display: none;
+    }
+    .woocommerce-variation {
+        float: none;
+        text-align: left;
+    }
+    .woocommerce-checkout-review-order-table th.product-thumbnail, .shop_table_responsive.cart th.product-thumbnail {
+        display: none;
+    }
+    .cart_item {
+        .product-thumbnail {
+            display: none;
+        }
+    }
+    .woocommerce-checkout-review-order-table td.product-name, .shop_table_responsive.cart td.product-name,
+    .woocommerce-checkout-review-order-table th.product-name, .shop_table_responsive.cart th.product-name {
+        padding-left: 15px;
+    }
+    .woocommerce-checkout-review-order-table td.actions .stm-actions-right .wc-proceed-to-checkout, .shop_table_responsive.cart td.actions .stm-actions-right .wc-proceed-to-checkout {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    .woocommerce-checkout-review-order-table td.actions .coupon .input-text, .shop_table_responsive.cart td.actions .coupon .input-text {
+        top: 0;
+        margin-bottom: 15px;
+    }
+    .woocommerce-checkout-review-order-table td.actions .coupon, .shop_table_responsive.cart td.actions .coupon {
+        margin-bottom: 15px;
+    }
+    .stm-cart-totals {
+        padding-bottom: 30px;
+    }
+
+    .stm-products-row.row-3 {
+        .stm-single-product-loop .stm-product-content-loop-inner {
+            .clearfix {
+                .title {
+                    h3 {
+                        display: block;
+                        overflow: hidden;
+                        padding-right: 0;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                        line-height: 22px;
+                        margin-bottom: 30px;
+                    }
+                }
+
+                .meta {
+                    .star-rating {
+                        top: 25px;
+                        left: 0;
+                        right: inherit;
+                    }
+                }
+            }
+        }
+    }
+
+    .stm-title-box-title-wrapper {
+        .stm-shop-categories {
+            .stm-shop-category {
+                .name {
+                    padding-bottom: 0;
+                }
+            }
+        }
+    }
+
+    .comment-respond {
+        .comment-form-rating {
+            top: 40px;
+            left: 0;
+            right: inherit;
+
+            .stars {
+                span {
+                    display: flex;
+                }
+            }
+        }
+    }
+
+}
+
+@media (max-width: 320px) {
+    .stm-donation-cash .heading-font {
+        display: block;
+        &:after {
+            display: none;
+        }
+    }
+
+    .stm-header .logo-main {
+        max-width: 30%;
+    }
+}
+
+/*Header Mobile*/
+.stm-transparent-header {
+    .stm-header-mobile {
+        background-color: rgba(21, 21, 21, 0.8);
+    }
+}
+
+.stm-header-mobile {
+    position: relative;
+    display: none;
+    padding: 15px 40px 15px;
+    background-color: rgba(21, 21, 21, 1);
+    .bloglogo {
+        img {
+            max-width: 100%;
+        }
+    }
+    .stm-mobile-right {
+        float: right;
+        margin-top: 22px;
+        vertical-align: middle;
+    }
+    .help-bar-shop {
+        float: right;
+        margin-top: 17px;
+        a {
+            color: $white;
+        }
+        .list-label {
+            display: none;
+        }
+        i {
+            position: relative;
+            top: 2px;
+            font-size: 20px;
+        }
+        .stm-current-items-in-cart {
+            display: inline-block;
+            margin-left: 6px;
+            min-width: 21px;
+            height: 21px;
+            line-height: 21px;
+            background-color: $red;
+            text-align: center;
+            padding: 0 2px;
+            border-radius: 50%;
+            font-size: 13px;
+        }
+    }
+}
+
+/* Menu toggle */
+.stm-menu-toggle {
+    float: right;
+    width: 64px;
+    height: 60px;
+    margin-left: 18px;
+    cursor: pointer;
+    background: rgba(48, 49, 50, 0.8);
+    border-radius: 3px;
+}
+
+.stm-menu-toggle span {
+    display: block;
+    width: 31px;
+    height: 4px;
+    background: $white;
+    margin: 0 auto 6px;
+    border-radius: 2px;
+}
+
+.stm-menu-toggle span:first-child {
+    position: relative;
+    margin-top: 18px;
+    top: 0;
+    -webkit-transition: top 0.3s 0.3s, transform 0.3s 0s;
+    transition: top 0.3s 0.3s, transform 0.3s 0s;
+}
+
+.stm-menu-toggle span:nth-child(2) {
+    opacity: 1;
+    -webkit-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+}
+
+.stm-menu-toggle span:last-child {
+    margin-bottom: 0;
+    position: relative;
+    top: 0;
+    -webkit-transition: top 0.3s 0.3s, transform 0.3s 0s;
+    transition: top 0.3s 0.3s, transform 0.3s 0s;
+}
+
+.stm-menu-toggle.opened span {
+    background: $white;
+}
+
+.stm-menu-toggle.opened span:first-child {
+    top: 10px;
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transition: top 0.3s 0s, transform 0.3s 0.3s, color 0.3s 0.3s;
+    transition: top 0.3s 0s, transform 0.3s 0.3s, color 0.3s 0.3s;
+}
+
+.stm-menu-toggle.opened span:nth-child(2) {
+    opacity: 0;
+}
+
+.stm-menu-toggle.opened span:last-child {
+    top: -10px;
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transition: top 0.3s 0s, transform 0.3s 0.3s;
+    transition: top 0.3s 0s, transform 0.3s 0.3s;
+}
+
+.stm-mobile-menu-unit {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 40px;
+    width: 388px;
+    border-top: 5px solid $red;
+    .inner {
+        .stm-top {
+            padding: 22px 25px 10px;
+            position: relative;
+            background-color: #303132;
+            .stm-top-right {
+                overflow: hidden;
+                padding-right: 40px;
+                .stm-top-search {
+                    .search-input {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        height: 100%;
+                        border-radius: 0;
+                        opacity: 0;
+                        visibility: hidden;
+                        -webkit-transition: all 0.3s 0s;
+                        transition: all 0.3s 0s;
+                        font-size: 24px;
+                        color: $theme-dark;
+                        outline: none !important;
+                        z-index: 20;
+                        &.active {
+                            opacity: 1;
+                            visibility: visible;
+                            background: $white;
+                        }
+                    }
+                    .search-submit {
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        bottom: 0;
+                        width: 70px;
+                        border: 0;
+                        padding: 0;
+                        color: #b6b6b6;
+                        background-color: transparent;
+                        font-size: 18px;
+                        z-index: 25;
+                        -webkit-transition: background-color 0.3s 0s;
+                        transition: background-color 0.3s 0s;
+                        border-radius: 0;
+                        &:before {
+                            display: none;
+                        }
+                        &.activated {
+                            background-color: $red !important;
+                            color: $white !important;
+                        }
+                    }
+                }
+                .stm-top-socials {
+                    .top-bar-socials {
+                        text-align: center;
+                        li {
+                            display: inline-block;
+                            margin-right: 27px;
+                            font-size: 18px;
+                            &:last-child {
+                                margin-right: 0;
+                            }
+                        }
+                    }
+                }
+            }
+            .language-switcher-unit {
+                position: relative;
+                padding-right: 22px;
+                .stm-language-code {
+                    margin-left: 5px;
+                    position: relative;
+                    top: 1px;
+                    text-transform: uppercase;
+                    font-weight: 700;
+                    color: $white;
+                    letter-spacing: 1px;
+                }
+                .stm-switcher-open {
+                    position: absolute;
+                    top: 10px !important;
+                    right: 0 !important;
+                    width: 0;
+                    height: 0;
+                    border-left: 5px solid transparent;
+                    border-right: 5px solid transparent;
+                    border-top: 5px solid #fff;
+                    opacity: 0.2;
+                }
+                .dropdown-menu {
+                    min-width: 100%;
+                    background-color: transparent;
+                    box-shadow: none;
+                    border: 0;
+                    li {
+                        a {
+                            padding-left: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.stm-mobile-menu-list {
+    padding: 10px 0;
+    background: rgba(21, 21, 21, 0.95);
+    li {
+        padding-left: 0;
+        margin: 0;
+        &:before {
+            display: none;
+        }
+        a {
+            display: block;
+            padding: 18px 15px;
+            text-align: center;
+            color: $white;
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 22px;
+            text-decoration: none !important;
+            &:active {
+                background-color: $red;
+            }
+        }
+        ul {
+            display: none;
+            padding: 0;
+            margin: 0;
+            opacity: 0.5;
+            li {
+                a {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 787px) {
+    .stm-header-mobile {
+        display: block;
+    }
+    #stm-top-bar {
+        display: none;
+    }
+    .stm-header-inner {
+        display: none;
+    }
+
+    /*Transparent header*/
+    .stm-transparent-header {
+        .stm-header-mobile {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+        }
+    }
+
+    div.stm-header {
+        min-height: initial !important;
+    }
+
+    .stm_bsb_latest_results_wrapper .stm-latest-results-units {
+        padding: 0;
+
+        .stm-teams-info-wrap {
+            .stm-info {
+                width: 75%;
+            }
+
+            .stmLeftLogoWrapp, .stmRightLogoWrapp {
+                min-width: 100px;
+                max-width: 100px;
+            }
+        }
+    }
+
+    .stm-latest-results-units-baseball {
+        a {
+            .stm-latest-results-info {
+                .stm-latest-result {
+                    width: 35%;
+                }
+
+                .stm-latest-result_result {
+                    max-width: 30%;
+                    margin: 0;
+                    padding: 16px 10px 15px 13px;
+                }
+            }
+        }
+    }
+
+    .stm-player-statistic-baseball {
+        .stm-title-float {
+            top: 4%;
+
+            h2 {
+            }
+        }
+
+        .stm-player-statistic-unit {
+            .stm-single-player-vc_stats {
+                .stm-player-img {
+                    display: flex;
+                    align-items: flex-end;
+                    width: 42%;
+                    margin-right: 0;
+                }
+
+                .stm-player-stat {
+                    width: 74%;
+
+                    .stm-statistic-meta {
+                        .player-meta-name_number {
+                            margin: 79px 0 0;
+                        }
+
+                        .stm-metric-wrapp {
+                            ul {
+                                li {
+                                    margin-bottom: 10px;
+                                }
+                            }
+                        }
+
+                        .stm-stat-table-wrapp {
+                            margin-top: 10px;
+
+                            .stm-metric {
+                                tr {
+                                    td {
+                                        white-space: nowrap;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .button {
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    .review_style_four {
+        .stm-reviews-carosel-wrapper {
+            .stm-reviews {
+                .stm-review-single {
+                    min-width: 300px;
+                    max-width: 520px;
+
+                    .stm-review-container {
+                        .stm_review_bsb {
+                            .review_content_bg {
+                                padding: 70px 50px 25px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .stm-timeline__nav-bar {
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+
+    .owl-carousel.stm-timeline-captions-carousel {
+        .stm-timeline__caption-inner {
+            padding-top: 5px;
+
+            h3 {
+                margin-bottom: 10px;
+            }
+
+            .stm-timeline__caption-text {
+                p {
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .stm-coach-excerption-wrapp {
+        .stm-data-wrapp {
+            .stm-photo-wrapp {
+                width: 100% !important;
+                margin-bottom: 20px;
+            }
+
+            .stm-excerption-wrapp {
+                width: 100% !important;
+                margin-bottom: 20px;
+
+                .stm-excerption {
+                    padding: 0;
+                }
+            }
+        }
+    }
+
+    .review_style_four .stm-reviews-carosel-wrapper {
+        margin-left: -2%;
+    }
+}
+
+@media (max-width: 480px) {
+    .stm-transparent-header .stm-header-mobile {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .stm-switcher {
+        //display: none;
+    }
+    .stm-mobile-menu-unit {
+        right: 15px;
+        left: 15px;
+        width: auto;
+        .inner .stm-top {
+            padding-left: 25px;
+            padding-right: 10px;
+        }
+    }
+    .tp-bullets {
+        display: none;
+    }
+    .stm-header-mobile .bloglogo img {
+        max-width: 100%;
+    }
+    .stm-header-mobile .stm-mobile-right {
+        margin-top: 12px;
+    }
+    .slider-title.h1 {
+        font-size: 40px;
+    }
+    .slider-date {
+        font-size: 20px;
+    }
+    .stm-footer-image .inner .heading-font {
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    .stm-media-tabs.stm-news-tabs-wrapper.style_baseball {
+        .tab-pane {
+            .stm-single-post-loop {
+                .image {
+                    a {
+                        img {
+                            width: 100%;
+                        }
+                    }
+
+                    .post-meta {
+                        flex-direction: row;
+                        padding: 13px 0 13px 94px;
+                    }
+                }
+            }
+        }
+    }
+
+    .stm_bsb_latest_results_wrapper {
+        .stm-latest-results-units {
+            .stm-teams-info-wrap {
+                .stmLeftLogoWrapp,
+                .stmRightLogoWrapp {
+                    display: none;
+                }
+
+                .stm-info {
+                    width: 100%;
+
+                    .stm-custom-row {
+                        .col-35 {
+                            width: 45%;
+
+                            .stm-latest-result-team {
+                                a {
+                                    font-size: 26px;
+                                }
+                            }
+                        }
+
+                        .col-30 {
+                            div {
+                                padding: 20px 5px;
+                                font-size: 30px;
+
+                                &:after, &:before {
+                                    border-top: 68px solid #a10a0d;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .stm-latest-results-units-baseball {
+        a {
+            .stm-latest-results-info {
+                .stm-latest-result {
+                    .stm-latest-result-team-logo {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+
+    .stm-player-statistic-baseball {
+        .stm-title-float {
+            width: 100%;
+            margin: 0;
+            position: relative;
+            top: 0;
+            left: 0;
+            transform: none;
+            margin-top: 30px;
+        }
+
+        .stm-player-statistic-unit {
+            .stm-single-player-vc_stats {
+                .stm-player-img {
+                    display: none;
+                }
+
+                .stm-player-stat {
+                    width: 100%;
+
+                    .stm-statistic-meta {
+                        .player-meta-name_number {
+                            margin-top: 10px;
+                        }
+
+                        .stm-metric-wrapp {
+                            ul {
+                                li {
+                                    span {
+                                        font-size: 16px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .news_style_baseball_list {
+        .stm-single-post-loop {
+            flex-direction: column;
+
+            a, .stm-post-content-inner {
+                width: 100%;
+            }
+
+            .stm-post-content-inner {
+                padding: 15px !important;
+            }
+        }
+    }
+
+    .news_style_baseball_grid {
+        .stm-single-post-loop {
+            .image {
+                a {
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    body {
+        .stm-contact-manager-block {
+            margin-top: 20px;
+
+            > h4 {
+                font-size: 30px !important;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+
+@media (max-width: 375px) {
+    .review_style_four .stm-reviews-carosel-wrapper {
+        margin-left: 0;
+
+        .stm-reviews {
+            .owl-stage-outer {
+                overflow: hidden;
+            }
+        }
+    }
+
+    .owl-carousel.stm-timeline-captions-carousel .stm-timeline__caption-inner {
+        padding-top: 0;
+        overflow: hidden;
+        display: block;
+        max-height: 113px;
+
+        .stm-timeline__caption-title {
+            margin-bottom: 0;
+        }
+
+        .stm-timeline__caption-text {
+            p {
+                font-size: 10px;
+                line-height: 14px;
+            }
+        }
+    }
+}
+
+@media (max-width: 350px) {
+    .stm-mobile-menu-unit .inner .stm-top .stm-top-right .stm-top-socials .top-bar-socials li {
+        margin-right: 10px;
+    }
+
+    .stm_bsb_latest_results_wrapper {
+        .stm-latest-results-units {
+            .stm-teams-info-wrap {
+                .stm-info {
+                    .stm-custom-row {
+                        .col-40, .col-35 {
+                            .teamNameLeftWrapper, .teamNameRightWrapper {
+                                padding: 0;
+
+                                .teamHome {
+                                    font-size: 10px;
+                                }
+
+                                a {
+                                    font-size: 22px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .review_style_four {
+        .stm-reviews-carosel-wrapper {
+            .stm-reviews {
+                .stm-review-single {
+                    min-width: 200px;
+                }
+            }
+        }
+    }
+
+    table.sp-data-table th:first-child, table.sp-data-table td:first-child {
+        padding-left: 10px;
+    }
+}
+
+@media (max-width: 991px) {
+    .mobile-clear {
+        clear: both;
+    }
+}

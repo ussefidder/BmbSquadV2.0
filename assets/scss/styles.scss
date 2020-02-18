@@ -1,0 +1,58 @@
+﻿/*
+Table of content
+0 Wordpress core styles
+
+1 Base styles
+	1.1 Buttons
+	1.2 Forms
+	1.3 Typography
+	1.4 Site styles
+	1.5 American Football Layout styles
+
+2 Site styles addons
+	2.1 Widgets
+	2.2 Animations
+
+3 Vendors
+	3.1 Woocommerce
+	3.3 Vendors
+	3.4 Radio/checkbox
+
+4 Mobile styles
+	4.1 Responsive bootstrap enhanced base styles
+	4.2 Responsive site styles
+
+5 Joomsport
+*/
+// Mixins
+@import "components/mixins";
+// Colors and fonts setups
+@import "components/vars";
+/* 0 Wordpress core styles */
+@import "components/wordpress-core";
+/*SECTION 1*/
+/*1.1 Buttons*/
+@import "components/buttons";
+/*1.2 Forms*/
+@import "components/forms";
+/*1.3 Typographt*/
+@import "components/typography";
+/*1.4 Site styles*/
+@import "components/site_styles";
+/*SECTION 2*/
+/*2.1 Widgets*/
+@import "components/widgets";
+/*2.2 Animations*/
+@import "components/animation";
+/*SECTION 3*/
+/*3.1 Woocommerce*/
+@import "components/woocommerce";
+/*SECTION 4*/
+/*4.1 Responsive*/
+@import "components/responsive_base";
+@import "components/responsive";
+/*SECTION 5*/
+@import "components/joomsport";
+/*module color schemes*/
+@import "components/_vc_modul_colors";
+

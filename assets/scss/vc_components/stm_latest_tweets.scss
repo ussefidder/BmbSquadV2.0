@@ -1,0 +1,64 @@
+.stm_latest_tweets {
+    &.style_carousel {
+        padding: 30px 40px 10px;
+        background-color: #00a8ff;
+        position: relative;
+        overflow: hidden;
+        &:before {
+            display: block;
+            content: '\e908';
+            font-family: 'stm-splash-icons';
+            font-size: 220px;
+            line-height: 220px;
+            position: absolute;
+            height: auto;
+            background: transparent;
+            color: rgba(255, 255, 255, .1);
+            z-index: 1;
+            top: 30px;
+            right: 0;
+            transform: scaleX(-1) translateX(-10%);
+        }
+        .stm-latest-tweets {
+            margin-top: 0;
+            position: relative;
+            z-index: 2;
+            .latest-tweets {
+                ul {
+                    li {
+                        width: 100%;
+                        margin: 0;
+                        .tweet-details {
+                            a {
+                                color: rgba(255, 255, 255, .4);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .owl-controls {
+            .owl-dots {
+                .owl-dot {
+                    display: inline-block;
+                    margin-right: 10px;
+                    span {
+                        display: block;
+                        width: 8px;
+                        height: 8px;
+                        border-radius: 10px;
+                        background-color: #fff;
+                        opacity: .3;
+                        transition: .3s;
+                    }
+                    &.active {
+                        span {
+                            width: 19px;
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

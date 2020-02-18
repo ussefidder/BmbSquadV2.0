@@ -1,0 +1,680 @@
+/*stm latest news most styles*/
+.stm_latest_news_most_styles {
+
+    h4 {
+        border-bottom: 1px solid $red;
+
+        &:after {
+            background: $red;
+        }
+    }
+
+    .stm-news-with_image, .stm-news-mixed_image {
+
+        .wrap {
+            border-top: 1px solid $gray-divider;
+
+            .img {
+
+                .categ {
+                    ul {
+                        li {
+                            a {
+                                color: $white !important;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .meta {
+                .meta-middle {
+                    a {
+                        color: $black-22;
+                    }
+                }
+
+                .meta-bottom {
+                    .date {
+                        color: $gray-99;
+                    }
+                }
+            }
+
+            &:hover {
+                .meta {
+                    .meta-middle {
+                        a {
+                            color: $red;
+                        }
+                    }
+                }
+            }
+        }
+
+        .row-content {
+
+            .latest-news-loop-with-img {
+                .wrap {
+                    .meta {
+                        .meta-top {
+                            .categ {
+
+                                ul {
+                                    li {
+                                        a {
+                                            color: $white !important;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        .meta-middle {
+                            a {
+                                color: $black-22;
+                            }
+                        }
+                    }
+
+                    &:hover {
+                        .meta {
+                            .meta-middle {
+                                a {
+                                    color: $red;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .stm-news-without_image, .stm-news-mixed_image {
+
+        &.columns-2 {
+            .no-img {
+                .latest-news-loop {
+                    .meta {
+                        border-bottom: 1px solid $gray-divider;
+                    }
+                }
+            }
+        }
+
+        .no-img {
+            .latest-news-loop {
+                .meta {
+                    .meta-top {
+                        .categ {
+
+                            ul {
+                                li {
+                                    a {
+                                        color: $white !important;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .meta-middle {
+                        a {
+                            .title {
+                                color: $black-22 !important;
+                            }
+
+                            &:hover {
+                                .title {
+                                    color: $red !important;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .stm-news-grid {
+        .row {
+            > div {
+                .column-content {
+                    .latest-news-loop-with-img {
+                        .wrap {
+                            border-top: 1px solid $gray-divider;
+
+                            .img {
+
+                                .categ {
+
+                                    ul {
+                                        li {
+                                            a {
+                                                color: $white !important;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+                            .meta {
+                                .meta-middle {
+                                    a {
+                                        color: $black !important;
+                                    }
+                                }
+
+                                .meta-bottom {
+                                    .date {
+                                        font-size: 13px;
+                                    }
+                                }
+                            }
+
+                            &:hover {
+                                .meta {
+                                    .meta-middle {
+                                        a {
+                                            color: $red !important;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .load-more-btn-wrap {
+        border-top: 1px solid $light-gray-bf;
+
+        a {
+            border: 2px solid $light-gray-bf;
+
+            &:hover {
+                color: $red !important;
+                border-color: $red;
+            }
+
+            &:before {
+                color: $red;
+            }
+        }
+    }
+    .simple-list {
+        .meta {
+            a {
+                color: $black-22;
+            }
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    .stm_latest_news_most_styles .stm-news-grid {
+        .row {
+            > div {
+                &.col-sm-6:nth-child(3) {
+                    .column-content {
+                        .latest-news-loop-with-img {
+                            .wrap {
+                                border-top: 1px solid $gray-divider !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 415px) {
+    .stm_latest_news_most_styles .stm-news-grid {
+        .row {
+            > div {
+                &.col-xs-12:nth-child(3) {
+                    .column-content {
+                        .latest-news-loop-with-img {
+                            .wrap {
+                                border-top: 1px solid $gray-divider !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*stm latest news most styles*/
+
+/*stm player of the month*/
+.stm_player_month {
+    a {
+        &:hover {
+            color: $red;
+        }
+
+        .player-info {
+            .title {
+                background: #00bfe6;
+                color: $white !important;
+            }
+
+            .player-name {
+                color: $white !important;
+
+                .customs {
+                }
+            }
+
+            .player-stat {
+                li {
+                    .stat-label {
+                        color: $white !important;
+                    }
+
+                    .stat-data {
+                        color: $white !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*stm player of the month*/
+
+/*stm league table with ajax*/
+.stm-league-wrap {
+    .stm-single-league-title_box {
+
+        h4 {
+            a {
+                border: 1px solid $light-gray;
+                color: $gray-80;
+
+                &:hover {
+                    color: $red;
+                }
+            }
+        }
+    }
+
+    .select-league-wrap {
+        .select-label {
+            color: $gray-59;
+        }
+
+        .select2-container--default {
+
+            .select2-selection--single {
+                border: 1px solid $gray-d7d6;
+
+                .select2-selection__arrow {
+
+                    b {
+                        &:before {
+                            color: $gray-59;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    table.sp-league-table {
+
+        tr {
+            &:nth-child(even),
+            &:nth-child(odd) {
+                td {
+                    background-color: $white !important;
+                }
+            }
+        }
+
+        th {
+            background: $gray-80;
+            color: $white !important;
+            font-weight: 600;
+        }
+
+        td {
+            border-color: $gray-e1;
+            &.data-rank {
+                color: $gray-80-rgba;
+            }
+
+            &.data-name {
+                a {
+                    &:hover {
+                        color: $black !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*stm league table with ajax*/
+
+/*stm results table ajax*/
+.stm-events-wrap {
+    .stm-single-events-title_box {
+        h4 {
+            a {
+                border: 1px solid $light-gray;
+                color: $gray-80 !important;
+
+                &:hover {
+                    color: $red;
+                }
+            }
+        }
+    }
+
+    .select-events-wrap {
+        .select-label {
+            color: $gray-59;
+        }
+
+        .select2-container--default {
+
+            .select2-selection--single {
+                border: 1px solid $gray-d7d6;
+
+                .select2-selection__arrow {
+
+                    b {
+                        &:before {
+                            color: $gray-59;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .stm-events-result-units {
+
+        .stm-latest-results-meta {
+            background: $gray-80;
+
+            .date {
+                color: $white;
+            }
+        }
+
+        a {
+            .stm-latest-results-info {
+                border-bottom: 1px solid $light-gray;
+
+                .stm-latest-result-team {
+                    color: $black;
+                }
+
+                .stm-latest-results-points {
+                    background: $gray-f3ef;
+                    color: $black;
+
+                    .stm-latest-result-win {
+                        border-bottom: 2px solid $green;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*stm results table ajax*/
+
+/*stm posts carousel*/
+.stm-posts-list-wrapper {
+    .carousel-wrap {
+        .stm-post-carousel-control-prev,
+        .stm-post-carousel-control-next {
+            background: $black;
+
+            &:hover {
+                background: $red;
+            }
+
+            i {
+                color: $white;
+            }
+        }
+        .stm-posts {
+            ul {
+                margin: 0;
+                padding: 0;
+
+                li {
+                    .meta {
+                        .meta-top {
+                            .categ {
+
+                                ul {
+                                    li {
+                                        a {
+                                            color: $white !important;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        .meta-middle {
+                            font-style: italic;
+                            color: $white !important;
+                            font-weight: 700;
+
+                            a {
+                                color: $white;
+
+                                &:hover {
+                                    color: $white;
+                                }
+                            }
+                        }
+
+                        .meta-bottom {
+                            .date {
+                                color: $white !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*stm posts carousel*/
+
+/*stm video posts carousel*/
+.stm-video-posts-list-wrapper {
+    .carousel-wrap {
+        .stm-posts {
+            ul {
+
+                .video-post-carousel-wrap {
+
+                    .title {
+                        color: $black !important;
+                    }
+
+                    .img {
+                        .video-btn {
+                            background: $white-alpha-75;
+
+                            &:before {
+                                border-left: 20px solid $red-alpha-75;
+                            }
+                        }
+
+                        .categ {
+
+                            ul {
+
+                                li {
+                                    a {
+                                        color: $white !important;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .nav-wrap {
+
+            .stm-post-video-carousel-control-prev,
+            .stm-post-video-carousel-control-next {
+                color: $black;
+
+                i {
+                    color: $gray-7f;
+                }
+            }
+        }
+    }
+}
+
+/*stm video posts carousel*/
+
+/*stm video posts list*/
+.stm_video_posts_list {
+
+    .big-img-wrap {
+        .title {
+            color: $black !important;
+        }
+
+        .img {
+            .video-btn {
+                background: rgba(255, 255, 255, 0.75);
+
+                &:before {
+                    border-left: 20px solid rgba(240, 0, 40, 0.75);
+                }
+
+                &:hover {
+                    background: $white;
+
+                    &:before {
+                        border-left-color: rgb(240, 0, 40);
+                    }
+                }
+            }
+
+            .categ {
+                ul {
+                    li {
+                        a {
+                            color: #ffffff !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .latest-news-loop-with-img {
+
+        &:last-child {
+            .wrap {
+                border-bottom: 0;
+            }
+        }
+
+        .wrap {
+            border-bottom: 1px solid $gray-divider;
+
+            &:hover {
+                .meta {
+                    .meta-middle {
+                        a {
+                            color: $red;
+                        }
+                    }
+                }
+            }
+
+            .img {
+                .video-btn {
+                    background: rgba(255, 255, 255, 0.75);
+
+                    &:before {
+                        border-left: 10px solid rgba(240, 0, 40, 0.75);
+                    }
+                }
+            }
+
+            .meta {
+                .meta-middle {
+                    a {
+                        color: $black;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*stm video posts list*/
+
+/*=====================================        STM BLOCKQUOTE         =======================================*/
+.stm-block-quote-wrapper {
+
+    &.style_1 {
+        background: $gray-bg;
+
+        .stm-block-quote-icon {
+
+            &:before {
+                background: $gray-divider;
+            }
+
+            &:after {
+                background: $gray-divider;
+            }
+
+            i {
+                &:before {
+                    color: $gray-divider;
+                }
+            }
+        }
+        .stm-block-quote {
+            color: $gray-40;
+        }
+    }
+
+    &.style_2 {
+
+        .stm-block-quote {
+            border-left: 5px solid $red_soccer;
+            color: $gray-86;
+        }
+    }
+
+    &.style_3 {
+        .stm-block-quote-icon {
+            i {
+                &:before {
+                    color: $mg-blue;
+                }
+            }
+        }
+    }
+}
+
+/*=====================================        STM BLOCKQUOTE         =======================================*/
+

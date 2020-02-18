@@ -1,0 +1,98 @@
+.stm-player-statistic-football {
+    &.style_esport {
+        .owl-controls {
+            display: none !important;
+        }
+        .stm-carousel-controls-right {
+            text-align: left !important;
+            margin-bottom: 30px;
+        }
+        .stm-main-title-unit {
+            padding-left: 25px;
+            border-left: 5px #e21e22 solid;
+            margin-bottom: 40px;
+        }
+        .stm-statistic-meta {
+            .player-meta-name_number {
+                .title {
+                    border-bottom: none !important;
+                    a {
+                        font-size: 32px;
+                        font-weight: 700;
+                        text-transform: uppercase;
+                        color: #fff !important;
+                    }
+                }
+            }
+            .stm-custom-row {
+                display: flex;
+                flex-wrap: wrap;
+                .col-39 {
+                    flex: 0 0 50%;
+                    width: 50%;
+                    padding: 0 15px;
+                    .number_position_wrapp {
+                        margin-bottom: 20px;
+                    }
+                    .stm-quick-sts {
+                        margin-bottom: 20px;
+                    }
+                    .stm-quick-sts,
+                    .position
+                    {
+                        margin-top: 0;
+                        font-size: 18px;
+                        text-transform: none;
+                    }
+                }
+            }
+        }
+        .stm-player-statistic-unit .stm-single-player-vc_stats .stm-statistic-meta .stm-metric-wrapp .stm-metric tr.even td {
+            background: transparent !important;
+        }
+        .stm-player-statistic-unit .stm-single-player-vc_stats .stm-statistic-meta .stm-metric-wrapp .stm-metric tr.odd td {
+            background: #1A1D1F !important;
+        }
+        .stm-single-player-vc_stats {
+            .player_number {
+                transform: translateX(-50%);
+                margin: 0;
+                width: 80px;
+                background: #ffb400;
+                position: relative;
+                top: 0;
+                left: 50%;
+                font-size: 25px;
+                line-height: 25px;
+                padding-top: 13px;
+                padding-bottom: 7px;
+                transition: .3s;
+                display: block;
+                text-align: center;
+                font-weight: 700;
+                &:before {
+                    content: '';
+                    display: block;
+                    position: absolute;
+                    bottom: -14px;
+                    width: 100%;
+                    height: 15px;
+                    clip-path: polygon(50% 100%, 0 0, 100% 0);
+                    background: #ffb400;
+                    transition: .3s;
+                }
+                @media (max-width: 767px){
+                    display: none;
+                }
+            }
+            .image + .player_number{
+                transform: translate(-50%, -50%);
+            }
+            @media (max-width: 767px){
+                .image {
+                    margin-bottom: 30px;
+                }
+            }
+        }
+    }
+}

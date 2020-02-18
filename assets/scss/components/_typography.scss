@@ -1,0 +1,305 @@
+legend {
+    padding-bottom: 15px;
+}
+
+body, .normal_font {
+    font-family: "Roboto";
+    font-size: 15px;
+    line-height: 24px;
+    color: #000;
+}
+
+.wpb_wrapper .wpb_content_element {
+    margin-bottom: 50px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: #009bdc;
+    outline: none !important;
+    &:hover {
+        color: #009bdc;
+        text-decoration: underline;
+    }
+    &.button {
+        &:focus {
+            //color: inherit !important;
+        }
+    }
+}
+
+p {
+    margin: 0 0 24px;
+    font-weight: 400;
+}
+
+.button {
+    font-family: "Roboto Condensed";
+}
+
+input[type="text"],
+input[type="number"],
+input[type="tel"],
+input[type="email"],
+input[type="search"],
+input[type="date"],
+input[type="password"],
+textarea,
+.comment-form-rating label,
+.woocommerce-breadcrumb,
+.woocommerce .price,
+.woocommerce .onsale,
+.comment-form label,
+.vc_tta.vc_general .vc_tta-tab > a,
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6,
+.heading-font,
+.widget_recent_entries,
+.menu-widget-menu-container li,
+table,
+div.widget_nav_menu ul.menu li a,
+.stm-widget-menu ul.menu li a {
+    margin: 0;
+    font-family: "Roboto Condensed";
+    color: $theme-dark;
+}
+
+h1, .h1 {
+    margin-bottom: 20px;
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 700;
+}
+
+h2, .h2 {
+    margin-bottom: 15px;
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: 700;
+}
+
+h3, .h3 {
+    margin-bottom: 10px;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 700;
+}
+
+h4, .h4 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+h5, .h5 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+h6, .h6 {
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 700;
+}
+
+body.home.blog .sidebar-wrapper {
+    & > .hidden-sm.hidden-xs {
+        display: block !important;
+    }
+}
+
+ul {
+    padding: 0;
+    margin-bottom: 20px;
+    list-style: none;
+    li {
+        position: relative;
+        padding-left: 20px;
+        margin-bottom: 10px;
+        color: $theme-dark;
+        &:before {
+            @include pseudo();
+            left: 0;
+            top: 11px;
+            width: 3px;
+            height: 3px;
+            background-color: $red;
+        }
+        a {
+            display: inline-block;
+        }
+        &.blocks-gallery-item {
+            padding-left: 0;
+            &:before {
+                display: none;
+            }
+        }
+    }
+    &.stm-list-icon {
+        li {
+            padding-left: 25px;
+            &:before {
+                display: none;
+            }
+            > .fa {
+                position: absolute;
+                color: $red;
+                left: 0;
+                top: 4px;
+                &.fa-arrow-right {
+                    top: 7px;
+                    font-size: 11px;
+                }
+            }
+        }
+    }
+}
+
+ol {
+    padding: 0;
+    margin-bottom: 20px;
+    list-style: none;
+    counter-reset: section;
+    li {
+        position: relative;
+        padding-left: 0;
+        margin-bottom: 10px;
+        color: $theme-dark;
+        &:before {
+            @include pseudo();
+            position: relative;
+            display: inline;
+            top: 0;
+            margin-right: 7px;
+            counter-increment: section;
+            content: counters(section, ".") ". ";
+            color: $red;
+            font-weight: 700;
+            font-size: 14px;
+        }
+    }
+}
+
+ol ul,
+ul ul,
+ol ol,
+ul ol {
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+blockquote {
+    padding: 0 0 0 15px;
+    border-left: 3px solid $red;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 500;
+    color: $theme-dark;
+    letter-spacing: 0.3px;
+    p {
+        font-weight: 500;
+    }
+    &.style_2 {
+        position: relative;
+        padding-left: 78px;
+        border: none;
+        font-weight: 500;
+        &:before {
+            @include pseudo();
+            @include fa();
+            left: 0;
+            top: -9px;
+            color: $red;
+            font-size: 45px;
+            content: "\f10d";
+        }
+    }
+}
+
+.highlight {
+    background-color: $red;
+    color: $white;
+    padding: 0 4px;
+}
+
+.highlight_2 {
+    background-color: $theme-dark;
+    color: $white;
+    padding: 0 4px;
+}
+
+.page-links {
+    clear: both;
+}
+
+table {
+    width: 100%;
+    thead {
+        background-color: $red;
+        color: $white;
+        tr {
+            th {
+                padding: 13px 7px;
+                &.data-rank {
+                    text-align: left;
+                    padding-left: 20px !important;
+                }
+                &.data-pct {
+                    text-align: center;
+                }
+            }
+        }
+    }
+    th {
+        padding: 13px 7px;
+    }
+    tbody {
+        tr {
+            &.odd {
+                background-color: #e8e8e8 !important;
+            }
+            &.even {
+                background-color: $white;
+            }
+            td {
+                padding: 13px 5px;
+                border-bottom: 1px solid #d8d8d8;
+                &.data-rank {
+                    text-align: left;
+                    padding-left: 20px !important;
+                }
+                &.data-name {
+                    padding-left: 5px;
+                    color: #535353;
+                    font-weight: 700;
+                }
+                &.data-pct {
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+.sp-league-table {
+    text-align: center;
+    th {
+        text-align: center;
+    }
+}
+
+.myaccount_user {
+    padding-right: 30%;
+}
+
+.myaccount_user,
+.myaccount_address {
+    margin-bottom: 40px;
+}

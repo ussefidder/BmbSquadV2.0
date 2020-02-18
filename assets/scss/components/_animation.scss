@@ -1,0 +1,60 @@
+.stm-title-box-title-wrapper .stm-shop-categories .stm-shop-category .name,
+.stm-player-stats .stm-player-stat,
+.stm-upcoming-events_list ul li:after,
+.stm-upcoming-events_list ul li .event_date,
+.stm-upcoming-events_list ul li,
+.stm-image-slider .stm-slider-control-prev,
+.stm-image-slider .stm-slider-control-next,
+.stm-price-plan header,
+.stm-single-trophy .image img,
+.stm-image-carousel-init-unit .stm-single-image-carousel img,
+.stm-single-trophy,
+.stm-animated,
+.stm-post-meta-bottom .stm_post_share .stm-share,
+.donation-popup-form .loading,
+.modal-header .close,
+.stm-single-post-loop a .image .stm-plus,
+.widget_stm_recent_posts .h5,
+.tparrows.gyges,
+.widget_contacts ul li.widget_contacts_address .text,
+.stm-products-carousel-unit-wrapper .stm-products-carousel-unit .stm-products-carousel-init .stm-single-product-carousel .image .stm-add-to-cart,
+.stm-products-carousel-unit-wrapper .stm-products-carousel-unit .stm-products-carousel-init .stm-single-product-carousel .content p,
+.stm-products-carousel-unit-wrapper .stm-products-carousel-unit .stm-products-carousel-init .stm-single-product-carousel .title,
+.stm-single-post-loop a .title,
+.stm-media-tabs .stm-medias-unit-wider .stm-medias-unit .stm-media-single-unit .stm-media-preview a:after,
+.stm-media-tabs .stm-medias-unit-wider .stm-medias-unit .stm-media-single-unit .stm-media-preview .title,
+.stm-media-tabs .stm-media-tabs-nav ul li a span,
+.stm-reviews-main-wrapper .stm-review-dots .owl-dot,
+.stm-next-match-controls .stm-next-match-prev, .stm-next-match-controls .stm-next-match-next,
+input[type="submit"],
+.stm-header .stm-main-menu .stm-main-menu-unit.stm-search-enabled .stm-header-search .search-input,
+.stm-header .stm-main-menu .stm-main-menu-unit.stm-search-enabled .stm-header-search .search-submit,
+.stm-header .stm-main-menu .header-menu .sub-menu,
+#stm-top-bar .stm-top-bar_right .language-switcher-unit .dropdown-menu,
+a {
+    transition: all 0.25s ease;
+}
+
+.stm-header.stm-transparent-header,
+.stm-transparent-header .stm-header-inner,
+.stm-transparent-header .stm-header-inner .bloglogo img,
+.stm-header.stm-transparent-header .stm-header-background {
+    transition: all 0.5s ease;
+}
+
+.stm-non-transparent-header .stm-header-inner {
+    transition: top 0.5s ease;
+}
+
+textarea,
+input[type="text"],
+input[type="number"],
+input[type="tel"],
+input[type="email"],
+input[type="search"],
+input[type="date"],
+input[type="password"] {
+    &:focus {
+        transition: all 0.6s ease;
+    }
+}

@@ -1,0 +1,4167 @@
+
+.lightbox {
+    display: none;
+}
+
+body #joomsport-container, body #joomsport-achv-container, #joomsport-container .seasonTable {
+    background-color: transparent;
+    font-family: "Roboto Condensed";
+    font-size: 15px;
+}
+
+body #joomsport-container a {
+    color: #009bdc
+}
+
+body #joomsport-container a:hover, body #joomsport-container a:focus {
+    color: #009bdc
+}
+
+#joomsport-container ul li {
+    padding-left: 0
+}
+
+#joomsport-container ul li:before {
+    display: none;
+}
+
+/*Buttons*/
+#joomsport-container a.btn, #joomsport-container .navbar-nav a.btn, #joomsport-container button.btn, #joomsport-achv-container a.btn, #joomsport-achv-container .navbar-nav a.btn, #joomsport-achv-container button.btn, #joomsport-container.jsSliderContainer > .jsmainscroll > button {
+    display: inline-block;
+    max-width: 100%;
+    border: 2px solid;
+    border-color: #e21e22;
+    border-radius: 5px;
+    outline: none !important;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #e21e22;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none !important;
+    text-shadow: none;
+    letter-spacing: 1px;
+    z-index: 1
+}
+
+#joomsport-container #jsFilterMatches button.btn {
+    background-color: #e21e22 !important
+}
+
+#joomsport-container #jsFilterMatches button.btn:hover, #joomsport-container #jsFilterMatches button.btn:focus {
+    background-color: transparent !important
+}
+
+#joomsport-container.jsSliderContainer > .jsmainscroll > button path {
+    fill: #fff
+}
+
+#joomsport-container a.btn, #joomsport-container .navbar-nav a.btn, #joomsport-container button.btn, #joomsport-achv-container a.btn, #joomsport-achv-container .navbar-nav a.btn, #joomsport-achv-container button.btn {
+    position: relative;
+    padding: 10px 20px
+}
+
+#joomsport-container a.btn > i, #joomsport-container .navbar-nav a.btn > i, #joomsport-achv-container a.btn > i, #joomsport-achv-container .navbar-nav a.btn > i {
+    margin-top: 1px
+}
+
+#joomsport-container a.btn:before, #joomsport-container .navbar-nav a.btn:before, #joomsport-container button.btn:before, #joomsport-achv-container a.btn:before, #joomsport-achv-container .navbar-nav a.btn:before, #joomsport-achv-container button.btn:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #e21e22;
+    z-index: -1;
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-transition: -webkit-transform .4s, opacity .4s;
+    -webkit-transition: opacity .4s, -webkit-transform .4s;
+    transition: opacity .4s, -webkit-transform .4s;
+    transition: transform .4s, opacity .4s;
+    transition: transform .4s, opacity .4s, -webkit-transform .4s;
+    -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+    transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1)
+}
+
+#joomsport-container a.btn:hover, #joomsport-container button.btn:hover, #joomsport-container a.btn:focus, #joomsport-container button.btn:focus, #joomsport-container a.btn:active, #joomsport-container button.btn:active, #joomsport-container a.btn:active:hover, #joomsport-container button.btn:active:hover, #joomsport-container .navbar-nav a.btn:hover, #joomsport-achv-container a.btn:hover, #joomsport-achv-container button.btn:hover, #joomsport-achv-container a.btn:focus, #joomsport-achv-container button.btn:focus, #joomsport-achv-container a.btn:active, #joomsport-achv-container button.btn:active, #joomsport-achv-container a.btn:active:hover, #joomsport-achv-container button.btn:active:hover, #joomsport-achv-container .navbar-nav a.btn:hover {
+    background-color: transparent;
+    color: #e21e22;
+    border-color: #e21e17
+}
+
+#joomsport-container.jsSliderContainer > .jsmainscroll > button:hover path {
+    fill: #e21e22
+}
+
+#joomsport-container a.btn:hover:before, #joomsport-container button.btn:hover:before, #joomsport-container a.btn:focus:before, #joomsport-container button.btn:focus:before, #joomsport-container a.btn:active:before, #joomsport-container button.btn:active:before, #joomsport-container a.btn:active:hover:before, #joomsport-container button.btn:active:hover:before, #joomsport-container .navbar-nav a.btn:hover:before, #joomsport-achv-container a.btn:hover:before, #joomsport-achv-container button.btn:hover:before, #joomsport-achv-container a.btn:focus:before, #joomsport-achv-container button.btn:focus:before, #joomsport-achv-container a.btn:active:before, #joomsport-achv-container button.btn:active:before, #joomsport-achv-container a.btn:active:hover:before, #joomsport-achv-container button.btn:active:hover:before, #joomsport-achv-container .navbar-nav a.btn:hover:before {
+    opacity: 0;
+    -webkit-transform: scale3d(0.7, 1, 1);
+    transform: scale3d(0.7, 1, 1)
+}
+
+#joomsport-container .btn:active, #joomsport-achv-container .btn:active {
+    -webkit-box-shadow: none;
+    box-shadow: none
+}
+
+.jscaruselcont .jsview1 {
+    min-width: 250px
+}
+
+/*Tabs*/
+#joomsport-container .tabs .nav-tabs {
+    display: table;
+    margin: 10px auto;
+    border-bottom: 0;
+    font-size: 18px
+}
+
+#joomsport-container .tabs .nav-tabs > li {
+    margin-right: 10px
+}
+
+#joomsport-container .tabs .nav-tabs > li i {
+    margin-top: 3px
+}
+
+#joomsport-container .page-content-js .nav-tabs > li > a {
+    border: 0;
+    background-color: transparent
+}
+
+#joomsport-container .tabs .nav-tabs > li > a {
+    padding: 5px 10px;
+    color: #404040;
+    text-transform: uppercase;
+    font-weight: bold
+}
+
+#joomsport-container .tabs .nav-tabs > li:first-child {
+    margin-left: 0
+}
+
+#joomsport-container .page-content-js .nav-tabs > li > a:hover, #joomsport-container .page-content-js .nav-tabs > li.active > a, #joomsport-container .page-content-js .tabs .nav-tabs > li.active > a:hover, #joomsport-container .page-content-js .tabs .nav-tabs > li.active > a:focus {
+    color: #e21e22;
+    border: 0;
+    background-color: transparent
+}
+
+#joomsport-container .page-content-js .nav-tabs > li.active > a, #joomsport-container .page-content-js .tabs .nav-tabs > li.active > a:hover, #joomsport-container .page-content-js .tabs .nav-tabs > li.active > a:focus {
+    border-bottom: 2px solid;
+    border-color: #e21e22
+}
+
+#joomsport-container .tabs .nav-tabs + .tab-content, #joomsport-container #jsMatchViewID .tabs .nav-tabs + .tab-content {
+    margin-top: 30px
+}
+
+#joomsport-container .tabs .tab-content #stab_overview {
+    padding: 0 15px
+}
+
+#joomsport-container .seasonTable .tabs .tab-content #stab_main {
+    margin: 0
+}
+
+#joomsport-container .page-content-js .tabs .tab-content, #joomsport-container #jsMatchViewID #stab_about {
+    padding: 15px 0
+}
+
+#joomsport-container table.jstblevwid tr {
+    border-bottom: none
+}
+
+/*Pagination*/
+#joomsport-container ul.paginationJS > li > a, #joomsport-container .paginationJS > li > span {
+    min-width: 45px;
+    min-height: 45px;
+    margin: 0 10px;
+    color: #bfbfbf;
+    border: 2px solid #bfbfbf;
+    margin-right: 5px;
+    padding: 0;
+    border-radius: 5px;
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 45px
+}
+
+#joomsport-container ul.paginationJS > li.active > a, #joomsport-container .paginationJS > li.active > span, #joomsport-container ul.paginationJS > li > a:hover, #joomsport-container .paginationJS > li > span:hover, #joomsport-container .paginationJS > li.active > a:hover, #joomsport-container li.paginationJS > .active > span:hover {
+    color: #fff;
+    background-color: #e21e22;
+    border-color: #e21e22;
+}
+
+#joomsport-container ul.paginationJS > li > a[aria-label="Previous"], #joomsport-container ul.paginationJS > li > a[aria-label="Next"] {
+    border: none;
+    background-color: transparent;
+    font-size: 24px;
+}
+
+#joomsport-container ul.paginationJS > li > a[aria-label="Previous"]:hover, #joomsport-container ul.paginationJS > li > a[aria-label="Next"]:hover {
+    color: #e21e22;
+}
+
+#joomsport-container ul.paginationJS > li.disabled > a {
+    display: none
+}
+
+#joomsport-container ul.paginationJS > li > a > span {
+    background-color: transparent
+}
+
+/*Select box*/
+#joomsport-container select + .select2 {
+    width: auto !important;
+    min-width: 100px;
+    height: auto;
+    border: none;
+    background-color: transparent
+}
+
+#joomsport-container select + .select2 > .selection > .select2-selection {
+    height: 55px;
+    border: 1px solid #d7d6d6;
+    outline: none !important
+}
+
+#joomsport-container select + .select2 > .selection > .select2-selection > .select2-selection__rendered {
+    padding: 0 35px 0 20px;
+    line-height: 53px;
+    outline: none !important
+}
+
+#joomsport-container select + .select2 > .selection > .select2-selection > .select2-selection__arrow {
+    width: 30px;
+    height: 53px;
+}
+
+#joomsport-container .searchBar .form-group > *:not(button) {
+    display: inline-block;
+    min-width: 170px
+}
+
+/*Thumbnail*/
+#joomsport-container img.img-thumbnail, #joomsport-achv-container img.img-thumbnail {
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+    border-radius: 0
+}
+
+#joomsport-container .cansorttbl.table img.img-thumbnail {
+    margin-right: 15px
+}
+
+/*Info-block*/
+#joomsport-container .tabs .extrafldcn, #joomsport-achv-container .page-content-js .well.extrafldcn {
+    border-radius: 0;
+    border: 1px solid #e1e1e1;
+    background-color: #fff
+}
+
+/*Table*/
+#joomsport-container table, #joomsport-achv-container table {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#joomsport-container div.jsScoreDiv {
+    font-size: inherit
+}
+
+#joomsport-container table tr > td, #joomsport-achv-container table tr > td {
+    color: #232628
+}
+
+#joomsport-container .table-responsive .table > tbody > tr:nth-child(odd), #joomsport-container table.jstblevwid tbody > tr:nth-child(odd), #joomsport-container .table-responsive .jsBoxStatDIvFE tbody tr:nth-child(2n), #joomsport-achv-container .table-responsive .table > tbody > tr:nth-of-type(odd) {
+    background-color: #e8e8e8
+}
+
+#joomsport-container .table-responsive .table > tbody > tr:nth-child(even), #joomsport-container table.jstblevwid tbody > tr:nth-child(even), #joomsport-container .table-responsive .jsBoxStatDIvFE tbody tr, #joomsport-achv-container .table-responsive .table > tbody > tr {
+    background-color: #f2f2f2
+}
+
+#joomsport-container .jsOverXdiv .table > tbody > tr {
+    background-color: transparent
+}
+
+#joomsport-container .table-responsive .table > thead > tr > th, #joomsport-container table.jstblevwid tbody > tr > th, #joomsport-container .jsBoxStatDIvFE > thead > tr > th, #joomsport-container #stab_overview table.tblPosition thead > tr > th, #joomsport-achv-container .table thead > tr > th, #joomsport-container table.table tbody > tr > th {
+    padding: 13px 7px;
+    border: 0;
+    background-color: #e21e22;
+}
+
+#joomsport-container .table-responsive .table > thead > tr > th, #joomsport-container .table-responsive .table > thead > tr > th > *, #joomsport-container table.jstblevwid tbody > tr > th, #joomsport-container .jsBoxStatDIvFE > thead > tr > th, #joomsport-container #stab_overview table.tblPosition thead > tr > th, #joomsport-achv-container .table thead > tr > th > *, #joomsport-container table.table tbody > tr > th {
+    color: #fff
+}
+
+#joomsport-container .table-responsive .table > thead > tr > th > span {
+    padding-right: 0
+}
+
+#joomsport-container .table-responsive .table td a, #joomsport-container table.jstblevwid td a, #joomsport-container .jsBoxStatDIvFE td a, #joomsport-container #stab_overview table.tblPosition td a, #joomsport-achv-container .table td a {
+    color: #595959
+}
+
+#joomsport-container .table-responsive .table td a:hover, #joomsport-container table.jstblevwid td a:hover, #joomsport-container #stab_overview table.tblPosition td a:hover, #joomsport-achv-container .table td a:hover, #joomsport-container .jsBoxStatDIvFE td a:hover, #joomsport-container .table-responsive .table td a:focus, #joomsport-container table.jstblevwid td a:focus, #joomsport-container #stab_overview table.tblPosition td a:focus, #joomsport-achv-container .table td a:focus, #joomsport-container .jsBoxStatDIvFE td a:focus {
+    color: #009bdc;
+    text-decoration: none
+}
+
+#joomsport-container .table-responsive .table > tbody > tr > td, #joomsport-container table.jstblevwid tbody > tr > td, #joomsport-container .jsBoxStatDIvFE tbody > tr > td, #joomsport-achv-container .table-responsive .table tbody > tr > td {
+    vertical-align: middle;
+    border-color: transparent;
+}
+
+#joomsport-container .table-responsive .table > tbody > tr > td:last-child, #joomsport-container .table-responsive .table > thead > tr > th:last-child, #joomsport-container table.jstblevwid tbody > tr > td:last-child, #joomsport-container table.jstblevwid tbody > tr > th:last-child, #joomsport-container .jsBoxStatDIvFE tbody > tr > td:last-child, #joomsport-container .jsBoxStatDIvFE thead > tr > th:last-child, #joomsport-container #stab_overview table.tblPosition tbody > tr > td:last-child, #joomsport-container #stab_overview table.tblPosition thead > tr > th:last-child, #joomsport-achv-container .table tbody > tr > td:last-child, #joomsport-achv-container .table thead > tr > th:last-child {
+    border-right: 0
+}
+
+#joomsport-container table.jstblevwid tbody > tr > td:first-child {
+    padding: 10px;
+    text-align: center
+}
+
+#joomsport-container table.jstblevwid tbody > tr > td .js_div_particName {
+    padding-left: 7px
+}
+
+#joomsport-container .jsBoxStatDIvFE {
+    margin-top: 10px
+}
+
+#joomsport-container #stab_statistic .jsBoxStatDIvFE {
+    margin-top: 0
+}
+
+#joomsport-container .jsBoxStatDIvFE tr:first-child > th:first-child, #joomsport-container .jsBoxStatDIvFE thead tr:last-child {
+    border-bottom: 0
+}
+
+#joomsport-container .jsBoxStatDIvFE > thead > tr > th {
+    vertical-align: middle;
+    font-size: inherit;
+    font-weight: inherit
+}
+
+#joomsport-container .jsBoxStatDIvFE > thead > tr:last-child > th {
+    border-top: 1px solid;
+    border-color: #ffffff
+}
+
+#joomsport-container .jsBoxStatDIvFE tfoot tr td {
+    border: 0;
+    background-color: #8d8d8d;
+    color: #fff
+}
+
+#joomsport-container .jsBoxStatDIvFE tfoot tr td, #joomsport-container .jsBoxStatDIvFE tfoot tr {
+    border-color: #e1e1e1
+}
+
+#joomsport-container .table th.jsTextAlignCenter > a > span {
+    padding: 0;
+    white-space: nowrap
+}
+
+#joomsport-container .table th.jsTextAlignCenter > a > span > img.emblpadd3 {
+    display: block;
+    margin: 0 auto
+}
+
+/*Tables of team tabs*/
+#joomsport-container .tab-content #stab_overview table, #joomsport-container .jsMatchDivMain.jstable {
+    border-collapse: separate;
+    border-spacing: 0 5px
+}
+
+#joomsport-container .tab-content #stab_overview table tbody tr, #joomsport-container .jsMatchDivMain.jstable .jstable-row {
+    background-color: #ffffff
+}
+
+#joomsport-container .tab-content #stab_overview table th, #joomsport-container .tab-content #stab_overview table td {
+    background-color: transparent;
+    border-left: none
+}
+
+#joomsport-container .tab-content #stab_overview table td,
+#joomsport-container .jsMatchDivMain.jstable .jstable-row .jstable-cell {
+    border-bottom: 1px solid #d8d8d8
+}
+
+/*Squad*/
+#joomsport-container #stab_squad .jsOverflowHidden .jstable {
+    border-collapse: separate;
+    border-spacing: 0 5px
+}
+
+#joomsport-container #stab_squad .jsOverflowHidden .jstable:first-child {
+    padding-right: 5px
+}
+
+#joomsport-container #stab_squad .jsOverflowHidden .jstable:last-child {
+    padding-left: 5px
+}
+
+#joomsport-container #stab_squad .jsOverflowHidden .jstable .jstable-row {
+    background-color: #fff
+}
+
+#joomsport-container #stab_squad .jsOverflowHidden .jstable .jstable-cell {
+    border-bottom: 1px solid #d8d8d8;
+    font-weight: bold;
+    text-transform: uppercase
+}
+
+#joomsport-container #stab_squad .jsOverflowHidden .jstable .jstable-cell:first-child {
+    text-align: center
+}
+
+#joomsport-container #stab_squad .jsOverflowHidden .jstable .jstable-cell a {
+    color: #595959
+}
+
+#joomsport-container #stab_squad .jsOverflowHidden .jstable .jstable-cell a:hover, #joomsport-container #stab_squad .jsOverflowHidden .jstable .jstable-cell a:focus {
+    color: #009bdc;
+    text-decoration: none
+}
+
+/*Calendar*/
+#joomsport-container .jsMatchDivMain .jsMatchDivTime {
+    width: 15%
+}
+
+#joomsport-container .jsMatchDivMain .jsMatchDivTime, #joomsport-container .jsMatchDivMain .jsMatchDivVenue, #joomsport-container .jsMatchDivMain .jsNoWrap {
+    font-style: italic;
+    text-align: center;
+    white-space: normal
+}
+
+#joomsport-container .jsMatchDivMain .jsMatchDivTime > div {
+    margin: 0 auto
+}
+
+#joomsport-container .jsMatchDivMain .jsMatchDivHome, #joomsport-container .jsMatchDivMain .jsMatchDivAway, #joomsport-container .jsMatchDivMain .jsMatchDivScore {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase
+}
+
+#joomsport-container .jsMatchDivMain .jsMatchDivHome a, #joomsport-container .jsMatchDivMain .jsMatchDivAway a, #joomsport-container .jsMatchDivMain .jsMatchDivScore a {
+    color: #595959
+}
+
+#joomsport-container .jsMatchDivMain .jsMatchDivHome a:hover, #joomsport-container .jsMatchDivMain .jsMatchDivHome a:focus, #joomsport-container .jsMatchDivMain .jsMatchDivAway a:hover, #joomsport-container .jsMatchDivMain .jsMatchDivAway a:focus, #joomsport-container .jsMatchDivMain .jsMatchDivScore a:hover, #joomsport-container .jsMatchDivMain .jsMatchDivScore a:focus {
+    color: #009bdc;
+    text-decoration: none
+}
+
+#joomsport-container .jsMatchDivMain .jsMatchDivHome {
+    text-align: right
+}
+
+#joomsport-container .overviewBlocks h3, #joomsport-container #jsMatchViewID h3, #joomsport-container .jsMatchDivMain .js-mdname .jsrow-matchday-name, #joomsport-container #stab_statistic h3.jsCreerMatchStath3, #joomsport-container #stab_statistic .jscenter > h3 {
+    margin: 45px 0 10px;
+    background-color: transparent;
+    color: #232628;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    line-height: 1
+}
+
+#joomsport-container #jsMatchViewID .jsMarginBottom30 {
+    text-align: left;
+    margin-bottom: 0
+}
+
+#joomsport-container #jsMatchViewID .jsMarginBottom30:first-child h3 {
+    margin-top: 0
+}
+
+#joomsport-container .jsMatchDivMain.jstable .js-mdname {
+    height: 85px;
+    background-color: transparent
+}
+
+#joomsport-container .jsMatchDivMain .js-mdname .jsrow-matchday-name {
+    width: auto;
+    border: 0;
+    padding: 5px 0
+}
+
+#joomsport-container .jsMatchDivMain .js-mdname:first-child .jsrow-matchday-name, #joomsport-container .overviewBlocks:first-child h3, #joomsport-container #stab_statistic h3.jsCreerMatchStath3:first-child, #joomsport-container #stab_statistic .jscenter > h3 {
+    margin-top: 0
+}
+
+#joomsport-container .jsMatchDivMain .js-mdname:first-child {
+    height: 40px
+}
+
+/*Knockout*/
+#joomsport-container .drawBracketContainerBE .table tr:first-child td:last-child {
+    padding-right: 0 !important
+}
+
+#joomsport-container .drawBracketContainerBE .table td.even .player {
+    color: #9e9e9e
+}
+
+#joomsport-container .drawBracketContainerBE .jsborderI, #joomsport-container .drawBracketContainerBE .jsborderIFin {
+    width: 100%;
+    margin-top: 50px
+}
+
+#joomsport-container .drawBracketContainerBE .table tr td:first-child > .player {
+    margin-left: 0
+}
+
+#joomsport-container .drawBracketContainerBE .player div.knockscore {
+    border-radius: 0;
+    background-color: #bdbdbd
+}
+
+#joomsport-container .drawBracketContainerBE .player div.knockscore > a {
+    background-color: #595959
+}
+
+#joomsport-container .drawBracketContainerBE .player div.knockscore > a:hover {
+    background-color: #009bdc
+}
+
+#joomsport-container .drawBracketContainerBE .player {
+    margin-bottom: 5px;
+    padding: 7px 10px;
+    border-radius: 0 !important;
+    background-color: #e8e8e8;
+    font-weight: bold
+}
+
+#joomsport-container .drawBracketContainerBE .knockbot.player {
+    border: 1px solid #ccc !important
+}
+
+#joomsport-container .drawBracketContainerBE .player .knockplName a {
+    color: #595959
+}
+
+#joomsport-container .drawBracketContainerBE .player .knockplName a:hover, #joomsport-container .drawBracketContainerBE .player .knockplName a:focus {
+    text-decoration: none
+}
+
+#joomsport-container .drawBracketContainerBE .knockscore a {
+    color: #fff
+}
+
+#joomsport-container .drawBracketContainerBE .knIsHover {
+    background-color: rgba(189, 189, 189, .55)
+}
+
+#joomsport-container .drawBracketContainerBE .knIsHover .js_div_particName > a {
+    color: #009bdc
+}
+
+/*Team Emblem(Team page)*/
+body.single div.joomsport_team .stm-small-title-box + .post-thumbnail {
+    display: none
+}
+
+.js-title-page .stm-page-title > .container > * {
+    display: inline-block;
+    padding-right: 15px;
+    vertical-align: middle
+}
+
+.js-title-page .stm-page-title h3 {
+    margin-bottom: 0;
+    margin-right: 40px
+}
+
+.js-title-page .js-team-embl img {
+    max-width: 100px
+}
+
+body[class*="tax-joomsport_"].archive div[class*="joomsport_"] > a {
+    text-align: center
+}
+
+body[class*="tax-joomsport_"].archive div[class*="joomsport_"] > a img {
+    margin: 0 auto
+}
+
+body[class*="tax-joomsport_"].archive div[class*="joomsport_"] .post-meta {
+    text-align: right
+}
+
+/*Roster*/
+#joomsport-container .jsplayerCartInner .innerjsplayerCart {
+    margin: 0
+}
+
+#joomsport-container .jsplayerCartInner .innerjsplayerCart img {
+    margin: 0;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: -webkit-transform .4s;
+    transition: -webkit-transform .4s;
+    transition: transform .4s;
+    transition: transform .4s, -webkit-transform .4s
+}
+
+#joomsport-container .jsplayerCart a:hover .innerjsplayerCart img {
+    -webkit-transform: scale(1.08) translateZ(0);
+    transform: scale(1.08) translateZ(0);
+}
+
+#joomsport-container .jsplayerCartInner {
+    position: relative;
+    border-radius: 0;
+}
+
+#joomsport-container .namePlayerCart {
+    position: absolute;
+    height: 100%;
+    width: 40px;
+    bottom: 0;
+    left: 0;
+    margin-top: 0;
+    border: 0;
+    border-right: 2px solid #e21e22;
+    background-color: #151515
+}
+
+#joomsport-container .namePlayerCart > div {
+    position: absolute;
+    bottom: 0;
+    left: 40px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    -webkit-transform-origin: left bottom 0;
+    transform-origin: left bottom 0;
+    white-space: nowrap;
+    color: #fff
+}
+
+#joomsport-container .namePlayerCart .LeftnamePlayerCart {
+    padding-left: 10px
+}
+
+#joomsport-container .namePlayerCart .LeftnamePlayerCart > * {
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 10px
+}
+
+#joomsport-container .namePlayerCart .PlayerCardPlNumber {
+    top: 0;
+    padding-right: 8px;
+    background-color: #e21e22;
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0)
+}
+
+/*Match page*/
+#joomsport-container #jsMatchViewID .jstable-row, #joomsport-container #jsMatchViewID .jsOverflowHidden .jstable-cell {
+    background-color: transparent
+}
+
+#joomsport-container #jsMatchViewID .jsMatchScore {
+    margin-bottom: 20px;
+    background-color: #000;
+    background-image: url(../images/arena.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: 50% 100%
+}
+
+#joomsport-container #jsMatchViewID .jsMatchScore [class$="MHead"] {
+    display: none
+}
+
+#joomsport-container #jsMatchViewID .jsMatchScore > .heading {
+    padding: 15px 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    font-size: 18px
+}
+
+#joomsport-container #jsMatchViewID .jsMatchScore > .heading .matchdtime > img {
+    margin-top: -5px
+}
+
+#joomsport-container #jsMatchViewID .jsMatchScore > .heading .matchvenue a {
+    color: #dc617b
+}
+
+#joomsport-container #jsMatchViewID .jsMatchScore > .jsmatchHeader {
+    margin-top: 0;
+    padding: 70px 0;
+    background-color: rgba(187, 187, 187, .4)
+}
+
+#joomsport-container #jsMatchViewID .jsMatchScore > .jsmatchHeader .jsMatchPartName > a {
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-decoration: none
+}
+
+#joomsport-container #jsMatchViewID .jsMatchScore > .jsmatchHeader .jsDivCenter {
+    color: #fff
+}
+
+#joomsport-container #jsMatchViewID .jsMatchScore > .jsmatchHeader .jsScoreDivMap {
+    font-size: 18px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5)
+}
+
+#joomsport-container #jsMatchViewID .jsmatchHeader .jsScoreDivM > .BigMScore1, #joomsport-container #jsMatchViewID .tabs .jsTeamStat .jstable > .jsColTeamEvents .teamEventGraph > div.jsGray {
+    background-color: #E74B4F
+}
+
+#joomsport-container #jsMatchViewID .jsmatchHeader .jsScoreDivM > .BigMScore2, #joomsport-container #jsMatchViewID .tabs .jsTeamStat .jstable > .jsColTeamEvents .teamEventGraph > div.jsRed {
+    background-color: #595959
+}
+
+#joomsport-container #jsMatchViewID .tabs .jsPaddingBottom30 {
+    padding: 0
+}
+
+#joomsport-container #jsMatchViewID .tabs .jsPaddingBottom30 .jsInline, #joomsport-container #jsMatchViewID .tabs .tab-pane .jsDivLineEmbl {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase
+}
+
+#joomsport-container #jsMatchViewID .tabs .tab-pane .jsDivLineEmbl {
+    margin-top: 30px
+}
+
+#joomsport-container #jsMatchViewID .tabs .tab-pane .jsDivLineEmbl:first-child {
+    margin-top: 10px
+}
+
+#joomsport-container #jsMatchViewID .tabs .jsTeamStat .jstable > .jsColTeamEvents .teamEventGraph, #joomsport-container #jsMatchViewID .tabs .jsTeamStat .jstable > .jsColTeamEvents .teamEventGraph > div {
+    height: 30px;
+    border: 0;
+    border-radius: 16px
+}
+
+#joomsport-container #jsMatchViewID .tabs .jsTeamStat .jstable > .jsColTeamEvents .teamEventGraph {
+    background-color: #e0e0e0;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .1) inset;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .1) inset
+}
+
+#joomsport-container #jsMatchViewID .tabs .jsTeamStat .jstable > .jsColTeamEvents .teamEventGraph > div {
+    padding: 0 10px;
+    line-height: 2
+}
+
+/*JoomSport archivements*/
+#joomsport-achv-container.jsIclass .table-responsive {
+    border: 0
+}
+
+#joomsport-achv-container.jsIclass .page-content-js h2 {
+    margin-top: 25px;
+    font-size: 20px
+}
+
+#joomsport-achv-container.jsIclass .page-content-js h2:first-of-type {
+    margin-top: 0
+}
+
+/*JoomSport prediction*/
+body[class*="single-jswprediction"] #joomsport-container .jstable {
+    border-collapse: separate;
+    border-spacing: 0 5px
+}
+
+body[class*="single-jswprediction"] #joomsport-container .jstable .jstable-row {
+    background-color: #ffffff
+}
+
+body[class*="single-jswprediction"] #joomsport-container .jstable .jstable-row .jstable-cell {
+    border-bottom: 1px solid #d8d8d8;
+    padding: 7px 13px
+}
+
+body[class*="single-jswprediction"] #joomsport-container .jstable .jstable-row .jstable-cell a {
+    color: #595959;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase
+}
+
+body[class*="single-jswprediction"] #joomsport-container .jstable .jstable-row .jstable-cell a:hover, body[class*="single-jswprediction"] #joomsport-container .jstable .jstable-row .jstable-cell a:focus {
+    color: #009bdc;
+    text-decoration: none
+}
+
+body[class*="single-jswprediction"] #joomsport-container .jstable .jstable-row:first-child {
+    background-color: #e21e22;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold
+}
+
+body[class*="single-jswprediction"] #joomsport-container .jstable .jstable-row:first-child .jstable-cell {
+    border: none
+}
+
+body[class*="single-jswprediction"] #joomsport-container .jspred_filterround > span {
+    padding-left: 10px
+}
+
+/*Widgets/shortcodes*/
+#joomsport-container .jsmainscroll table td a {
+    color: #595959;
+    text-decoration: none
+}
+
+#joomsport-container .jsmainscroll table td a:hover, .widget #joomsport-container.jsDefaultContainer > .jsmainscroll table td a:focus {
+    color: #009bdc
+}
+
+#joomsport-container .jsmainscroll .jsmatchdate {
+    color: #939393;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#joomsport-container > .jsmainscroll table.jsMNS .scoreScrMod {
+    border: 0;
+    border-radius: 0;
+    padding: 0
+}
+
+#joomsport-container > .jsmainscroll table.jsMNS .scoreScrMod > a {
+    width: 100%;
+    padding: 5px;
+    background-color: #595959;
+    color: #fff
+}
+
+#joomsport-container > .jsmainscroll table.jsMNS .scoreScrMod > a:hover {
+    background-color: #009bdc
+}
+
+#joomsport-container.jsDefaultContainer > .jsmainscroll > div {
+    background-color: transparent
+}
+
+#joomsport-container.jsDefaultContainer > .jsmainscroll .jsmatchdate, #joomsport-container.jsDefaultContainer > .jsmainscroll .jsmatchseason {
+    background-color: #e8e8e8
+}
+
+#joomsport-container.jsDefaultContainer > .jsmainscroll .jsview2 table tr {
+    border-bottom: 1px solid #e1e1e1;
+    background-color: #f2f2f2;
+}
+
+#joomsport-container.jsDefaultContainer > .jsmainscroll .jsview2 table tr:last-child {
+    border-bottom: none
+}
+
+#joomsport-container.jsDefaultContainer > .jsmainscroll table td.jsvalignmdl {
+    vertical-align: middle
+}
+
+#joomsport-container.jsDefaultContainer > .jsmainscroll table td.tdminwdt {
+    padding: 7px 0
+}
+
+#joomsport-container.jsSliderContainer > .jsmainscroll .jsview2 table td.tdminwdt {
+    padding-bottom: 10px
+}
+
+#joomsport-container.jsSliderContainer > .jsmainscroll > div {
+    margin: 0 30px;
+    border: 1px solid #ccc;
+    background-color: #e8e8e8 !important
+}
+
+#joomsport-container.jsSliderContainer > .jsmainscroll > button[class^="js"] {
+    top: 40%;
+    width: 35px;
+    height: 35px;
+    padding-top: 3px
+}
+
+#joomsport-container.jsSliderContainer > .jsmainscroll .jsview2
+.widget_wpb_joomsport_standings #joomsport-container > .groups {
+    margin-top: 30px;
+    padding-left: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.widget_wpb_joomsport_standings #joomsport-container > .groups:first-child {
+    margin-top: 0
+}
+
+.widget #joomsport-container table {
+    margin-bottom: 0;
+    font-size: 15px
+}
+
+.widget #joomsport-container .table-responsive .table > tbody > tr > td, .widget #joomsport-container table.jstblevwid tr > td {
+    border-bottom: 1px solid #d8d8d8
+}
+
+.widget #joomsport-container .table-responsive .table > tbody > tr:last-child > td, .widget #joomsport-container table.jstblevwid tr:last-child > td {
+    border-bottom: none
+}
+
+.widget #joomsport-container.jsSliderContainer > .jsmainscroll > div {
+    margin: 0;
+    margin-top: 40px !important
+}
+
+.widget #joomsport-container.jsSliderContainer > .jsmainscroll, .widget #joomsport-container.jsDefaultContainer > .jsmainscroll, .widget #joomsport-container.jsDefaultContainer > .jsmainscroll > div {
+    padding: 0
+}
+
+.widget #joomsport-container.jsSliderContainer > .jsmainscroll > button[class^="js"] {
+    top: 0;
+    width: 49%;
+    height: auto;
+    margin: 0 !important
+}
+
+.widget #joomsport-container.jsSliderContainer > .jsmainscroll table.jsMNS {
+    width: 100%
+}
+
+.widget #joomsport-container.jsDefaultContainer > .jsmainscroll table td.tdminwdt {
+    font-size: 14px
+}
+
+/*Other*/
+#joomsport-container .page-content-js .navHeadFull, #joomsport-achv-container .page-content-js .navHeadFull {
+    padding-right: 0
+}
+
+#joomsport-container .page-content-js > .heading {
+    padding: 0
+}
+
+#joomsport-container .navbar-header .navbar-nav .btn, #joomsport-achv-container .navbar-header .navbar-nav .btn {
+    margin-top: 0
+}
+
+#joomsport-container .page-content-js h2.groups, .widget #joomsport-container h2.groups {
+    margin-top: 20px;
+    font-size: 20px;
+    padding-left: 0;
+    font-weight: bold
+}
+
+#joomsport-container .page-content-js h2.groups:first-child, .widget #joomsport-container h2.groups:first-child {
+    margin-top: 0
+}
+
+#joomsport-container .jsmatchcont {
+    padding-bottom: 0
+}
+
+body #joomsport-container, body #joomsport-achv-container, #joomsport-container .seasonTable {
+    background-color: transparent;
+    font-family: "Roboto Condensed";
+    font-size: 15px;
+}
+
+body #joomsport-container a {
+    color: #009bdc;
+}
+
+body #joomsport-container a:hover, body #joomsport-container a:focus {
+    color: #009bdc;
+}
+
+#joomsport-container ul li {
+    padding-left: 0;
+}
+
+#joomsport-container ul li:before {
+    display: none;
+}
+
+/*Buttons*/
+#joomsport-container a.btn,
+#joomsport-container .navbar-nav a.btn,
+#joomsport-container button.btn,
+#joomsport-achv-container a.btn,
+#joomsport-achv-container .navbar-nav a.btn,
+#joomsport-achv-container button.btn {
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+    border: 2px solid #e21e22;
+    outline: none !important;
+    padding: 11px 25px;
+    border-radius: 5px;
+    vertical-align: top;
+    background-color: transparent !important;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: none;
+    letter-spacing: 1px;
+    text-decoration: none !important;
+    z-index: 1;
+}
+
+#joomsport-container .btn i {
+    display: inline-block;
+    min-width: 18px;
+    min-height: 18px;
+    margin-top: 0 !important;
+    margin-right: 6px;
+    background-position: 50% 50%;
+    vertical-align: middle;
+}
+
+#joomsport-container .btn i.fa {
+    margin-right: 3px;
+}
+
+#joomsport-container a.btn:hover,
+#joomsport-container .navbar-nav a.btn:hover,
+#joomsport-container button.btn:hover,
+#joomsport-achv-container a.btn:hover,
+#joomsport-achv-container .navbar-nav a.btn:hover,
+#joomsport-achv-container button.btn:hover {
+    color: #e21e22;
+    border-color: #e21e22;
+}
+
+/*Tabs*/
+#joomsport-container .tabs .nav-tabs {
+    display: table;
+    margin: 10px auto;
+    border-bottom: 0;
+    font-size: 18px;
+}
+
+#joomsport-container .tabs .nav-tabs > li {
+    margin-right: 10px;
+}
+
+#joomsport-container .tabs .nav-tabs > li i {
+    margin-top: 3px;
+}
+
+#joomsport-container .page-content-js .nav-tabs > li > a {
+    border: 0;
+    background-color: transparent;
+}
+
+#joomsport-container .tabs .nav-tabs > li > a {
+    min-height: 20px;
+    padding: 5px 10px;
+    border-radius: 0;
+    color: #404040;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#joomsport-container .tabs .nav-tabs > li:first-child {
+    margin-left: 0;
+}
+
+#joomsport-container .tabs .nav-tabs > li:last-child {
+    margin-right: 0;
+}
+
+#joomsport-container .page-content-js .nav-tabs > li > a:hover, #joomsport-container .page-content-js .nav-tabs > li.active > a, #joomsport-container .page-content-js .tabs .nav-tabs > li.active > a:hover, #joomsport-container .page-content-js .tabs .nav-tabs > li.active > a:focus {
+    color: #e21e22;
+    border: 0;
+    background-color: transparent;
+}
+
+#joomsport-container .page-content-js .nav-tabs > li.active > a, #joomsport-container .page-content-js .tabs .nav-tabs > li.active > a:hover, #joomsport-container .page-content-js .tabs .nav-tabs > li.active > a:focus {
+    border-bottom: 2px solid #e21e22;
+}
+
+#joomsport-container .tabs .nav-tabs + .tab-content, #joomsport-container #jsMatchViewID .tabs .nav-tabs + .tab-content {
+    margin-top: 30px;
+}
+
+#joomsport-container .tabs .tab-content #stab_overview {
+    padding: 0 15px;
+}
+
+#joomsport-container .seasonTable .tabs .tab-content #stab_main {
+    margin: 0;
+}
+
+#joomsport-container .page-content-js .tabs .tab-content, #joomsport-container #jsMatchViewID #stab_about {
+    padding: 15px 0;
+}
+
+#joomsport-container table.jstblevwid tr {
+    border-bottom: none;
+}
+
+/*Pagination*/
+#joomsport-container ul.paginationJS > li > a, #joomsport-container ul.paginationJS > li > span {
+    min-width: 45px;
+    min-height: 45px;
+    line-height: 45px;
+    margin: 0 10px;
+    margin-right: 5px;
+    padding: 0;
+    border: 2px solid #bfbfbf;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #bfbfbf;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#joomsport-container ul.paginationJS > li.active > a, #joomsport-container ul.paginationJS > li.active > span, #joomsport-container ul.paginationJS > li > a:hover, #joomsport-container ul.paginationJS > li > span:hover, #joomsport-container ul.paginationJS > li.active > a:hover, #joomsport-container ul.paginationJS > li.active > span:hover {
+    color: #fff;
+    background-color: #e21e22;
+    border-color: #e21e22;
+}
+
+#joomsport-container ul.paginationJS > li > a[aria-label="Previous"], #joomsport-container ul.paginationJS > li > a[aria-label="Next"] {
+    border: none;
+    background-color: transparent;
+    font-size: 24px;
+}
+
+#joomsport-container ul.paginationJS > li > a[aria-label="Previous"]:hover, #joomsport-container ul.paginationJS > li > a[aria-label="Next"]:hover {
+    color: #e21e22;
+}
+
+#joomsport-container ul.paginationJS > li.disabled > a {
+    visibility: hidden;
+}
+
+#joomsport-container ul.paginationJS > li > a > span {
+    background-color: transparent;
+}
+
+/*Select box*/
+#joomsport-container select + .select2 {
+    width: auto !important;
+    min-width: 100px;
+    height: auto;
+    border: none;
+    background-color: transparent;
+}
+
+#joomsport-container select + .select2 > .selection > .select2-selection {
+    height: 55px;
+    border: 1px solid #d7d6d6;
+    outline: none !important;
+}
+
+#joomsport-container select + .select2 > .selection > .select2-selection > .select2-selection__rendered {
+    padding: 0 35px 0 20px;
+    line-height: 53px;
+    outline: none !important;
+}
+
+#joomsport-container select + .select2 > .selection > .select2-selection > .select2-selection__arrow {
+    width: 30px;
+    height: 53px;
+}
+
+#joomsport-container .searchBar .form-group > *:not(button) {
+    display: inline-block;
+    min-width: 170px;
+}
+
+/*Thumbnail*/
+#joomsport-container img.img-thumbnail, #joomsport-achv-container img.img-thumbnail {
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+    border-radius: 0;
+}
+
+#joomsport-container .cansorttbl.table img.img-thumbnail {
+    margin-right: 15px;
+}
+
+/*Info-block*/
+#joomsport-container .tabs .extrafldcn, #joomsport-achv-container .page-content-js .well.extrafldcn {
+    border-radius: 0;
+    border: 1px solid #e1e1e1;
+    background-color: #fff;
+}
+
+/*Table*/
+#joomsport-container table, #joomsport-achv-container table {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#joomsport-container div.jsScoreDiv {
+    font-size: inherit;
+}
+
+#joomsport-container table tr > td, #joomsport-achv-container table tr > td {
+    color: #232628;
+}
+
+#joomsport-container .table-responsive .table > tbody > tr:nth-child(odd), #joomsport-container table.jstblevwid tbody > tr:nth-child(odd), #joomsport-container .table-responsive .jsBoxStatDIvFE tbody tr:nth-child(2n), #joomsport-achv-container .table-responsive .table > tbody > tr:nth-of-type(odd) {
+    background-color: #e8e8e8;
+}
+
+#joomsport-container .table-responsive .table > tbody > tr:nth-child(even), #joomsport-container table.jstblevwid tbody > tr:nth-child(even), #joomsport-container .table-responsive .jsBoxStatDIvFE tbody tr, #joomsport-achv-container .table-responsive .table > tbody > tr {
+    background-color: #f2f2f2;
+}
+
+#joomsport-container .jsOverXdiv .table > tbody > tr {
+    background-color: transparent;
+}
+
+#joomsport-container .table-responsive .table > thead > tr > th, #joomsport-container table.jstblevwid tbody > tr > th, #joomsport-container .jsBoxStatDIvFE > thead > tr > th, #joomsport-container #stab_overview table.tblPosition thead > tr > th, #joomsport-achv-container .table thead > tr > th, #joomsport-container table.table tbody > tr > th {
+    padding: 13px 7px;
+    border: 0;
+    background-color: #e21e22;
+}
+
+#joomsport-container .table-responsive .table > thead > tr > th, #joomsport-container .table-responsive .table > thead > tr > th > *, #joomsport-container table.jstblevwid tbody > tr > th, #joomsport-container .jsBoxStatDIvFE > thead > tr > th, #joomsport-container #stab_overview table.tblPosition thead > tr > th, #joomsport-achv-container .table thead > tr > th > *, #joomsport-container table.table tbody > tr > th {
+    color: #fff;
+}
+
+#joomsport-container .table-responsive .table > thead > tr > th > span {
+    padding-right: 0;
+}
+
+#joomsport-container .table-responsive .table td a, #joomsport-container table.jstblevwid td a, #joomsport-container .jsBoxStatDIvFE td a, #joomsport-container #stab_overview table.tblPosition td a, #joomsport-achv-container .table td a {
+    color: #595959;
+}
+
+#joomsport-container .table-responsive .table td a:hover, #joomsport-container table.jstblevwid td a:hover, #joomsport-container #stab_overview table.tblPosition td a:hover, #joomsport-achv-container .table td a:hover, #joomsport-container .jsBoxStatDIvFE td a:hover, #joomsport-container .table-responsive .table td a:focus, #joomsport-container table.jstblevwid td a:focus, #joomsport-container #stab_overview table.tblPosition td a:focus, #joomsport-achv-container .table td a:focus, #joomsport-container .jsBoxStatDIvFE td a:focus {
+    color: #009bdc;
+    text-decoration: none;
+}
+
+#joomsport-container .table-responsive .table > tbody > tr > td, #joomsport-container table.jstblevwid tbody > tr > td, #joomsport-container .jsBoxStatDIvFE tbody > tr > td, #joomsport-achv-container .table-responsive .table tbody > tr > td {
+    vertical-align: middle;
+    border-color: transparent;
+}
+
+#joomsport-container .table-responsive .table > tbody > tr > td:last-child, #joomsport-container .table-responsive .table > thead > tr > th:last-child, #joomsport-container table.jstblevwid tbody > tr > td:last-child, #joomsport-container table.jstblevwid tbody > tr > th:last-child, #joomsport-container .jsBoxStatDIvFE tbody > tr > td:last-child, #joomsport-container .jsBoxStatDIvFE thead > tr > th:last-child, #joomsport-container #stab_overview table.tblPosition tbody > tr > td:last-child, #joomsport-container #stab_overview table.tblPosition thead > tr > th:last-child, #joomsport-achv-container .table tbody > tr > td:last-child, #joomsport-achv-container .table thead > tr > th:last-child {
+    border-right: 0;
+}
+
+#joomsport-container table.jstblevwid tbody > tr > td:first-child {
+    padding: 10px;
+    text-align: center;
+}
+
+#joomsport-container table.jstblevwid tbody > tr > td .js_div_particName {
+    padding-left: 7px;
+}
+
+#joomsport-container .jsBoxStatDIvFE {
+    margin-top: 10px;
+}
+
+#joomsport-container #stab_statistic .jsBoxStatDIvFE {
+    margin-top: 0;
+}
+
+#joomsport-container .jsBoxStatDIvFE tr:first-child > th:first-child, #joomsport-container .jsBoxStatDIvFE thead tr:last-child {
+    border-bottom: 0;
+}
+
+#joomsport-container .jsBoxStatDIvFE > thead > tr > th {
+    vertical-align: middle;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+#joomsport-container .jsBoxStatDIvFE > thead > tr:last-child > th {
+    border-top: 1px solid #ffffff;
+}
+
+#joomsport-container .jsBoxStatDIvFE tfoot tr td {
+    border: 0;
+    background-color: #8d8d8d;
+    color: #fff;
+}
+
+#joomsport-container .jsBoxStatDIvFE tfoot tr td, #joomsport-container .jsBoxStatDIvFE tfoot tr {
+    border-color: #e1e1e1;
+}
+
+#joomsport-container .table th.jsTextAlignCenter > a > span {
+    padding: 0;
+    white-space: nowrap;
+}
+
+#joomsport-container .table th.jsTextAlignCenter > a > span > img.emblpadd3 {
+    display: block;
+    margin: 0 auto;
+}
+
+/*Tables of team tabs*/
+#joomsport-container .tab-content #stab_overview table, #joomsport-container .jsMatchDivMain.jstable {
+    border-collapse: separate;
+    border-spacing: 0 5px;
+}
+
+#joomsport-container .tab-content #stab_overview table tbody tr, #joomsport-container .jsMatchDivMain.jstable .jstable-row {
+    background-color: #ffffff;
+}
+
+#joomsport-container .tab-content #stab_overview table th, #joomsport-container .tab-content #stab_overview table td {
+    background-color: transparent;
+    border-left: none;
+}
+
+#joomsport-container .tab-content #stab_overview table td, #joomsport-container .jsMatchDivMain.jstable .jstable-row .jstable-cell {
+    border-bottom: 1px solid #d8d8d8;
+}
+
+/*Squad*/
+#joomsport-container #stab_squad .jsOverflowHidden .jstable {
+    border-collapse: separate;
+    border-spacing: 0 5px;
+}
+
+#joomsport-container #stab_squad .jsOverflowHidden .jstable:first-child {
+    padding-right: 5px;
+}
+
+#joomsport-container #stab_squad .jsOverflowHidden .jstable:last-child {
+    padding-left: 5px;
+}
+
+#joomsport-container #stab_squad .jsOverflowHidden .jstable .jstable-row {
+    background-color: #fff;
+}
+
+#joomsport-container #stab_squad .jsOverflowHidden .jstable .jstable-cell {
+    border-bottom: 1px solid #d8d8d8;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#joomsport-container #stab_squad .jsOverflowHidden .jstable .jstable-cell:first-child {
+    text-align: center;
+}
+
+#joomsport-container #stab_squad .jsOverflowHidden .jstable .jstable-cell a {
+    color: #595959;
+}
+
+#joomsport-container #stab_squad .jsOverflowHidden .jstable .jstable-cell a:hover, #joomsport-container #stab_squad .jsOverflowHidden .jstable .jstable-cell a:focus {
+    color: #009bdc;
+    text-decoration: none;
+}
+
+/*Calendar*/
+#joomsport-container .jsMatchDivMain .jsMatchDivTime {
+    width: 15%;
+}
+
+#joomsport-container .jsMatchDivMain .jsMatchDivTime, #joomsport-container .jsMatchDivMain .jsMatchDivVenue, #joomsport-container .jsMatchDivMain .jsNoWrap {
+    font-style: italic;
+    text-align: center;
+    white-space: normal;
+}
+
+#joomsport-container .jsMatchDivMain .jsMatchDivTime > div {
+    margin: 0 auto;
+}
+
+#joomsport-container .jsMatchDivMain .jsMatchDivHome, #joomsport-container .jsMatchDivMain .jsMatchDivAway, #joomsport-container .jsMatchDivMain .jsMatchDivScore {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#joomsport-container .jsMatchDivMain .jsMatchDivHome a, #joomsport-container .jsMatchDivMain .jsMatchDivAway a, #joomsport-container .jsMatchDivMain .jsMatchDivScore a {
+    color: #595959;
+}
+
+#joomsport-container .jsMatchDivMain .jsMatchDivHome a:hover, #joomsport-container .jsMatchDivMain .jsMatchDivHome a:focus, #joomsport-container .jsMatchDivMain .jsMatchDivAway a:hover, #joomsport-container .jsMatchDivMain .jsMatchDivAway a:focus, #joomsport-container .jsMatchDivMain .jsMatchDivScore a:hover, #joomsport-container .jsMatchDivMain .jsMatchDivScore a:focus {
+    color: #009bdc;
+    text-decoration: none;
+}
+
+#joomsport-container .jsMatchDivMain .jsMatchDivHome {
+    text-align: right;
+}
+
+#joomsport-container .overviewBlocks h3, #joomsport-container #jsMatchViewID h3, #joomsport-container .jsMatchDivMain .js-mdname .jsrow-matchday-name, #joomsport-container #stab_statistic h3.jsCreerMatchStath3, #joomsport-container #stab_statistic .jscenter > h3 {
+    margin: 45px 0 10px;
+    background-color: transparent;
+    color: #232628;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    line-height: 1;
+}
+
+#joomsport-container #jsMatchViewID .jsMarginBottom30 {
+    text-align: left;
+    margin-bottom: 0;
+}
+
+#joomsport-container #jsMatchViewID .jsMarginBottom30:first-child h3 {
+    margin-top: 0;
+}
+
+#joomsport-container .jsMatchDivMain.jstable .js-mdname {
+    height: 85px;
+    background-color: transparent !important;
+}
+
+#joomsport-container .jsMatchDivMain .js-mdname .jsrow-matchday-name {
+    width: auto;
+    border: 0;
+    padding: 5px 0;
+}
+
+#joomsport-container .jsMatchDivMain .js-mdname:first-child .jsrow-matchday-name, #joomsport-container .overviewBlocks:first-child h3, #joomsport-container #stab_statistic h3.jsCreerMatchStath3:first-child, #joomsport-container #stab_statistic .jscenter > h3 {
+    margin-top: 0;
+}
+
+#joomsport-container .jsMatchDivMain .js-mdname:first-child {
+    height: 40px;
+}
+
+/*Knockout*/
+#joomsport-container .drawBracketContainerBE td {
+    background-color: transparent;
+}
+
+#joomsport-container .drawBracketContainerBE .table tr:first-child td:last-child {
+    padding-right: 0 !important;
+}
+
+#joomsport-container .drawBracketContainerBE .table td.even .player {
+    color: #9e9e9e;
+}
+
+#joomsport-container .drawBracketContainerBE .jsborderI, #joomsport-container .drawBracketContainerBE .jsborderIFin {
+    width: 100%;
+    margin-top: 50px;
+}
+
+#joomsport-container .drawBracketContainerBE .table tr td:first-child > .player {
+    margin-left: 0;
+}
+
+#joomsport-container .drawBracketContainerBE .player div.knockscore {
+    border-radius: 0;
+    background-color: #bdbdbd;
+}
+
+#joomsport-container .drawBracketContainerBE .player div.knockscore > a {
+    background-color: #595959;
+}
+
+#joomsport-container .drawBracketContainerBE .player div.knockscore > a:hover {
+    background-color: #e21e22;
+}
+
+#joomsport-container .drawBracketContainerBE .player {
+    margin-bottom: 5px;
+    padding: 7px 10px;
+    border-radius: 0 !important;
+    background-color: #e8e8e8;
+    font-weight: bold;
+}
+
+#joomsport-container .drawBracketContainerBE .knockbot.player {
+    border: 1px solid #ccc !important;
+}
+
+#joomsport-container .drawBracketContainerBE .player .knockplName a {
+    color: #595959;
+}
+
+#joomsport-container .drawBracketContainerBE .player .knockplName a:hover, #joomsport-container .drawBracketContainerBE .player .knockplName a:focus {
+    text-decoration: none;
+}
+
+#joomsport-container .drawBracketContainerBE .knockscore a {
+    color: #fff !important;
+}
+
+#joomsport-container .drawBracketContainerBE .knIsHover {
+    background-color: rgba(189, 189, 189, .55);
+}
+
+#joomsport-container .drawBracketContainerBE .knIsHover .js_div_particName > a {
+    color: #009bdc;
+}
+
+/*Team Emblem(Team page)*/
+body.single div.joomsport_team .stm-small-title-box + .post-thumbnail {
+    display: none;
+}
+
+.js-title-page .stm-page-title > .container > * {
+    display: inline-block;
+    padding-right: 15px;
+    vertical-align: middle;
+}
+
+.js-title-page .stm-page-title h3 {
+    margin-bottom: 0;
+    margin-right: 40px;
+}
+
+.js-title-page .js-team-embl img {
+    max-width: 100px;
+}
+
+body[class*="tax-joomsport_"].archive div[class*="joomsport_"] > a {
+    text-align: center;
+}
+
+body[class*="tax-joomsport_"].archive div[class*="joomsport_"] > a img {
+    margin: 0 auto;
+}
+
+body[class*="tax-joomsport_"].archive div[class*="joomsport_"] .post-meta {
+    text-align: right;
+}
+
+/*Roster*/
+#joomsport-container .jsplayerCartInner .innerjsplayerCart {
+    margin: 0;
+}
+
+#joomsport-container .jsplayerCartInner .innerjsplayerCart img {
+    margin: 0;
+}
+
+#joomsport-container .jsplayerCart a:hover {
+    text-decoration: none;
+}
+
+#joomsport-container .jsplayerCartInner {
+    position: relative;
+    border-radius: 0;
+}
+
+#joomsport-container .namePlayerCart {
+    position: absolute;
+    height: 100%;
+    width: 40px;
+    bottom: 0;
+    left: 0;
+    margin-top: 0;
+    border: 0;
+    border-right: 2px solid #e21e22;
+    background-color: #151515;
+}
+
+#joomsport-container .namePlayerCart > div {
+    position: absolute;
+    bottom: 0;
+    left: 40px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    -webkit-transform-origin: left bottom 0;
+    transform-origin: left bottom 0;
+    white-space: nowrap;
+    color: #fff
+}
+
+#joomsport-container .namePlayerCart .LeftnamePlayerCart {
+    padding-left: 10px;
+}
+
+#joomsport-container .namePlayerCart .LeftnamePlayerCart > * {
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+#joomsport-container .namePlayerCart .PlayerCardPlNumber {
+    top: 0;
+    padding-right: 8px;
+    background-color: #e21e22;
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0);
+}
+
+#joomsport-container .namePlayerCart .PlayerCardPlNumber.wphiddenjs {
+    display: none;
+}
+
+/*Match page*/
+#joomsport-container #jsMatchViewID .jstable-row, #joomsport-container #jsMatchViewID .jsOverflowHidden .jstable-cell {
+    background-color: transparent;
+}
+
+#joomsport-container #jsMatchViewID .jsMatchScore {
+    margin-bottom: 20px;
+    background-color: #000;
+    background-image: url(../images/arena.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: 50% 100%;
+}
+
+#joomsport-container #jsMatchViewID .jsMatchScore [class$="MHead"] {
+    display: none;
+}
+
+#joomsport-container #jsMatchViewID .jsMatchScore > .heading {
+    padding: 15px 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    font-size: 18px;
+}
+
+#joomsport-container #jsMatchViewID .jsMatchScore > .heading .matchdtime > img {
+    margin-top: -5px;
+}
+
+#joomsport-container #jsMatchViewID .jsMatchScore > .heading .matchvenue {
+    color: #dc617b;
+}
+
+#joomsport-container #jsMatchViewID .jsMatchScore > .heading .matchvenue a {
+    color: inherit;
+}
+
+#joomsport-container #jsMatchViewID .jsMatchScore > .jsmatchHeader {
+    margin-top: 0;
+    padding: 70px 0;
+    background-color: rgba(187, 187, 187, .4);
+}
+
+#joomsport-container #jsMatchViewID .jsMatchScore > .jsmatchHeader .jsMatchPartName > a {
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#joomsport-container #jsMatchViewID .jsMatchScore > .jsmatchHeader .jsDivCenter {
+    color: #fff;
+}
+
+#joomsport-container #jsMatchViewID .jsMatchScore > .jsmatchHeader .jsScoreDivMap {
+    font-size: 18px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+#joomsport-container #jsMatchViewID .jsmatchHeader .jsScoreDivM > .BigMScore1, #joomsport-container #jsMatchViewID .tabs .jsTeamStat .jstable > .jsColTeamEvents .teamEventGraph > div.jsGray {
+    background-color: #e21e22;
+}
+
+#joomsport-container #jsMatchViewID .jsmatchHeader .jsScoreDivM > .BigMScore2,
+#joomsport-container #jsMatchViewID .tabs .jsTeamStat .jstable > .jsColTeamEvents .teamEventGraph > div.jsRed {
+    background-color: #595959;
+}
+
+#joomsport-container #jsMatchViewID .tabs .jsPaddingBottom30 {
+    padding: 0;
+}
+
+#joomsport-container #jsMatchViewID .tabs .jsPaddingBottom30 .jsInline, #joomsport-container #jsMatchViewID .tabs .tab-pane .jsDivLineEmbl {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#joomsport-container #jsMatchViewID .tabs .tab-pane .jsDivLineEmbl {
+    margin-top: 30px;
+}
+
+#joomsport-container #jsMatchViewID .tabs .tab-pane .jsDivLineEmbl:first-child {
+    margin-top: 10px;
+}
+
+#joomsport-container #jsMatchViewID .tabs .jsTeamStat .jstable > .jsColTeamEvents .teamEventGraph, #joomsport-container #jsMatchViewID .tabs .jsTeamStat .jstable > .jsColTeamEvents .teamEventGraph > div {
+    height: 30px;
+    border: 0;
+    border-radius: 16px;
+}
+
+#joomsport-container #jsMatchViewID .tabs .jsTeamStat .jstable > .jsColTeamEvents .teamEventGraph {
+    background-color: #e0e0e0;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .1) inset;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .1) inset;
+}
+
+#joomsport-container #jsMatchViewID .tabs .jsTeamStat .jstable > .jsColTeamEvents .teamEventGraph > div {
+    padding: 0 10px;
+    line-height: 2;
+}
+
+/*JoomSport archivements*/
+#joomsport-achv-container.jsIclass .table-responsive {
+    border: 0;
+}
+
+#joomsport-achv-container.jsIclass .page-content-js h2 {
+    margin-top: 25px;
+    font-size: 20px !important;
+}
+
+#joomsport-achv-container.jsIclass .page-content-js h2:first-of-type {
+    margin-top: 0;
+}
+
+/*JoomSport prediction*/
+body[class*="single-jswprediction"] #joomsport-container .jstable {
+    border-collapse: separate;
+    border-spacing: 0 5px;
+}
+
+body[class*="single-jswprediction"] #joomsport-container .jstable .jstable-row {
+    background-color: #ffffff;
+}
+
+body[class*="single-jswprediction"] #joomsport-container .jstable .jstable-row .jstable-cell {
+    border-bottom: 1px solid #d8d8d8;
+    padding: 7px 13px;
+}
+
+body[class*="single-jswprediction"] #joomsport-container .jstable .jstable-row .jstable-cell a {
+    color: #595959;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+body[class*="single-jswprediction"] #joomsport-container .jstable .jstable-row .jstable-cell a:hover, body[class*="single-jswprediction"] #joomsport-container .jstable .jstable-row .jstable-cell a:focus {
+    color: #009bdc;
+    text-decoration: none;
+}
+
+body[class*="single-jswprediction"] #joomsport-container .jstable .jstable-row:first-child {
+    background-color: #e21e22;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+body[class*="single-jswprediction"] #joomsport-container .jstable .jstable-row:first-child .jstable-cell {
+    border: none;
+}
+
+body[class*="single-jswprediction"] #joomsport-container .jspred_filterround > span {
+    padding-left: 10px;
+}
+
+body[class*="single-jswprediction"] #joomsport-container .jsp_prediction_score input {
+    display: inline-block;
+}
+
+body[class*="single-jswprediction"] #joomsport-container #jspRoundSave {
+    background-color: #5cb85c !important;
+}
+
+/*Widgets/shortcodes*/
+#joomsport-container .jsmainscroll table td a {
+    color: #595959;
+    text-decoration: none
+}
+
+#joomsport-container .jsmainscroll table td a:hover, .widget #joomsport-container.jsDefaultContainer > .jsmainscroll table td a:focus {
+    color: #009bdc
+}
+
+#joomsport-container .jsmainscroll .jsmatchdate {
+    color: #939393;
+    font-size: 14px;
+    font-weight: 700
+}
+
+#joomsport-container > .jsmainscroll table.jsMNS .scoreScrMod {
+    border: 0;
+    border-radius: 0;
+    padding: 0
+}
+
+#joomsport-container > .jsmainscroll table.jsMNS .scoreScrMod > a {
+    width: 100%;
+    padding: 5px;
+    background-color: #595959;
+    color: #fff
+}
+
+#joomsport-container > .jsmainscroll table.jsMNS .scoreScrMod > a:hover {
+    background-color: #e21e22
+}
+
+#joomsport-container.jsDefaultContainer > .jsmainscroll > div {
+    background-color: transparent
+}
+
+#joomsport-container.jsDefaultContainer > .jsmainscroll .jsmatchdate, #joomsport-container.jsDefaultContainer > .jsmainscroll .jsmatchseason {
+    background-color: #e8e8e8
+}
+
+#joomsport-container.jsDefaultContainer > .jsmainscroll .jsview2 table tr, #joomsport-container.jsDefaultContainer .jsview1 li > .jsmatchcont {
+    border-bottom: 1px solid #e1e1e1;
+    background-color: #f2f2f2
+}
+
+#joomsport-container.jsDefaultContainer > .jsmainscroll .jsview2 table tr:last-child {
+    border-bottom: none
+}
+
+#joomsport-container .jsmainscroll table .jsScoreDiv {
+    min-width: 85px
+}
+
+#joomsport-container.jsDefaultContainer > .jsmainscroll table td.jsvalignmdl {
+    vertical-align: middle
+}
+
+#joomsport-container.jsDefaultContainer > .jsmainscroll table td.tdminwdt {
+    padding: 7px 0
+}
+
+#joomsport-container.jsSliderContainer > .jsmainscroll .jsview2 table td.tdminwdt {
+    padding-bottom: 10px
+}
+
+#joomsport-container.jsSliderContainer > .jsmainscroll > div {
+    border: 1px solid #ccc;
+    background-color: #e8e8e8 !important
+}
+
+.widget_wpb_joomsport_standings #joomsport-container > .groups {
+    margin-top: 30px;
+    padding-left: 0;
+    font-size: 18px;
+    font-weight: 700
+}
+
+.widget_wpb_joomsport_standings #joomsport-container > .groups:first-child {
+    margin-top: 0
+}
+
+.widget #joomsport-container table {
+    margin-bottom: 0;
+    font-size: 15px
+}
+
+.widget #joomsport-container .table-responsive .table > tbody > tr > td, .widget #joomsport-container table.jstblevwid tr > td {
+    border-bottom: 1px solid #d8d8d8
+}
+
+.widget #joomsport-container .table-responsive .table > tbody > tr:last-child > td, .widget #joomsport-container table.jstblevwid tr:last-child > td {
+    border-bottom: none
+}
+
+.widget #joomsport-container.jsSliderContainer > .jsmainscroll > button[class^="js"] {
+    top: 0;
+    width: 49%;
+    height: auto;
+    margin: 0 !important
+}
+
+.widget #joomsport-container.jsSliderContainer > .jsmainscroll > button.jsprev {
+    right: auto
+}
+
+.widget #joomsport-container > .jsmainscroll table.jsMNS {
+    width: 100%
+}
+
+.widget #joomsport-container.jsDefaultContainer > .jsmainscroll table td.tdminwdt {
+    font-size: 14px
+}
+
+/*Other*/
+#joomsport-container .navbar-default, #joomsport-achv-container .navbar-default {
+    background-color: transparent;
+}
+
+#joomsport-container .page-content-js .navHeadFull, #joomsport-achv-container .page-content-js .navHeadFull {
+    padding-right: 0;
+}
+
+#joomsport-container .page-content-js > .heading {
+    padding: 0;
+}
+
+#joomsport-container .navbar-header .navbar-nav .btn, #joomsport-achv-container .navbar-header .navbar-nav .btn {
+    margin-top: 0;
+}
+
+#joomsport-container .page-content-js h2.groups, .widget #joomsport-container h2.groups {
+    margin-top: 20px;
+    font-size: 20px;
+    padding-left: 0;
+    font-weight: bold;
+}
+
+#joomsport-container .page-content-js h2.groups:first-child, .widget #joomsport-container h2.groups:first-child {
+    margin-top: 0;
+}
+
+#joomsport-container .jsmatchcont {
+    padding-bottom: 0;
+}
+
+#joomsport-container span.jsform_none {
+    height: 20px;
+    width: 20px;
+    font-size: 13px;
+    line-height: 20px;
+    vertical-align: top;
+}
+
+#joomsport-container table.cansorttbl th span {
+    padding-right: 5px;
+}
+
+#joomsport-container table {
+    margin-bottom: 0;
+}
+
+/*_______SOCCER THEME JOOMSPORT_______*/
+body[class*="joomsport"].splashSoccer .stm-single-post .container .row .col-md-9 .stm-single-post-meta, body[class*="jsprt_achv"].splashSoccer .stm-single-post .container .row .col-md-9 .stm-single-post-meta, body[class*="jswprediction"].splashSoccer .stm-single-post .container .row .col-md-9 .stm-single-post-meta {
+    display: none;
+}
+
+body.splashSoccer #joomsport-container, body.splashSoccer #joomsport-achv-container, .splashSoccer #joomsport-container .seasonTable {
+    font-family: "Arial";
+}
+
+body.splashSoccer #joomsport-container a {
+    color: #ff9500;
+}
+
+body.splashSoccer #joomsport-container a:hover, body.splashSoccer #joomsport-container a:focus {
+    color: #ff9500;
+}
+
+/*Buttons*/
+.splashSoccer #joomsport-container a.btn, .splashSoccer #joomsport-container .navbar-nav a.btn, .splashSoccer #joomsport-container button.btn, .splashSoccer #joomsport-achv-container a.btn, .splashSoccer #joomsport-achv-container .navbar-nav a.btn, .splashSoccer #joomsport-achv-container button.btn, .splashSoccer #joomsport-container.jsSliderContainer > .jsmainscroll > button {
+    border: none;
+    border-radius: 0;
+    background-color: #f08c00 !important;
+    color: #fff;
+}
+
+.splashSoccer #joomsport-container #jsFilterMatches button.btn {
+    background-color: #f08c00 !important;
+}
+
+.splashSoccer #joomsport-container.jsSliderContainer > .jsmainscroll > button path {
+    fill: #fff;
+}
+
+.splashSoccer #joomsport-container a.btn:before, .splashSoccer #joomsport-container .navbar-nav a.btn:before, .splashSoccer #joomsport-container button.btn:before, .splashSoccer #joomsport-achv-container a.btn:before, .splashSoccer #joomsport-achv-container .navbar-nav a.btn:before, .splashSoccer #joomsport-achv-container button.btn:before, .splashSoccer #joomsport-container.jsSliderContainer > .jsmainscroll > button:before {
+    background: #ff9500;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1)
+}
+
+.splashSoccer #joomsport-container a.btn:hover, .splashSoccer #joomsport-container button.btn:hover, .splashSoccer #joomsport-container a.btn:focus, .splashSoccer #joomsport-container button.btn:focus, .splashSoccer #joomsport-container a.btn:active, .splashSoccer #joomsport-container button.btn:active, .splashSoccer #joomsport-container a.btn:active:hover, .splashSoccer #joomsport-container button.btn:active:hover, .splashSoccer #joomsport-container .navbar-nav a.btn:hover, .splashSoccer #joomsport-achv-container a.btn:hover, .splashSoccer #joomsport-achv-container button.btn:hover, .splashSoccer #joomsport-achv-container a.btn:focus, .splashSoccer #joomsport-achv-container button.btn:focus, .splashSoccer #joomsport-achv-container a.btn:active, .splashSoccer #joomsport-achv-container button.btn:active, .splashSoccer #joomsport-achv-container a.btn:active:hover, .splashSoccer #joomsport-achv-container button.btn:active:hover, .splashSoccer #joomsport-achv-container .navbar-nav a.btn:hover {
+    background-color: transparent;
+    color: #fff !important;
+}
+
+.splashSoccer #joomsport-container a.btn:hover:before, .splashSoccer #joomsport-container button.btn:hover:before, .splashSoccer #joomsport-container a.btn:focus:before, .splashSoccer #joomsport-container button.btn:focus:before, .splashSoccer #joomsport-container a.btn:active:before, .splashSoccer #joomsport-container button.btn:active:before, .splashSoccer #joomsport-container a.btn:active:hover:before, .splashSoccer #joomsport-container button.btn:active:hover:before, .splashSoccer #joomsport-container .navbar-nav a.btn:hover:before, .splashSoccer #joomsport-achv-container a.btn:hover:before, .splashSoccer #joomsport-achv-container button.btn:hover:before, .splashSoccer #joomsport-achv-container a.btn:focus:before, .splashSoccer #joomsport-achv-container button.btn:focus:before, .splashSoccer #joomsport-achv-container a.btn:active:before, .splashSoccer #joomsport-achv-container button.btn:active:before, .splashSoccer #joomsport-achv-container a.btn:active:hover:before, .splashSoccer #joomsport-achv-container button.btn:active:hover:before, .splashSoccer #joomsport-achv-container .navbar-nav a.btn:hover:before {
+    -webkit-transform: scale3d(0, 1, 1);
+    transform: scale3d(0, 1, 1);
+}
+
+/*Tabs*/
+.splashSoccer #joomsport-container .tabs .nav-tabs {
+    padding: 1px 0 0;
+    font-family: Oswald;
+    font-size: 16px
+}
+
+.splashSoccer #joomsport-container .tabs .nav-tabs > li {
+    margin-right: 1px;
+    margin-top: 5px
+}
+
+.splashSoccer #joomsport-container .page-content-js .nav-tabs > li > a {
+    background-color: #242b31
+}
+
+.splashSoccer #joomsport-container .tabs .nav-tabs > li > a {
+    margin-right: 0;
+    padding: 15px 25px;
+    background-color: #242b31;
+    color: #fff;
+    font-weight: 400
+}
+
+.splashSoccer #joomsport-container .page-content-js .nav-tabs > li > a:hover, .splashSoccer #joomsport-container .page-content-js .nav-tabs > li.active > a, .splashSoccer #joomsport-container .page-content-js .tabs .nav-tabs > li.active > a:hover, .splashSoccer #joomsport-container .page-content-js .tabs .nav-tabs > li.active > a:focus {
+    background-color: #ff9500;
+    color: #fff
+}
+
+.splashSoccer #joomsport-container .page-content-js .nav-tabs > li.active > a {
+    margin-top: -1px
+}
+
+.splashSoccer #joomsport-container .page-content-js .nav-tabs > li.active > a, .splashSoccer #joomsport-container .page-content-js .tabs .nav-tabs > li.active > a:hover, .splashSoccer #joomsport-container .page-content-js .tabs .nav-tabs > li.active > a:focus {
+    border-bottom: 1px solid transparent
+}
+
+/*Pagination*/
+.splashSoccer #joomsport-container ul.paginationJS > li > a, .splashSoccer #joomsport-container .paginationJS > li > span {
+    margin: 0 3px;
+    color: #151618;
+    border: 0;
+    border-radius: 0;
+}
+
+.splashSoccer #joomsport-container ul.paginationJS > li.active > a, .splashSoccer #joomsport-container .paginationJS > li.active > span, .splashSoccer #joomsport-container .paginationJS > li.active > a:hover {
+    background-color: #ededed;
+    color: #151618;
+}
+
+.splashSoccer #joomsport-container ul.paginationJS > li > a:hover, .splashSoccer #joomsport-container .paginationJS > li > span:hover, .splashSoccer #joomsport-container li.paginationJS > .active > span:hover {
+    background-color: #ff9500;
+    border: none;
+}
+
+.splashSoccer #joomsport-container ul.paginationJS > li > a[aria-label="Previous"], .splashSoccer #joomsport-container ul.paginationJS > li > a[aria-label="Next"] {
+    font-size: 18px;
+}
+
+.splashSoccer #joomsport-container ul.paginationJS > li > a[aria-label="Previous"]:hover, .splashSoccer #joomsport-container ul.paginationJS > li > a[aria-label="Next"]:hover {
+    color: #151618;
+}
+
+/*Select box*/
+.splashSoccer #joomsport-container select + .select2 > .selection > .select2-selection, .splashSoccer #joomsport-container .form-group input, .splashSoccer .select2-container--default .select2-selection--single, .splashSoccer #joomsport-container #jspRound input[type="number"], .splashSoccer .select2-container--default .select2-search--dropdown .select2-search__field {
+    height: 47px;
+    border-radius: 0
+}
+
+.splashSoccer #joomsport-container select + .select2 > .selection > .select2-selection > .select2-selection__rendered, .splashSoccer .select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #868686;
+    line-height: 45px
+}
+
+.splashSoccer #joomsport-container select + .select2 > .selection > .select2-selection > .select2-selection__arrow, .splashSoccer .select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 45px
+}
+
+/*Table*/
+.splashSoccer #joomsport-container table, .splashSoccer #joomsport-achv-container table {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.splashSoccer #joomsport-container table tr > td, .splashSoccer #joomsport-achv-container table tr > td {
+    color: #fff;
+}
+
+.splashSoccer #joomsport-container .table-responsive .table > tbody > tr:nth-child(odd), .splashSoccer #joomsport-container table.jstblevwid tbody > tr:nth-child(odd), .splashSoccer #joomsport-container .table-responsive .jsBoxStatDIvFE tbody tr:nth-child(2n), .splashSoccer #joomsport-achv-container .table-responsive .table > tbody > tr:nth-of-type(odd) {
+    background-color: #2a3138;
+}
+
+.splashSoccer #joomsport-container .table-responsive .table > tbody > tr:nth-child(even), .splashSoccer #joomsport-container table.jstblevwid tbody > tr:nth-child(even), .splashSoccer #joomsport-container .table-responsive .jsBoxStatDIvFE tbody tr, .splashSoccer #joomsport-achv-container .table-responsive .table > tbody > tr {
+    background-color: #4f575e;
+}
+
+.splashSoccer #joomsport-container .table-responsive .table > thead > tr > th, .splashSoccer #joomsport-container table.jstblevwid tbody > tr > th, .splashSoccer #joomsport-container #stab_overview table.tblPosition thead > tr > th, .splashSoccer #joomsport-achv-container .table thead > tr > th, .splashSoccer #joomsport-container table.table tbody > tr > th {
+    background-color: #4f575e;
+    border-bottom: 2px solid #d2d2d2;
+}
+
+.splashSoccer #joomsport-container .jsBoxStatDIvFE > thead > tr > th {
+    background-color: #f08c00;
+}
+
+.splashSoccer #joomsport-container .table-responsive .table td a, .splashSoccer #joomsport-container table.jstblevwid td a, .splashSoccer #joomsport-container .jsBoxStatDIvFE td a, .splashSoccer #joomsport-container #stab_overview table.tblPosition td a, .splashSoccer #joomsport-achv-container .table td a {
+    color: #fff;
+    font-weight: 700;
+}
+
+.splashSoccer #joomsport-container .table-responsive .table td a:hover, .splashSoccer #joomsport-container table.jstblevwid td a:hover, .splashSoccer #joomsport-container #stab_overview table.tblPosition td a:hover, .splashSoccer #joomsport-achv-container .table td a:hover, .splashSoccer #joomsport-container .jsBoxStatDIvFE td a:hover, .splashSoccer #joomsport-container .table-responsive .table td a:focus, .splashSoccer #joomsport-container table.jstblevwid td a:focus, .splashSoccer #joomsport-container #stab_overview table.tblPosition td a:focus, .splashSoccer #joomsport-achv-container .table td a:focus, .splashSoccer #joomsport-container .jsBoxStatDIvFE td a:focus {
+    color: #ff9500;
+}
+
+/*Tables of team tabs*/
+.splashSoccer #joomsport-container .jsMatchDivMain.jstable {
+    border-spacing: 0 10px;
+}
+
+.splashSoccer #joomsport-container .tab-content #stab_overview table tbody tr, .splashSoccer #joomsport-container .jsMatchDivMain.jstable .jstable-row {
+    background-color: #3a4147
+}
+
+.splashSoccer #joomsport-container .jsMatchDivMain.jstable .jstable-row:hover .jsMatchDivTime {
+    background-color: #ff9500;
+}
+
+.splashSoccer #joomsport-container .jsMatchDivMain.jstable .jstable-row:hover .jsMatchDivTime > .jsDivLineEmbl {
+    border-bottom: solid 3px #fff;
+}
+
+.splashSoccer #joomsport-container .tab-content #stab_overview table td {
+    border-bottom: 2px solid #ff9500;
+}
+
+.splashSoccer #joomsport-container .jsMatchDivMain.jstable .jstable-row .jstable-cell {
+    border-bottom: none;
+}
+
+/*Squad*/
+.splashSoccer #joomsport-container #stab_squad .jsOverflowHidden .jstable {
+    color: #fff;
+}
+
+.splashSoccer #joomsport-container #stab_squad .jsOverflowHidden .jstable .jstable-row {
+    background-color: #3a4147;
+}
+
+.splashSoccer #joomsport-container #stab_squad .jsOverflowHidden .jstable .jstable-cell {
+    border-bottom: 2px solid #ff9500;
+    font-weight: 400;
+}
+
+.splashSoccer #joomsport-container #stab_squad .jsOverflowHidden .jstable .jstable-cell a {
+    color: #fff;
+    font-weight: 700;
+}
+
+.splashSoccer #joomsport-container #stab_squad .jsOverflowHidden .jstable .jstable-cell a:hover, .splashSoccer #joomsport-container #stab_squad .jsOverflowHidden .jstable .jstable-cell a:focus {
+    color: #ff9500;
+    text-decoration: none;
+}
+
+/*Calendar*/
+.splashSoccer #joomsport-container .jsMatchDivMain .jsMatchDivTime > .jsDivLineEmbl {
+    border-bottom: solid 3px #ff9500;
+}
+
+.splashSoccer #joomsport-container .jsMatchDivMain .jsMatchDivScore > .jsScoreDiv a {
+    font-size: 20px;
+}
+
+.splashSoccer #joomsport-container .jsMatchDivMain, .splashSoccer #joomsport-container .jsMatchDivMain .jsMatchDivHome a, .splashSoccer #joomsport-container .jsMatchDivMain .jsMatchDivAway a, .splashSoccer #joomsport-container .jsMatchDivMain .jsMatchDivScore a {
+    color: #fff;
+}
+
+.splashSoccer #joomsport-container .jsMatchDivMain .jsMatchDivHome, .splashSoccer #joomsport-container .jsMatchDivMain .jsMatchDivAway, .splashSoccer #joomsport-container .jsMatchDivMain .jsMatchDivScore {
+    font-size: 15px;
+}
+
+.splashSoccer #joomsport-container .jsMatchDivMain .jsMatchDivHome a:hover, .splashSoccer #joomsport-container .jsMatchDivMain .jsMatchDivHome a:focus, .splashSoccer #joomsport-container .jsMatchDivMain .jsMatchDivAway a:hover, .splashSoccer #joomsport-container .jsMatchDivMain .jsMatchDivAway a:focus, .splashSoccer #joomsport-container .jsMatchDivMain .jsMatchDivScore a:hover, .splashSoccer #joomsport-container .jsMatchDivMain .jsMatchDivScore a:focus {
+    color: #ff9500;
+}
+
+/*Knockout*/
+.splashSoccer #joomsport-container .drawBracketContainerBE .player div.knockscore > a:hover {
+    background-color: #f08c00;
+}
+
+.splashSoccer #joomsport-container .drawBracketContainerBE .knIsHover .js_div_particName > a {
+    color: #f08c00;
+}
+
+/*Roster*/
+.splashSoccer #joomsport-container .jsplayerCart a:hover .namePlayerCart .js_div_particName {
+    color: #ff9500;
+}
+
+.splashSoccer #joomsport-container .namePlayerCart, .splashSoccer #joomsport-container .namePlayerCart > div {
+    position: relative;
+}
+
+.splashSoccer #joomsport-container .namePlayerCart {
+    width: auto;
+    min-height: auto;
+    background-color: #3f4851;
+    border-right: none;
+}
+
+.splashSoccer #joomsport-container .namePlayerCart > div {
+    left: 0;
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+}
+
+.splashSoccer #joomsport-container .namePlayerCart .LeftnamePlayerCart > div {
+    display: block;
+    line-height: 1.4;
+}
+
+.splashSoccer #joomsport-container .namePlayerCart .LeftnamePlayerCart > .PlayerCardPos {
+    color: #bdbdbd;
+}
+
+.splashSoccer #joomsport-container .namePlayerCart .LeftnamePlayerCart > .PlayerCardFIO, .splashSoccer #joomsport-container .namePlayerCart .PlayerCardPlNumber {
+    font-size: 18px;
+}
+
+.splashSoccer #joomsport-container .namePlayerCart .PlayerCardPlNumber {
+    padding-left: 3px;
+    padding-right: 6px;
+    background-color: #ff9500;
+}
+
+.splashSoccer #joomsport-container .namePlayerCart .PlayerCardPlNumber:after {
+    content: '';
+    position: absolute;
+    left: -11px;
+    top: 0;
+    border-bottom: 40px solid #ff9500;
+    border-left: 11px solid transparent;
+}
+
+.splashSoccer #joomsport-container .namePlayerCart .PlayerCardPlNumber:before {
+    content: "\e919";
+    font-family: 'stm-splash-icons';
+    line-height: normal;
+    text-transform: none;
+}
+
+/*Match page*/
+.splashSoccer #joomsport-container #jsMatchViewID .jsMatchScore {
+    display: table;
+    width: 100%;
+    margin-bottom: 50px;
+    background: none;
+    background-color: #ededed;
+    font-family: Oswald;
+}
+
+.splashSoccer #joomsport-container #jsMatchViewID .jsMatchScore > .heading {
+    display: table-footer-group;
+    padding: 7px 0;
+    background-color: #3f4851;
+    font-size: 13px;
+}
+
+.splashSoccer #joomsport-container #jsMatchViewID .jsMatchScore > .heading .matchdtime {
+    text-align: right;
+    color: #fff;
+}
+
+.splashSoccer #joomsport-container #jsMatchViewID .jsMatchScore > .heading .matchdtime > i {
+    font-size: 15px;
+    padding-right: 10px;
+}
+
+.splashSoccer #joomsport-container #jsMatchViewID .jsMatchScore > .heading .matchvenue {
+    text-align: left;
+    color: #fff;
+}
+
+.splashSoccer #joomsport-container #jsMatchViewID .jsMatchScore > .heading .matchvenue > i {
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.splashSoccer #joomsport-container #jsMatchViewID .jsMatchScore > .jsmatchHeader {
+    display: table-header-group;
+    padding: 0;
+    background-color: transparent;
+}
+
+.splashSoccer #joomsport-container #jsMatchViewID .jsMatchScore > .jsmatchHeader > .jstable {
+    margin-top: 15px;
+}
+
+.splashSoccer #joomsport-container #jsMatchViewID .jsMatchScore > .jsmatchHeader .jsMatchPartName > a {
+    font-size: 20px;
+    font-weight: 400;
+    color: #151618;
+}
+
+.splashSoccer #joomsport-container #jsMatchViewID .jsMatchScore > .jsmatchHeader .jsDivCenter {
+    padding-top: 5px;
+    padding-bottom: 15px;
+    color: #ff9500;
+}
+
+.splashSoccer #joomsport-container #jsMatchViewID .jsMatchScore > .jsmatchHeader .jsScoreDivMap {
+    font-size: 17px;
+    text-shadow: none;
+}
+
+.splashSoccer #joomsport-container #jsMatchViewID .jsmatchHeader .jsScoreDivM > div {
+    width: 40%;
+    background: #ff9500;
+    position: relative;
+    font-weight: bold;
+}
+
+.splashSoccer #joomsport-container #jsMatchViewID .jsmatchHeader .jsScoreDivM > div:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+}
+
+.splashSoccer #joomsport-container #jsMatchViewID .jsmatchHeader .jsScoreDivM > .BigMScore1 {
+    margin-right: 10%;
+}
+
+.splashSoccer #joomsport-container #jsMatchViewID .jsmatchHeader .jsScoreDivM > .BigMScore1:after {
+    right: -15px;
+    border-left: 15px solid #ff9500;
+}
+
+.splashSoccer #joomsport-container #jsMatchViewID .jsmatchHeader .jsScoreDivM > .BigMScore2 {
+    margin-left: 10%;
+}
+
+.splashSoccer #joomsport-container #jsMatchViewID .jsmatchHeader .jsScoreDivM > .BigMScore2:after {
+    left: -15px;
+    border-right: 15px solid #ff9500;
+}
+
+.splashSoccer #joomsport-container #jsMatchViewID .jsmatchHeader .jsMatchPartName {
+    position: relative;
+}
+
+.splashSoccer #joomsport-container #jsMatchViewID .jsmatchHeader .jsMatchPartName:after {
+    content: '';
+    position: absolute;
+    left: 10px;
+    bottom: 15px;
+    display: block;
+    width: 90px;
+    margin-top: 7px;
+    border-bottom: 3px solid #ff9500;
+}
+
+.splashSoccer #joomsport-container #jsMatchViewID .jsmatchHeader .jsMatchPartName[style="text-align: right;"]:after {
+    left: auto;
+    right: 10px;
+}
+
+.splashSoccer #joomsport-container #jsMatchViewID .tabs .jsTeamStat .jstable > .jsColTeamEvents .teamEventGraph > div.jsGray {
+    background-color: #ff9500;
+}
+
+.splashSoccer #joomsport-container #jsMatchViewID .tabs .jsTeamStat .jstable > .jsColTeamEvents .teamEventGraph, .splashSoccer #joomsport-container #jsMatchViewID .tabs .jsTeamStat .jstable > .jsColTeamEvents .teamEventGraph > div {
+    border-radius: 10px;
+}
+
+.splashSoccer #joomsport-container .jsTblVerticalTimeLine {
+    border-collapse: separate;
+    border-spacing: 0 15px;
+}
+
+.splashSoccer #joomsport-container .table-responsive .jsTblVerticalTimeLine.table > tbody > tr {
+    background: rgba(255, 255, 255, 1);
+    background: -moz-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(204, 204, 204, 1) 50%, rgba(255, 255, 255, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(50%, rgba(204, 204, 204, 1)), color-stop(100%, rgba(255, 255, 255, 1)));
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(204, 204, 204, 1) 50%, rgba(255, 255, 255, 1) 100%);
+    background: -o-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(204, 204, 204, 1) 50%, rgba(255, 255, 255, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(204, 204, 204, 1) 50%, rgba(255, 255, 255, 1) 100%);
+    background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(204, 204, 204, 1) 50%, rgba(255, 255, 255, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1);
+}
+
+.splashSoccer #joomsport-container .jsTblVerticalTimeLine.table td a {
+    color: #595959;
+}
+
+.splashSoccer #joomsport-container .jsTblVerticalTimeLine > tbody > tr > td.wphiddenjs {
+    visibility: hidden;
+}
+
+.splashSoccer #joomsport-container .jsTblVerticalTimeLine > tbody > tr > td.jstimeevent {
+    position: relative;
+    width: 5%;
+    background-color: #4f575e;
+    border: none;
+}
+
+.splashSoccer #joomsport-container .jsTblVerticalTimeLine > tbody > tr > td.jstimeevent:after {
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    height: 15px;
+    left: 50%;
+    border-left: 2px solid #4f575e;
+}
+
+.splashSoccer #joomsport-container .jsTblVerticalTimeLine > tbody > tr:last-child > td.jstimeevent:after {
+    display: none;
+}
+
+/*JoomSport archivements*/
+.splashSoccer #joomsport-achv-container .table-striped > tbody > tr {
+    background-color: #4f575e;
+}
+
+.splashSoccer #joomsport-achv-container .table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: #2a3138;
+}
+
+.splashSoccer #joomsport-achv-container .table-striped > tbody > tr > td {
+    border-top: none;
+}
+
+/*JoomSport prediction*/
+body[class*="single-jswprediction"].splashSoccer #joomsport-container .jstable .jstable-row {
+    background-color: #3a4147;
+}
+
+body[class*="single-jswprediction"].splashSoccer #joomsport-container .jstable .jstable-row .jstable-cell {
+    border-bottom: 2px solid #ff9500;
+    color: #fff;
+}
+
+body[class*="single-jswprediction"].splashSoccer #joomsport-container .jstable .jstable-row .jstable-cell a {
+    color: #fff;
+    font-size: 15px;
+}
+
+body[class*="single-jswprediction"].splashSoccer #joomsport-container .jstable .jstable-row .jstable-cell a:hover, body[class*="single-jswprediction"].splashSoccer #joomsport-container .jstable .jstable-row .jstable-cell a:focus {
+    color: #ff9500;
+}
+
+body[class*="single-jswprediction"].splashSoccer #joomsport-container .jstable .jstable-row:first-child {
+    background-color: #4f575e;
+}
+
+body[class*="single-jswprediction"].splashSoccer #joomsport-container .jstable .jstable-row:first-child .jstable-cell {
+    border-bottom: 2px solid #d2d2d2;
+}
+
+body[class*="single-jswprediction"].splashSoccer #joomsport-container #jspRoundSave {
+    border-radius: 0;
+}
+
+/*Widgets/shortcodes*/
+.splashSoccer #joomsport-container .jsmainscroll * {
+    color: #fff;
+    font-family: Arial;
+}
+
+.splashSoccer #joomsport-container .jsmainscroll .jsmatchseason, .splashSoccer #joomsport-container .jsmainscroll .jsmatchdate {
+    font-size: 13px;
+    line-height: 21px;
+}
+
+.splashSoccer #joomsport-container .jsmainscroll .jsview1 li {
+    background-color: #252b32;
+}
+
+.splashSoccer #joomsport-container .jsmainscroll .jsview1 li .jsmatchcont > div, .splashSoccer #joomsport-container.jsSliderContainer .jsmainscroll .jsview2, .splashSoccer #joomsport-container.jsDefaultContainer .jsmainscroll .jsview2 .jsmatchdate, .splashSoccer #joomsport-container.jsDefaultContainer .jsmainscroll .jsview2 .jsmatchseason {
+    background-color: #394149;
+}
+
+.splashSoccer #joomsport-container .jsmainscroll .jsview1 li .jsmatchcont > .jsmatchdate {
+    min-height: 34px;
+    border-bottom: 3px solid #ff9500;
+}
+
+.splashSoccer #joomsport-container.jsSliderContainer .jsmainscroll > div {
+    border: none;
+    background: url(../images/soccer/about_block_bg.png);
+    padding: 30px 0;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+
+.splashSoccer #joomsport-container.jsSliderContainer .jsmainscroll .jsview1 li {
+    min-height: 205px;
+    margin: 10px 5px;
+}
+
+.splashSoccer #joomsport-container.jsSliderContainer .jsmainscroll .jsview1 li .jsmatchcont > table {
+    margin-top: 10px;
+}
+
+.splashSoccer #joomsport-container.jsSliderContainer .jsmainscroll .jsview2 table td.tdminwdt {
+    padding-bottom: 0;
+}
+
+.splashSoccer #joomsport-container.jsDefaultContainer .jsmainscroll .jsview1 ul {
+    text-align: center;
+}
+
+.splashSoccer #joomsport-container.jsDefaultContainer .jsmainscroll .jsview1 li {
+    display: inline-block;
+    padding: 5px;
+}
+
+.splashSoccer #joomsport-container.jsDefaultContainer .jsmainscroll .jsview1 li > .jsmatchcont, .splashSoccer #joomsport-container.jsDefaultContainer > .jsmainscroll .jsview2 table tr {
+    border-bottom: none;
+    background-color: transparent;
+}
+
+.splashSoccer #joomsport-container.jsDefaultContainer .jsmainscroll .jsview1 table {
+    margin: 10px;
+}
+
+.splashSoccer #joomsport-container.jsDefaultContainer .jsmainscroll .jsview1 table .js_div_particName {
+    text-align: left;
+}
+
+.splashSoccer #joomsport-container.jsDefaultContainer .jsmainscroll .jsview2 table tr {
+    background-color: #252b32;
+}
+
+.splashSoccer #joomsport-container.jsDefaultContainer .jsmainscroll .jsmatchseason {
+    padding-top: 5px;
+}
+
+.splashSoccer #joomsport-container .jsmainscroll table td a {
+    color: #fff;
+    font-family: Oswald;
+}
+
+.splashSoccer #joomsport-container .jsmainscroll table td a:hover, .splashSoccer .widget #joomsport-container.jsDefaultContainer > .jsmainscroll table td a:focus {
+    color: #ff9500;
+}
+
+.splashSoccer #joomsport-container .jsmainscroll table .scoreScrMod a {
+    min-width: 34px;
+}
+
+.splashSoccer #joomsport-container .jsmainscroll table .jsScoreDiv {
+    font-size: 30px;
+    min-width: 125px;
+}
+
+.splashSoccer #joomsport-container .jsmainscroll table.jsMNS .scoreScrMod > a {
+    color: #fff;
+}
+
+.splashSoccer #joomsport-container .jsmainscroll table.jsMNS .scoreScrMod > a:hover {
+    background-color: #f08c00;
+}
+
+.splashSoccer .widget #joomsport-container .table-responsive .table > tbody > tr > td, .splashSoccer .widget #joomsport-container table.jstblevwid tr > td {
+    border-bottom: none;
+}
+
+.splashSoccer .widget #joomsport-container .jsmainscroll .jsview1 table td.tdminwdt {
+    min-width: 120px;
+}
+
+.splashSoccer .widget #joomsport-container .jsmainscroll .jsview1 table td.tdminembl img {
+    max-width: 35px !important;
+}
+
+.splashSoccer .widget #joomsport-container .jsmainscroll table .jsScoreDiv {
+    min-width: inherit;
+    padding: 0 10px;
+    font-size: inherit;
+}
+
+.splashSoccer .widget #joomsport-container.jsSliderContainer .jsmainscroll > div {
+    padding: 0;
+}
+
+.splashSoccer .widget #joomsport-container.jsSliderContainer .jsmainscroll .jsview1 li {
+    min-height: 180px;
+    margin: 0 3px;
+}
+
+.splashSoccer .widget #joomsport-container.jsSliderContainer .jsmainscroll .jsview1 li .jsmatchcont > table {
+    margin: 10px 2px 0;
+}
+
+.splashSoccer .widget #joomsport-container.jsDefaultContainer > .jsmainscroll table td.tdminwdt {
+    padding: 4px;
+}
+
+/*_______AMERICAN FOOTBALL THEME JOOMSPORT_______*/
+body[class*="joomsport"].splashAmericanFootball .stm-single-post .container .row .col-md-9 .stm-single-post-meta, body[class*="jsprt_achv"].splashAmericanFootball .stm-single-post .container .row .col-md-9 .stm-single-post-meta, body[class*="jswprediction"].splashAmericanFootball .stm-single-post .container .row .col-md-9 .stm-single-post-meta {
+    display: none;
+}
+
+body.splashAmericanFootball #joomsport-container, body #joomsport-achv-container, .splashAmericanFootball #joomsport-container .seasonTable {
+    font-family: "Roboto";
+}
+
+body.splashAmericanFootball #joomsport-container a {
+    color: #009bdc;
+}
+
+body.splashAmericanFootball #joomsport-container a:hover, body.splashAmericanFootball #joomsport-container a:focus {
+    color: #009bdc;
+}
+
+/*Buttons*/
+.splashAmericanFootball #joomsport-container a.btn, .splashAmericanFootball #joomsport-container .navbar-nav a.btn, .splashAmericanFootball #joomsport-container button.btn, .splashAmericanFootball #joomsport-achv-container a.btn, .splashAmericanFootball #joomsport-achv-container .navbar-nav a.btn, .splashAmericanFootball #joomsport-achv-container button.btn, .splashAmericanFootball #joomsport-container.jsSliderContainer > .jsmainscroll > button {
+    border-color: #da9a29;
+    border-radius: 0;
+    background-color: #da9a29;
+    letter-spacing: .6px;
+    -webkit-transition: all .5s cubic-bezier(0, 0, .58, 1) !important;
+    transition: all .5s cubic-bezier(0, 0, .58, 1) !important;
+    overflow: hidden;
+}
+
+.splashAmericanFootball #joomsport-container #jsFilterMatches button.btn, .splashAmericanFootball #joomsport-container.jsSliderContainer > .jsmainscroll > button {
+    background-color: #da9a29 !important;
+}
+
+.splashAmericanFootball #joomsport-container #jsFilterMatches button.btn:hover, .splashAmericanFootball #joomsport-container #jsFilterMatches button.btn:focus, .splashAmericanFootball #joomsport-container.jsSliderContainer > .jsmainscroll > button:hover, .splashAmericanFootball #joomsport-container.jsSliderContainer > .jsmainscroll > button:focus {
+    background-color: #06083b !important;
+}
+
+.splashAmericanFootball #joomsport-container.jsSliderContainer > .jsmainscroll > button path {
+    fill: #fff !important;
+}
+
+.splashAmericanFootball #joomsport-container a.btn:before, .splashAmericanFootball #joomsport-container .navbar-nav a.btn:before, .splashAmericanFootball #joomsport-container button.btn:before, .splashAmericanFootball #joomsport-achv-container a.btn:before, .splashAmericanFootball #joomsport-achv-container .navbar-nav a.btn:before, .splashAmericanFootball #joomsport-achv-container button.btn:before, .splashAmericanFootball #joomsport-container.jsSliderContainer > .jsmainscroll > button:before {
+    background-color: #06083b;
+    opacity: 0;
+    -webkit-transition: all .5s cubic-bezier(0, 0, .58, 1) !important;
+    transition: all .5s cubic-bezier(0, 0, .58, 1) !important;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-transition: -webkit-transform .4s, opacity .4s;
+    -webkit-transition: opacity .4s, -webkit-transform .4s;
+    transition: opacity .4s, -webkit-transform .4s;
+    transition: transform .4s, opacity .4s;
+    transition: transform .4s, opacity .4s, -webkit-transform .4s;
+    -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+    transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+}
+
+.splashAmericanFootball #joomsport-container a.btn:hover, .splashAmericanFootball #joomsport-container button.btn:hover, .splashAmericanFootball #joomsport-container a.btn:focus, .splashAmericanFootball #joomsport-container button.btn:focus, .splashAmericanFootball #joomsport-container a.btn:active, .splashAmericanFootball #joomsport-container button.btn:active, .splashAmericanFootball #joomsport-container a.btn:active:hover, .splashAmericanFootball #joomsport-container button.btn:active:hover, .splashAmericanFootball #joomsport-container .navbar-nav a.btn:hover, .splashAmericanFootball #joomsport-achv-container a.btn:hover, .splashAmericanFootball #joomsport-achv-container button.btn:hover, .splashAmericanFootball #joomsport-achv-container a.btn:focus, .splashAmericanFootball #joomsport-achv-container button.btn:focus, .splashAmericanFootball #joomsport-achv-container a.btn:active, .splashAmericanFootball #joomsport-achv-container button.btn:active, .splashAmericanFootball #joomsport-achv-container a.btn:active:hover, .splashAmericanFootball #joomsport-achv-container button.btn:active:hover, .splashAmericanFootball #joomsport-achv-container .navbar-nav a.btn:hover, .splashAmericanFootball #joomsport-container.jsSliderContainer > .jsmainscroll > button:hover, .splashAmericanFootball #joomsport-container.jsSliderContainer > .jsmainscroll > button:focus {
+    border: solid 2px #06083b;
+    background-color: #06083b;
+    color: #fff;
+}
+
+.splashAmericanFootball #joomsport-container a.btn:hover:before, .splashAmericanFootball #joomsport-container button.btn:hover:before, .splashAmericanFootball #joomsport-container a.btn:focus:before, .splashAmericanFootball #joomsport-container button.btn:focus:before, .splashAmericanFootball #joomsport-container a.btn:active:before, .splashAmericanFootball #joomsport-container button.btn:active:before, .splashAmericanFootball #joomsport-container a.btn:active:hover:before, .splashAmericanFootball #joomsport-container button.btn:active:hover:before, .splashAmericanFootball #joomsport-container .navbar-nav a.btn:hover:before, .splashAmericanFootball #joomsport-achv-container a.btn:hover:before, .splashAmericanFootball #joomsport-achv-container button.btn:hover:before, .splashAmericanFootball #joomsport-achv-container a.btn:focus:before, .splashAmericanFootball #joomsport-achv-container button.btn:focus:before, .splashAmericanFootball #joomsport-achv-container a.btn:active:before, .splashAmericanFootball #joomsport-achv-container button.btn:active:before, .splashAmericanFootball #joomsport-achv-container a.btn:active:hover:before, .splashAmericanFootball #joomsport-achv-container button.btn:active:hover:before, .splashAmericanFootball #joomsport-achv-container .navbar-nav a.btn:hover:before, .splashAmericanFootball #joomsport-container.jsSliderContainer > .jsmainscroll > button:hover:before {
+    width: 100%;
+    left: 100%;
+    background: #06083b;
+    -webkit-transform: scale3d(0.7, 1, 1);
+    transform: scale3d(0.7, 1, 1);
+    opacity: 1;
+}
+
+/*Tabs*/
+.splashAmericanFootball #joomsport-container .tabs .nav-tabs {
+    font-size: 16px;
+    font-family: Oswald;
+}
+
+.splashAmericanFootball #joomsport-container .tabs .nav-tabs > li > a {
+    color: #06083b !important;
+    font-weight: 400;
+}
+
+.splashAmericanFootball #joomsport-container .page-content-js .nav-tabs > li.active > a, .splashAmericanFootball #joomsport-container .page-content-js .tabs .nav-tabs > li.active > a:hover, .splashAmericanFootball #joomsport-container .page-content-js .tabs .nav-tabs > li.active > a:focus {
+    border-color: #da9a29;
+}
+
+/*Pagination*/
+.splashAmericanFootball #joomsport-container ul.paginationJS > li > a, .splashAmericanFootball #joomsport-container .paginationJS > li > span {
+    margin: 0;
+    color: #06083b;
+    border: 0;
+    border-radius: 0;
+}
+
+.splashAmericanFootball #joomsport-container ul.paginationJS > li.active > a, .splashAmericanFootball #joomsport-container .paginationJS > li.active > span, .splashAmericanFootball #joomsport-container .paginationJS > li.active > a:hover {
+    background-color: #f0f0f0;
+    color: #06083b;
+    opacity: .5;
+}
+
+.splashAmericanFootball #joomsport-container ul.paginationJS > li > a:hover, .splashAmericanFootball #joomsport-container .paginationJS > li > span:hover, .splashAmericanFootball #joomsport-container li.paginationJS > .active > span:hover {
+    background-color: #da9a29;
+    border: none;
+}
+
+.splashAmericanFootball #joomsport-container ul.paginationJS > li > a[aria-label="Previous"], .splashAmericanFootball #joomsport-container ul.paginationJS > li > a[aria-label="Next"] {
+    font-size: 18px;
+}
+
+.splashAmericanFootball #joomsport-container ul.paginationJS > li > a[aria-label="Previous"]:hover, .splashAmericanFootball #joomsport-container ul.paginationJS > li > a[aria-label="Next"]:hover {
+    color: #06083b;
+}
+
+/*Select box*/
+.splashAmericanFootball #joomsport-container select + .select2 > .selection > .select2-selection, .splashAmericanFootball #joomsport-container .form-group input, .splashAmericanFootball .select2-container--default .select2-selection--single, .splashAmericanFootball #joomsport-container #jspRound input[type="number"], .splashAmericanFootball .select2-container--default .select2-search--dropdown .select2-search__field {
+    background-color: #f0f0f0;
+    border: none;
+    height: 50px;
+    border-radius: 0;
+}
+
+.splashAmericanFootball #joomsport-container select + .select2 > .selection > .select2-selection > .select2-selection__rendered, .splashAmericanFootball .select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #151515;
+    line-height: 48px;
+}
+
+.splashAmericanFootball #joomsport-container select + .select2 > .selection > .select2-selection > .select2-selection__arrow, .splashAmericanFootball .select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 48px;
+}
+
+/*Info-block*/
+.splashAmericanFootball #joomsport-container .tabs .extrafldcn, .splashAmericanFootball #joomsport-achv-container .page-content-js .well.extrafldcn {
+    border: none;
+    padding: 0;
+    background-color: transparent;
+}
+
+.splashAmericanFootball #joomsport-container .tabs .extrafldcn div.jstable-row:nth-child(2n-1), .splashAmericanFootball #joomsport-achv-container .page-content-js .well.extrafldcn div.jstable-row:nth-child(2n-1) {
+    background-color: #f0f0f0;
+}
+
+.splashAmericanFootball #joomsport-container .tabs .extrafldcn a {
+    color: #06083b;
+    font-weight: 700;
+}
+
+/*Table*/
+.splashAmericanFootball #joomsport-container table tr > td, #joomsport-achv-container table tr > td {
+    color: #404040;
+}
+
+.splashAmericanFootball #joomsport-container .table-responsive .table > tbody > tr:nth-child(odd) > td, .splashAmericanFootball #joomsport-container table.jstblevwid tbody > tr:nth-child(odd) > td, .splashAmericanFootball #joomsport-container .table-responsive .jsBoxStatDIvFE tbody tr:nth-child(2n) > td, .splashAmericanFootball #joomsport-achv-container .table-responsive .table > tbody > tr:nth-of-type(odd) > td {
+    background-color: #f0f0f0;
+}
+
+.splashAmericanFootball #joomsport-container .table-responsive .table > tbody > tr:nth-child(even) > td, .splashAmericanFootball #joomsport-container table.jstblevwid tbody > tr:nth-child(even) > td, .splashAmericanFootball #joomsport-container .table-responsive .jsBoxStatDIvFE tbody tr > td, .splashAmericanFootball #joomsport-achv-container .table-responsive .table > tbody > tr > td {
+    background-color: #fff;
+}
+
+.splashAmericanFootball #joomsport-container .table-responsive .table > thead > tr > th, .splashAmericanFootball #joomsport-container table.jstblevwid tbody > tr > th, .splashAmericanFootball #joomsport-container .jsBoxStatDIvFE > thead > tr > th, .splashAmericanFootball #joomsport-container #stab_overview table.tblPosition thead > tr > th, .splashAmericanFootball #joomsport-achv-container .table thead > tr > th, .splashAmericanFootball #joomsport-container table.table tbody > tr > th {
+    padding: 15px 10px;
+    background-color: #da9a29;
+}
+
+.splashAmericanFootball #joomsport-container .table-responsive .table > thead > tr > th, .splashAmericanFootball #joomsport-container .table-responsive .table > thead > tr > th > *, .splashAmericanFootball #joomsport-container table.jstblevwid tbody > tr > th, .splashAmericanFootball #joomsport-container .jsBoxStatDIvFE > thead > tr > th, .splashAmericanFootball #joomsport-container #stab_overview table.tblPosition thead > tr > th, .splashAmericanFootball #joomsport-achv-container .table thead > tr > th > *, .splashAmericanFootball #joomsport-container table.table tbody > tr > th {
+    color: #06083b;
+    font-size: 16px;
+}
+
+.splashAmericanFootball #joomsport-container .table-responsive .table td a, .splashAmericanFootball #joomsport-container table.jstblevwid td a, .splashAmericanFootball #joomsport-container .jsBoxStatDIvFE td a, .splashAmericanFootball #joomsport-container #stab_overview table.tblPosition td a, .splashAmericanFootball #joomsport-achv-container .table td a {
+    color: #404040;
+}
+
+.splashAmericanFootball #joomsport-container .table-responsive .table td a:hover, .splashAmericanFootball #joomsport-container table.jstblevwid td a:hover, .splashAmericanFootball #joomsport-container #stab_overview table.tblPosition td a:hover, .splashAmericanFootball #joomsport-achv-container .table td a:hover, .splashAmericanFootball #joomsport-container .jsBoxStatDIvFE td a:hover, .splashAmericanFootball #joomsport-container .table-responsive .table td a:focus, .splashAmericanFootball #joomsport-container table.jstblevwid td a:focus, .splashAmericanFootball #joomsport-container #stab_overview table.tblPosition td a:focus, .splashAmericanFootball #joomsport-achv-container .table td a:focus, .splashAmericanFootball #joomsport-container .jsBoxStatDIvFE td a:focus {
+    color: #009bdc;
+}
+
+.splashAmericanFootball #joomsport-container .table-responsive .table > tbody > tr > td, .splashAmericanFootball #joomsport-container table.jstblevwid tbody > tr > td, .splashAmericanFootball #joomsport-container .jsBoxStatDIvFE tbody > tr > td, .splashAmericanFootball #joomsport-achv-container .table-responsive .table tbody > tr > td {
+    padding: 20px 10px;
+    font-size: 18px;
+}
+
+.splashAmericanFootball #joomsport-container .jsBoxStatDIvFE > thead > tr:last-child > th {
+    border-color: #06083b;
+}
+
+/*Tables of team tabs*/
+.splashAmericanFootball #joomsport-container .jsMatchDivMain.jstable {
+    border-spacing: 0 10px;
+}
+
+.splashAmericanFootball #joomsport-container .tab-content #stab_overview table tbody tr > td, .splashAmericanFootball #joomsport-container .jsMatchDivMain.jstable .jstable-row > .jstable-cell {
+    background-color: #f0f0f0;
+}
+
+.splashAmericanFootball #joomsport-container .jsMatchDivMain.jstable .jstable-row .jsMatchDivTime > .jsDivLineEmbl {
+    padding: 6px;
+    background-color: #06083b;
+    color: #fff;
+    font-weight: 700;
+}
+
+/*Squad*/
+.splashAmericanFootball #joomsport-container #stab_squad .jsOverflowHidden .jstable {
+    border-spacing: 0 10px;
+}
+
+.splashAmericanFootball #joomsport-container #stab_squad .jsOverflowHidden .jstable .jstable-row {
+    background-color: #f0f0f0;
+}
+
+.splashAmericanFootball #joomsport-container #stab_squad .jsOverflowHidden .jstable .jstable-cell, .splashAmericanFootball #joomsport-container #stab_squad .jsOverflowHidden .jstable .jstable-cell a {
+    color: #404040;
+}
+
+.splashAmericanFootball #joomsport-container #stab_squad .jsOverflowHidden .jstable .jstable-cell a:hover, #joomsport-container #stab_squad .jsOverflowHidden .jstable .jstable-cell a:focus {
+    color: #009bdc;
+}
+
+/*Calendar*/
+.splashAmericanFootball #joomsport-container .jsMatchDivMain .jsMatchDivHome a, .splashAmericanFootball #joomsport-container .jsMatchDivMain .jsMatchDivAway a, .splashAmericanFootball #joomsport-container .jsMatchDivMain .jsMatchDivScore a {
+    color: #06083b;
+}
+
+.splashAmericanFootball #joomsport-container .jsMatchDivMain .jsMatchDivHome a:hover, .splashAmericanFootball #joomsport-container .jsMatchDivMain .jsMatchDivHome a:focus, .splashAmericanFootball #joomsport-container .jsMatchDivMain .jsMatchDivAway a:hover, .splashAmericanFootball #joomsport-container .jsMatchDivMain .jsMatchDivAway a:focus, .splashAmericanFootball #joomsport-container .jsMatchDivMain .jsMatchDivScore a:hover, .splashAmericanFootball #joomsport-container .jsMatchDivMain .jsMatchDivScore a:focus {
+    color: #009bdc;
+}
+
+.splashAmericanFootball #joomsport-container .overviewBlocks h3, .splashAmericanFootball #joomsport-container #jsMatchViewID h3, .splashAmericanFootball #joomsport-container .jsMatchDivMain .js-mdname .jsrow-matchday-name, .splashAmericanFootball #joomsport-container #stab_statistic h3.jsCreerMatchStath3, .splashAmericanFootball #joomsport-container #stab_statistic .jscenter > h3 {
+    color: #404040;
+}
+
+/*Knockout*/
+.splashAmericanFootball #joomsport-container .drawBracketContainerBE .player div.knockscore > a {
+    background-color: #06083b;
+}
+
+.splashAmericanFootball #joomsport-container .drawBracketContainerBE .player div.knockscore > a:hover {
+    background-color: #da9a29;
+}
+
+.splashAmericanFootball #joomsport-container .drawBracketContainerBE .player {
+    background-color: #f0f0f0;
+}
+
+.splashAmericanFootball #joomsport-container .drawBracketContainerBE .player .knockplName a {
+    color: #06083b;
+}
+
+.splashAmericanFootball #joomsport-container .drawBracketContainerBE .knIsHover .js_div_particName > a {
+    color: #da9a29;
+}
+
+/*Roster*/
+.splashAmericanFootball #joomsport-container .namePlayerCart {
+    border-right: 2px solid #da9a29;
+    background-color: #06083b;
+}
+
+.splashAmericanFootball #joomsport-container .namePlayerCart .PlayerCardPlNumber {
+    background-color: #da9a29;
+}
+
+.splashAmericanFootball #joomsport-container .namePlayerCart .PlayerCardPos {
+    color: #da9a29;
+    font-size: 14px;
+}
+
+/*Match page*/
+.splashAmericanFootball #joomsport-container #jsMatchViewID .jsMatchScore {
+    width: 100%;
+    margin-bottom: 50px;
+    background: none;
+    background-color: #f0f0f0;
+    font-family: Oswald;
+}
+
+.splashAmericanFootball #joomsport-container #jsMatchViewID .jsMatchScore > .heading {
+    padding: 7px 0;
+    background-color: #44455b;
+    font-size: 13px;
+}
+
+.splashAmericanFootball #joomsport-container #jsMatchViewID .jsMatchScore > .heading .matchdtime {
+    text-align: right;
+    color: #fff;
+}
+
+.splashAmericanFootball #joomsport-container #jsMatchViewID .jsMatchScore > .heading .matchdtime > i {
+    font-size: 15px;
+    padding-right: 10px;
+}
+
+.splashAmericanFootball #joomsport-container #jsMatchViewID .jsMatchScore > .heading .matchvenue {
+    text-align: left;
+    color: #da9a29;
+}
+
+.splashAmericanFootball #joomsport-container #jsMatchViewID .jsMatchScore > .heading .matchvenue > i {
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.splashAmericanFootball #joomsport-container #jsMatchViewID .jsMatchScore > .jsmatchHeader {
+    padding: 15px 0;
+    background-color: transparent;
+}
+
+.splashAmericanFootball #joomsport-container #jsMatchViewID .jsMatchScore > .jsmatchHeader > .jstable {
+    margin-top: 15px;
+}
+
+.splashAmericanFootball #joomsport-container #jsMatchViewID .jsMatchScore > .jsmatchHeader .jsMatchPartName > a {
+    font-size: 28px;
+    font-weight: 400;
+    color: #06083b;
+}
+
+.splashAmericanFootball #joomsport-container #jsMatchViewID .jsMatchScore > .jsmatchHeader .jsDivCenter {
+    padding: 10px 0;
+    color: #da9a29;
+}
+
+.splashAmericanFootball #joomsport-container #jsMatchViewID .jsMatchScore > .jsmatchHeader .jsScoreDivMap {
+    font-size: 17px;
+    text-shadow: none;
+}
+
+.splashAmericanFootball #joomsport-container #jsMatchViewID .jsmatchHeader .jsMatchEmbl:first-child {
+    background: url(../images/helms/orange.png) no-repeat;
+}
+
+.splashAmericanFootball #joomsport-container #jsMatchViewID .jsmatchHeader .jsMatchEmbl:last-child {
+    background: url(../images/helms/black.png) no-repeat;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    -webkit-filter: FlipH;
+    filter: FlipH;
+    -ms-filter: FlipH;
+}
+
+.splashAmericanFootball #joomsport-container #jsMatchViewID .jsmatchHeader .jstable-row .jsMatchEmbl {
+    position: relative;
+    min-width: 120px;
+    min-height: 120px;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+
+.splashAmericanFootball #joomsport-container #jsMatchViewID .jsmatchHeader .jstable-row .jsMatchEmbl img {
+    position: absolute;
+    top: 25px;
+    width: 50px !important;
+    margin: 0 10px;
+}
+
+.splashAmericanFootball #joomsport-container #jsMatchViewID .jsmatchHeader .jsScoreDivM > div {
+    width: 44%;
+    font-weight: 700;
+}
+
+.splashAmericanFootball #joomsport-container #jsMatchViewID .jsmatchHeader .jsScoreDivM > .BigMScore1 {
+    line-height: 94px;
+    margin-right: 6%;
+    background-color: #da9a29;
+}
+
+.splashAmericanFootball #joomsport-container #jsMatchViewID .jsmatchHeader .jsScoreDivM > .BigMScore2 {
+    line-height: 94px;
+    margin-left: 6%;
+    background-color: #999;
+}
+
+.splashAmericanFootball #joomsport-container #jsMatchViewID .jsmatchHeader .jsMatchPartName[style="text-align: right;"]:after {
+    left: auto;
+    right: 10px;
+}
+
+.splashAmericanFootball #joomsport-container #jsMatchViewID .tabs .jsTeamStat .jstable > .jsColTeamEvents .teamEventGraph > div.jsGray {
+    background-color: #da9a29;
+}
+
+.splashAmericanFootball #joomsport-container #jsMatchViewID .tabs .jsTeamStat .jstable > .jsColTeamEvents .teamEventGraph > div.jsRed {
+    background-color: #999;
+}
+
+.splashAmericanFootball #joomsport-container #jsMatchViewID .tabs .jsTeamStat .jstable > .jsColTeamEvents .teamEventGraph, .splashAmericanFootball #joomsport-container #jsMatchViewID .tabs .jsTeamStat .jstable > .jsColTeamEvents .teamEventGraph > div {
+    border-radius: 0;
+}
+
+.splashAmericanFootball #joomsport-container .jsTblVerticalTimeLine {
+    border-collapse: separate;
+    border-spacing: 0 15px;
+}
+
+.splashAmericanFootball #joomsport-container .jsTblVerticalTimeLine tr > td {
+    background-color: transparent !important;
+    padding: 10px !important;
+}
+
+.splashAmericanFootball #joomsport-container .table-responsive .jsTblVerticalTimeLine.table > tbody > tr {
+    background: rgba(255, 255, 255, 1) !important;
+    background: -moz-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(204, 204, 204, 1) 50%, rgba(255, 255, 255, 1) 100%) !important;
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(50%, rgba(204, 204, 204, 1)), color-stop(100%, rgba(255, 255, 255, 1))) !important;
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(204, 204, 204, 1) 50%, rgba(255, 255, 255, 1) 100%) !important;
+    background: -o-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(204, 204, 204, 1) 50%, rgba(255, 255, 255, 1) 100%) !important;
+    background: -ms-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(204, 204, 204, 1) 50%, rgba(255, 255, 255, 1) 100%);
+    background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(204, 204, 204, 1) 50%, rgba(255, 255, 255, 1) 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1) !important;
+}
+
+.splashAmericanFootball #joomsport-container .jsTblVerticalTimeLine > tbody > tr > td.wphiddenjs {
+    visibility: hidden;
+}
+
+.splashAmericanFootball #joomsport-container .jsTblVerticalTimeLine > tbody > tr > td.jstimeevent {
+    position: relative;
+    width: 5%;
+    border: none;
+    background-color: #06083b !important;
+    color: #fff;
+}
+
+.splashAmericanFootball #joomsport-container .jsTblVerticalTimeLine > tbody > tr > td.jstimeevent:after {
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    height: 15px;
+    left: 50%;
+    border-left: 2px solid #06083b;
+}
+
+.splashAmericanFootball #joomsport-container .jsTblVerticalTimeLine > tbody > tr:last-child > td.jstimeevent:after {
+    display: none;
+}
+
+/*JoomSport archivements*/
+.splashAmericanFootball #joomsport-achv-container .table-striped > tbody > tr > td {
+    border-top: none;
+    padding: 20px 10px;
+}
+
+/*JoomSport prediction*/
+body[class*="single-jswprediction"].splashAmericanFootball #joomsport-container .jstable .jstable-row {
+    background-color: #f0f0f0;
+}
+
+body[class*="single-jswprediction"].splashAmericanFootball #joomsport-container .jstable .jstable-row .jstable-cell {
+    padding: 15px 10px;
+    color: #404040;
+}
+
+body[class*="single-jswprediction"].splashAmericanFootball #joomsport-container .jstable .jstable-row .jstable-cell a {
+    color: #404040;
+    font-size: 16px;
+}
+
+body[class*="single-jswprediction"].splashAmericanFootball #joomsport-container .jstable .jstable-row .jstable-cell a:hover, body[class*="single-jswprediction"].splashAmericanFootball #joomsport-container .jstable .jstable-row .jstable-cell a:focus {
+    color: #009bdc;
+}
+
+body[class*="single-jswprediction"].splashAmericanFootball #joomsport-container .jstable .jstable-row:first-child .jstable-cell {
+    background-color: #da9a29;
+    color: #06083b;
+}
+
+/*Widgets/shortcodes*/
+.splashAmericanFootball #joomsport-container .jsmainscroll table td {
+    background-color: transparent;
+}
+
+.splashAmericanFootball #joomsport-container .jsmainscroll table td a {
+    color: #06083b;
+}
+
+.splashAmericanFootball #joomsport-container .jsmainscroll table td a:hover, .splashAmericanFootball widget #joomsport-container.jsDefaultContainer > .jsmainscroll table td a:focus {
+    color: #009bdc;
+}
+
+.splashAmericanFootball #joomsport-container .jsmainscroll img.img-thumbnail {
+    max-width: 35px !important;
+}
+
+.splashAmericanFootball #joomsport-container > .jsmainscroll .jsmatchdate, .splashAmericanFootball #joomsport-container > .jsmainscroll .jsmatchseason, .splashAmericanFootball #joomsport-container.jsDefaultContainer > .jsmainscroll .jsmatchdate, .splashAmericanFootball #joomsport-container.jsDefaultContainer > .jsmainscroll .jsmatchseason {
+    background-color: #43445c;
+    color: #fff;
+}
+
+.splashAmericanFootball #joomsport-container .jsmainscroll .jsmatchdate {
+    min-height: 34px;
+}
+
+.splashAmericanFootball #joomsport-container .jsmainscroll .jsview1 .jsmatchcont, .splashAmericanFootball #joomsport-container.jsDefaultContainer .jsview1 li > .jsmatchcont {
+    background-color: #f2f2f2;
+    border: none;
+}
+
+.splashAmericanFootball #joomsport-container .jsmainscroll table.jsMNS {
+    min-height: 95px;
+    margin-top: 10px;
+}
+
+.splashAmericanFootball #joomsport-container.jsDefaultContainer .jsview1 li > .jsmatchcont {
+    padding: 10px;
+}
+
+.splashAmericanFootball #joomsport-container.jsDefaultContainer .jsview1 li > .jsmatchcont > div {
+    margin: -10px -10px 0;
+}
+
+.splashAmericanFootball #joomsport-container.jsDefaultContainer .jsmainscroll .jsview1 ul {
+    text-align: center;
+}
+
+.splashAmericanFootball #joomsport-container.jsDefaultContainer .jsmainscroll .jsview1 li {
+    display: inline-block;
+    max-width: 290px;
+    padding: 5px;
+}
+
+.splashAmericanFootball #joomsport-container.jsDefaultContainer .jsmainscroll .jsmatchseason {
+    padding-top: 5px;
+}
+
+.splashAmericanFootball #joomsport-container .jsmainscroll table.jsMNS .scoreScrMod > a {
+    background-color: #999;
+    min-width: 34px;
+    font-weight: 700;
+}
+
+.splashAmericanFootball #joomsport-container .jsmainscroll table.jsMNS .scoreScrMod > a:hover {
+    background-color: #da9a29;
+    color: #fff;
+}
+
+.splashAmericanFootball #joomsport-container.jsSliderContainer .jsmainscroll > div {
+    border: none;
+    background: url(../images/tmp/box_img_2.jpg);
+}
+
+.splashAmericanFootball #joomsport-container .jsmainscroll .jsview2 {
+    background-color: #040526;
+}
+
+.splashAmericanFootball #joomsport-container .jsmainscroll .jsview2 div.js_div_particName > a {
+    color: #fff;
+}
+
+.splashAmericanFootball #joomsport-container .jsmainscroll .jsview2 div.js_div_particName > a:hover {
+    color: #009bdc;
+}
+
+.splashAmericanFootball #joomsport-container.jsSliderContainer .jsmainscroll .jsview2 li {
+    margin: 0;
+}
+
+.splashAmericanFootball #joomsport-container.jsSliderContainer .jsmainscroll .jsview2 table {
+    width: auto;
+    margin: 0 20px;
+}
+
+.splashAmericanFootball #joomsport-container .jsmainscroll .jsview2 table td {
+    padding: 0;
+}
+
+.splashAmericanFootball #joomsport-container .jsmainscroll .jsview2 table td.tdminwdt > div {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.splashAmericanFootball #joomsport-container .jsmainscroll .jsview2 table tr td.tdminwdt {
+    padding: 20px 0;
+}
+
+.splashAmericanFootball #joomsport-container.jsSliderContainer .jsmainscroll .jsview2 table .jsmatchdate {
+    margin: 0 -20px;
+}
+
+.splashAmericanFootball #joomsport-container .jsmainscroll table .jsScoreDiv {
+    min-width: 105px;
+    margin: 0 15px;
+    padding: 10px;
+    font-size: 25px;
+    background-color: #da9a29;
+    color: #fff;
+}
+
+.splashAmericanFootball #joomsport-container .jsmainscroll table .jsScoreDiv a {
+    color: #fff !important;
+}
+
+.splashAmericanFootball #joomsport-container.jsDefaultContainer > .jsmainscroll .jsview2 table tr, .splashAmericanFootball #joomsport-container.jsDefaultContainer .jsview1 li > .jsmatchcont {
+    border: none;
+}
+
+.splashAmericanFootball .widget #joomsport-container .jsmainscroll .jsview2 table {
+    width: 100%;
+    margin: 0;
+    table-layout: fixed !important;
+}
+
+.splashAmericanFootball .widget #joomsport-container .jsmainscroll .jsview2 table td.tdminwdt {
+    padding: 10px 0;
+}
+
+.splashAmericanFootball .widget #joomsport-container .jsmainscroll .jsview2 table td.tdminwdt > div {
+    font-size: 14px;
+}
+
+.splashAmericanFootball .widget #joomsport-container .jsmainscroll table .jsScoreDiv {
+    min-width: auto;
+    margin: 0;
+    padding: 5px;
+    border-radius: 0;
+    font-size: 15px;
+}
+
+.splashAmericanFootball .widget #joomsport-container .jsmainscroll table .jsScoreDiv a {
+    font-weight: 700;
+}
+
+.splashAmericanFootball .widget #joomsport-container .jsmainscroll li {
+    margin: 0;
+    border-bottom: none;
+    padding: 0;
+}
+
+.splashAmericanFootball .widget #joomsport-container.jsSliderContainer .jsmainscroll > div {
+    background: #f2f2f2 !important;
+}
+
+.splashAmericanFootball .widget #joomsport-container.jsSliderContainer .jsmainscroll .jsview1 table.jsMNS {
+    margin-bottom: 5px;
+}
+
+.splashAmericanFootball .widget #joomsport-container.jsDefaultContainer .jsmainscroll .jsview1 li {
+    width: 100%;
+    padding: 5px 0;
+}
+
+.splashAmericanFootball .widget #joomsport-container.jsDefaultContainer .jsmainscroll .jsview1 table td.tdminwdt {
+    min-width: 110px;
+}
+
+.splashAmericanFootball .widget #joomsport-container .table-responsive .table > thead > tr > th, .splashAmericanFootball .widget #joomsport-container table.jstblevwid tbody > tr > th {
+    padding: 10px 5px;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.splashAmericanFootball .widget #joomsport-container .table-responsive .table > tbody > tr > td, .splashAmericanFootball .widget #joomsport-container table.jstblevwid tbody > tr > td {
+    padding: 5px;
+    font-size: 15px;
+    border-bottom: none;
+}
+
+/*Other*/
+.splashAmericanFootball #joomsport-container .jsOverXdiv {
+    margin-top: 20px;
+}
+
+.splashAmericanFootball #joomsport-container table {
+    margin-bottom: 0;
+}
+
+.splashAmericanFootball > #wrapper {
+    background-color: #fff;
+}
+
+.splashAmericanFootball .ui-datepicker td {
+    background: transparent;
+    padding: 1px;
+}
+
+/*_______BASEBALL THEME JOOMSPORT_______*/
+body[class*="joomsport"].splashBaseball .stm-single-post .container .row .col-md-9 .stm-single-post-meta, body[class*="jsprt_achv"].splashBaseball .stm-single-post .container .row .col-md-9 .stm-single-post-meta, body[class*="jswprediction"].splashBaseball .stm-single-post .container .row .col-md-9 .stm-single-post-meta {
+    display: none;
+}
+
+body.splashBaseball #joomsport-container, body #joomsport-achv-container, .splashBaseball #joomsport-container .seasonTable {
+    font-family: "Fira Sans Condensed";
+}
+
+body.splashBaseball #joomsport-container a {
+    color: #e21e22;
+}
+
+body.splashBaseball #joomsport-container a:hover, body.splashBaseball #joomsport-container a:focus {
+    color: #a10a0d;
+}
+
+/*Buttons*/
+.splashBaseball #joomsport-container a.btn, .splashBaseball #joomsport-container .navbar-nav a.btn, .splashBaseball #joomsport-container button.btn, .splashBaseball #joomsport-achv-container a.btn, .splashBaseball #joomsport-achv-container .navbar-nav a.btn, .splashBaseball #joomsport-achv-container button.btn {
+    border-radius: 0;
+    color: #fff;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0;
+}
+
+.splashBaseball #joomsport-container a.btn:hover, .splashBaseball #joomsport-container .navbar-nav a.btn:hover, .splashBaseball #joomsport-container button.btn:hover, .splashBaseball #joomsport-achv-container a.btn:hover, .splashBaseball #joomsport-achv-container .navbar-nav a.btn:hover, .splashBaseball #joomsport-achv-container button.btn:hover {
+    color: #262626;
+    border-color: #e21e22;
+}
+
+.splashBaseball #joomsport-container.jsSliderContainer > .jsmainscroll > button path {
+    fill: #fff;
+}
+
+.splashBaseball #joomsport-container.jsSliderContainer > .jsmainscroll > button:hover path, .splashBaseball #joomsport-container.jsSliderContainer > .jsmainscroll > button.disabled path {
+    fill: #262626;
+}
+
+.splashBaseball #joomsport-container.jsSliderContainer button[class^="js"] {
+    border: 2px solid #e21e22;
+    border-radius: 0;
+}
+
+.splashBaseball #joomsport-container.jsSliderContainer button.disabled:before {
+    background-color: transparent;
+}
+
+/*Tabs*/
+.splashBaseball #joomsport-container .tabs .nav-tabs > li > a {
+    color: #595959;
+}
+
+.splashBaseball #joomsport-container .page-content-js .nav-tabs > li > a:hover, .splashBaseball #joomsport-container .page-content-js .nav-tabs > li.active > a, .splashBaseball #joomsport-container .page-content-js .tabs .nav-tabs > li.active > a:hover, .splashBaseball #joomsport-container .page-content-js .tabs .nav-tabs > li.active > a:focus {
+    color: #e21e22;
+}
+
+.splashBaseball #joomsport-container .page-content-js .nav-tabs > li.active > a, .splashBaseball #joomsport-container .page-content-js .tabs .nav-tabs > li.active > a:hover, .splashBaseball #joomsport-container .page-content-js .tabs .nav-tabs > li.active > a:focus {
+    border-bottom: 2px solid #e21e22;
+}
+
+/*Pagination*/
+.splashBaseball #joomsport-container ul.paginationJS > li > a, .splashBaseball #joomsport-container ul.paginationJS > li > span {
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+}
+
+.splashBaseball #joomsport-container ul.paginationJS > li > a, .splashBaseball #joomsport-container ul.paginationJS > li > span, .splashBaseball #joomsport-container ul.paginationJS > li.active > a:hover {
+    background-color: #f4f4f4;
+    color: #262626;
+}
+
+.splashBaseball #joomsport-container ul.paginationJS > li > a:hover, .splashBaseball #joomsport-container ul.paginationJS > li > span:hover {
+    background-color: #e21e22;
+    color: #fff;
+}
+
+.splashBaseball #joomsport-container ul.paginationJS > li > a[aria-label="Previous"], .splashBaseball #joomsport-container ul.paginationJS > li > a[aria-label="Next"] {
+    margin: 0 5px;
+    font-size: 18px;
+}
+
+/*Select box*/
+.splashBaseball #joomsport-container select + .select2 > .selection > .select2-selection {
+    height: 55px;
+    border: 1px solid rgba(215, 215, 214, 0.7);
+    outline: none !important;
+    background: rgba(255, 255, 255, 0.7);
+    color: #151515;
+}
+
+/*Info-block*/
+.splashBaseball #joomsport-container .tabs .extrafldcn, #joomsport-achv-container .page-content-js .well.extrafldcn {
+    border: none;
+    padding-top: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.splashBaseball #joomsport-container .tabs .extrafldcn .jstable-row:nth-child(2n-1), .splashBaseball #joomsport-achv-container .page-content-js .well.extrafldcn .jstable-row:nth-child(2n-1) {
+    background-color: #f4f4f4;
+}
+
+.splashBaseball #joomsport-container .tabs .extrafldcn .jstable-row .jstable-cell:last-child, .splashBaseball #joomsport-achv-container .page-content-js .well.extrafldcn .jstable-row .jstable-cell:last-child {
+    min-width: 150px;
+}
+
+/*Table*/
+.splashBaseball #joomsport-container table, .splashBaseball #joomsport-achv-container table {
+    font-size: 16px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.splashBaseball #joomsport-container table tr > td, .splashBaseball #joomsport-achv-container table tr > td {
+    border-top: none !important;
+    color: #404040;
+}
+
+.splashBaseball #joomsport-container .table-responsive .table > tbody > tr:nth-child(odd), .splashBaseball #joomsport-container table.jstblevwid tbody > tr:nth-child(odd), .splashBaseball #joomsport-container .table-responsive .jsBoxStatDIvFE tbody tr:nth-child(2n), .splashBaseball #joomsport-achv-container .table-responsive .table > tbody > tr:nth-of-type(odd) {
+    background-color: #f4f4f4;
+}
+
+.splashBaseball #joomsport-container .table-responsive .table > tbody > tr:nth-child(even), .splashBaseball #joomsport-container table.jstblevwid tbody > tr:nth-child(even), .splashBaseball #joomsport-container .table-responsive .jsBoxStatDIvFE tbody tr, .splashBaseball #joomsport-achv-container .table-responsive .table > tbody > tr {
+    background-color: #fff;
+}
+
+.splashBaseball #joomsport-container .table-responsive .table > thead > tr > th, .splashBaseball #joomsport-container table.jstblevwid tbody > tr > th, .splashBaseball #joomsport-container .jsBoxStatDIvFE > thead > tr > th, .splashBaseball #joomsport-container #stab_overview table.tblPosition thead > tr > th, .splashBaseball #joomsport-achv-container .table thead > tr > th, .splashBaseball #joomsport-container table.table tbody > tr > th {
+    padding: 15px 10px;
+    border: 0;
+    background-color: #e21e22;
+}
+
+.splashBaseball #joomsport-container .table-responsive .table > thead > tr > th, .splashBaseball #joomsport-container .table-responsive .table > thead > tr > th > *, .splashBaseball #joomsport-container table.jstblevwid tbody > tr > th, .splashBaseball #joomsport-container .jsBoxStatDIvFE > thead > tr > th, .splashBaseball #joomsport-container #stab_overview table.tblPosition thead > tr > th, .splashBaseball #joomsport-achv-container .table thead > tr > th > *, .splashBaseball #joomsport-container table.table tbody > tr > th {
+    color: #fff;
+}
+
+.splashBaseball #joomsport-container .jsBoxStatDIvFE > thead > tr:last-child > th {
+    border-top: 1px solid #fff;
+}
+
+.splashBaseball #joomsport-container .table-responsive .table td a, .splashBaseball #joomsport-container table.jstblevwid td a, .splashBaseball #joomsport-container .jsBoxStatDIvFE td a, .splashBaseball #joomsport-container #stab_overview table.tblPosition td a, .splashBaseball #joomsport-achv-container .table td a {
+    color: #262626;
+    font-weight: 600;
+}
+
+.splashBaseball #joomsport-container .table-responsive .table td a:hover, .splashBaseball #joomsport-container table.jstblevwid td a:hover, .splashBaseball #joomsport-container #stab_overview table.tblPosition td a:hover, .splashBaseball #joomsport-achv-container .table td a:hover, .splashBaseball #joomsport-container .jsBoxStatDIvFE td a:hover, .splashBaseball #joomsport-container .table-responsive .table td a:focus, .splashBaseball #joomsport-container table.jstblevwid td a:focus, .splashBaseball #joomsport-container #stab_overview table.tblPosition td a:focus, .splashBaseball #joomsport-achv-container .table td a:focus, .splashBaseball #joomsport-container .jsBoxStatDIvFE td a:focus {
+    color: #a10a0d;
+}
+
+.splashBaseball #joomsport-container .jsBoxStatDIvFE tfoot tr td {
+    color: #fff;
+}
+
+/*Tables of team tabs*/
+.splashBaseball #joomsport-container .tab-content #stab_overview table, .splashBaseball #joomsport-container .jsMatchDivMain.jstable {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.splashBaseball #joomsport-container .tab-content #stab_overview table tbody tr, .splashBaseball #joomsport-container .jsMatchDivMain.jstable .jstable-row {
+    background-color: #ffffff;
+}
+
+.splashBaseball #joomsport-container .tab-content #stab_overview table td, .splashBaseball #joomsport-container .jsMatchDivMain.jstable .jstable-row .jstable-cell {
+    border-bottom: 1px solid #d9d9d9;
+    padding: 15px 10px;
+}
+
+/*Squad*/
+.splashBaseball #joomsport-container #stab_squad .jsOverflowHidden .jstable .jstable-row {
+    background-color: #f4f4f4;
+}
+
+.splashBaseball #joomsport-container #stab_squad .jsOverflowHidden .jstable .jstable-cell {
+    border-bottom: 1px solid #d9d9d9;
+    font-weight: normal;
+}
+
+.splashBaseball #joomsport-container #stab_squad .jsOverflowHidden .jstable .jstable-cell a {
+    color: #262626;
+    font-weight: 700;
+}
+
+.splashBaseball #joomsport-container #stab_squad .jsOverflowHidden .jstable .jstable-cell a:hover, .splashBaseball #joomsport-container #stab_squad .jsOverflowHidden .jstable .jstable-cell a:focus {
+    color: #a10a0d;
+    text-decoration: none;
+}
+
+/*Calendar*/
+.splashBaseball #joomsport-container .jsMatchDivMain .jsMatchDivTime > div {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #e21e22;
+    color: #fff;
+    font-weight: 700;
+}
+
+.splashBaseball #joomsport-container .jsMatchDivMain .jsMatchDivHome, .splashBaseball #joomsport-container .jsMatchDivMain .jsMatchDivAway {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.splashBaseball #joomsport-container .jsMatchDivMain .jsMatchDivScore {
+    width: 10%;
+    font-size: 23px;
+    color: #a10a0d;
+}
+
+.splashBaseball #joomsport-container .jsMatchDivMain .jsMatchDivScore > div {
+    min-width: 90px;
+}
+
+.splashBaseball #joomsport-container .jsMatchDivMain .jsMatchDivHome a, .splashBaseball #joomsport-container .jsMatchDivMain .jsMatchDivAway a, .splashBaseball #joomsport-container .jsMatchDivMain .jsMatchDivVenue a {
+    color: #262626;
+}
+
+.splashBaseball #joomsport-container .jsMatchDivMain .jsMatchDivScore a {
+    color: inherit;
+}
+
+.splashBaseball #joomsport-container .jsMatchDivMain .jsMatchDivHome a:hover, .splashBaseball #joomsport-container .jsMatchDivMain .jsMatchDivHome a:focus, .splashBaseball #joomsport-container .jsMatchDivMain .jsMatchDivAway a:hover, .splashBaseball #joomsport-container .jsMatchDivMain .jsMatchDivAway a:focus, .splashBaseball #joomsport-container .jsMatchDivMain .jsMatchDivVenue a:hover, .splashBaseball #joomsport-container .jsMatchDivMain .jsMatchDivVenue a:focus {
+    color: #e21e22;
+    text-decoration: none;
+}
+
+.splashBaseball #joomsport-container .jsMatchDivMain .jsMatchDivTime, .splashBaseball #joomsport-container .jsMatchDivMain .jsMatchDivVenue {
+    width: 15%;
+}
+
+.splashBaseball #joomsport-container .jsMatchDivMain .jsMatchDivHome, .splashBaseball #joomsport-container .jsMatchDivMain .jsMatchDivAway {
+    width: 25%;
+}
+
+.splashBaseball #joomsport-container .jsMatchDivMain .jsMatchDivHomeEmbl, .splashBaseball #joomsport-container .jsMatchDivMain .jsMatchDivAwayEmbl {
+    width: 5%;
+}
+
+.splashBaseball #joomsport-container .jsMatchDivMain .jsMatchDivVenue a {
+    border-bottom: 1px solid #a10a0d;
+}
+
+.splashBaseball #joomsport-container .overviewBlocks h3, .splashBaseball #joomsport-container #jsMatchViewID h3, .splashBaseball #joomsport-container .jsMatchDivMain .js-mdname .jsrow-matchday-name, .splashBaseball #joomsport-container #stab_statistic h3.jsCreerMatchStath3, .splashBaseball #joomsport-container #stab_statistic .jscenter > h3 {
+    margin: 45px 0 10px;
+    background-color: transparent;
+    color: #151515;
+    font-size: 24px !important;
+    font-weight: bold;
+    text-align: left;
+    line-height: 1;
+}
+
+#joomsport-container .jsMatchDivMain .js-mdname:first-child .jsrow-matchday-name, #joomsport-container .overviewBlocks:first-child h3, #joomsport-container #stab_statistic h3.jsCreerMatchStath3:first-child, #joomsport-container #stab_statistic .jscenter > h3 {
+    margin-top: 0;
+}
+
+.splashBaseball #joomsport-container #jsMatchViewID .jsMarginBottom30 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.splashBaseball #joomsport-container #jsMatchViewID .jsMarginBottom30 h3 {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #151515;
+}
+
+.splashBaseball #joomsport-container .jsMatchDivMain.jstable .js-mdname {
+    height: 95px;
+}
+
+.splashBaseball #joomsport-container .jsMatchDivMain .js-mdname:first-child {
+    height: 50px;
+}
+
+.splashBaseball #joomsport-container .jsMatchDivMain.jstable .js-mdname:first-child > div {
+    margin-top: 0;
+}
+
+/*Knockout*/
+.splashBaseball #joomsport-container .drawBracketContainerBE .table td.even .player {
+    color: #9e9e9e;
+    background-color: #e8e8e8;
+}
+
+.splashBaseball #joomsport-container .drawBracketContainerBE .player div.knockscore {
+    background-color: #bdbdbd;
+}
+
+.splashBaseball #joomsport-container .drawBracketContainerBE .player div.knockscore > a {
+    background-color: #e21e22;
+}
+
+.splashBaseball #joomsport-container .drawBracketContainerBE .player div.knockscore > a:hover {
+    background-color: #a10a0d;
+}
+
+.splashBaseball #joomsport-container .drawBracketContainerBE .knockbot.player {
+    border: 1px solid #ccc !important;
+}
+
+.splashBaseball #joomsport-container .drawBracketContainerBE .player .knockplName a {
+    color: #262626;
+}
+
+.splashBaseball #joomsport-container .drawBracketContainerBE .knockscore a {
+    color: #fff !important;
+}
+
+.splashBaseball #joomsport-container .drawBracketContainerBE .knIsHover {
+    background-color: rgba(189, 189, 189, .55);
+}
+
+.splashBaseball #joomsport-container .drawBracketContainerBE .knIsHover .js_div_particName > a {
+    color: #a10a0d;
+}
+
+/*Roster*/
+.splashBaseball #joomsport-container .jsplayerCart a:hover .namePlayerCart .js_div_particName {
+    color: #a10a0d;
+}
+
+.splashBaseball #joomsport-container .namePlayerCart, .splashBaseball #joomsport-container .namePlayerCart > div {
+    position: relative;
+}
+
+.splashBaseball #joomsport-container .namePlayerCart {
+    width: auto;
+    min-height: auto;
+    background-color: #3B3B3B;
+    border-right: none;
+}
+
+.splashBaseball #joomsport-container .namePlayerCart > div {
+    left: 0;
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+}
+
+.splashBaseball #joomsport-container .namePlayerCart .LeftnamePlayerCart > div {
+    display: block;
+    line-height: 1.4;
+}
+
+.splashBaseball #joomsport-container .namePlayerCart .LeftnamePlayerCart > .PlayerCardPos {
+    color: #bdbdbd;
+}
+
+.splashBaseball #joomsport-container .namePlayerCart .LeftnamePlayerCart > .PlayerCardFIO, .splashBaseball #joomsport-container .namePlayerCart .PlayerCardPlNumber {
+    font-size: 18px;
+}
+
+.splashBaseball #joomsport-container .namePlayerCart .PlayerCardPlNumber {
+    padding: 0 10px;
+    background-color: #a10a0d;
+}
+
+.splashBaseball #joomsport-container .namePlayerCart .PlayerCardPlNumber:before {
+    content: "\e919";
+    font-family: 'stm-splash-icons';
+    line-height: normal;
+    text-transform: none;
+}
+
+/*Match page*/
+.splashBaseball #joomsport-container #jsMatchViewID .jsMatchScore {
+    display: table;
+    width: 100%;
+    margin-bottom: 50px;
+    background: none;
+    background-color: #3b3b3b;
+}
+
+.splashBaseball #joomsport-container #jsMatchViewID .jsMatchScore > .heading {
+    display: table-footer-group;
+    padding: 7px 0;
+    background-color: #262626;
+    font-size: 13px;
+    border-top: 2px solid #e21e22;
+}
+
+.splashBaseball #joomsport-container #jsMatchViewID .jsMatchScore > .heading .matchdtime {
+    text-align: right;
+    color: #fff;
+}
+
+.splashBaseball #joomsport-container #jsMatchViewID .jsMatchScore > .heading .matchdtime > i {
+    font-size: 15px;
+    padding-right: 10px;
+}
+
+.splashBaseball #joomsport-container #jsMatchViewID .jsMatchScore > .heading .matchvenue {
+    text-align: left;
+    color: #a10a0d;
+}
+
+.splashBaseball #joomsport-container #jsMatchViewID .jsMatchScore > .heading .matchvenue > i {
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.splashBaseball #joomsport-container #jsMatchViewID .jsMatchScore > .jsmatchHeader {
+    display: table-header-group;
+    padding: 0;
+    background-color: transparent;
+}
+
+.splashBaseball #joomsport-container #jsMatchViewID .jsMatchScore > .jsmatchHeader > .jstable {
+    margin-top: 15px;
+}
+
+.splashBaseball #joomsport-container #jsMatchViewID .jsMatchScore > .jsmatchHeader .jsMatchPartName > a {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.splashBaseball #joomsport-container #jsMatchViewID .jsMatchScore > .jsmatchHeader .jsDivCenter {
+    padding-bottom: 15px;
+    color: #a10a0d;
+}
+
+.splashBaseball #joomsport-container #jsMatchViewID .jsMatchScore > .jsmatchHeader .jsScoreDivMap {
+    font-size: 17px;
+    text-shadow: none;
+}
+
+.splashBaseball #joomsport-container #jsMatchViewID .jsmatchHeader > .jstable .mainScoreDiv {
+    width: 26%;
+}
+
+.splashBaseball #joomsport-container #jsMatchViewID .jsmatchHeader > .jstable .jsScoreDivM {
+    position: relative;
+}
+
+.splashBaseball #joomsport-container #jsMatchViewID .jsmatchHeader > .jstable .jsScoreDivM:after {
+    content: ":";
+    position: absolute;
+    display: block;
+    left: 46%;
+    font-size: 55px;
+    font-weight: bold;
+    line-height: 70px;
+}
+
+.splashBaseball #joomsport-container #jsMatchViewID .jsmatchHeader .jsScoreDivM > div {
+    background: #a10a0d;
+    font-weight: bold;
+}
+
+.splashBaseball #joomsport-container #jsMatchViewID .tabs .jsTeamStat .jstable > .jsColTeamEvents .teamEventGraph > div.jsGray {
+    background-color: #a10a0d;
+}
+
+.splashBaseball #joomsport-container #jsMatchViewID .tabs .jsTeamStat .jstable > .jsColTeamEvents .teamEventGraph > div.jsRed {
+    background-color: #e21e22;
+}
+
+.splashBaseball #joomsport-container #jsMatchViewID .tabs .jsTeamStat .jstable > .jsColTeamEvents .teamEventGraph, .splashBaseball #joomsport-container #jsMatchViewID .tabs .jsTeamStat .jstable > .jsColTeamEvents .teamEventGraph > div {
+    border-radius: 6px;
+}
+
+.splashBaseball #joomsport-container .jsTblVerticalTimeLine {
+    border-collapse: separate;
+    border-spacing: 0 15px;
+}
+
+.splashBaseball #joomsport-container .table-responsive .jsTblVerticalTimeLine.table > tbody > tr {
+    background: rgba(255, 255, 255, 1);
+    background: -moz-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(204, 204, 204, 1) 50%, rgba(255, 255, 255, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(50%, rgba(204, 204, 204, 1)), color-stop(100%, rgba(255, 255, 255, 1)));
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(204, 204, 204, 1) 50%, rgba(255, 255, 255, 1) 100%);
+    background: -o-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(204, 204, 204, 1) 50%, rgba(255, 255, 255, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(204, 204, 204, 1) 50%, rgba(255, 255, 255, 1) 100%);
+    background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(204, 204, 204, 1) 50%, rgba(255, 255, 255, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1);
+}
+
+.splashBaseball #joomsport-container .jsTblVerticalTimeLine.table td a {
+    color: #262626;
+}
+
+.splashBaseball #joomsport-container .jsTblVerticalTimeLine > tbody > tr > td.wphiddenjs {
+    visibility: hidden;
+}
+
+.splashBaseball #joomsport-container .jsTblVerticalTimeLine > tbody > tr > td.jstimeevent {
+    position: relative;
+    width: 5%;
+    border: none;
+    background-color: #3b3b3b !important;
+    color: #fff;
+}
+
+.splashBaseball #joomsport-container .jsTblVerticalTimeLine > tbody > tr > td.jstimeevent:after {
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    height: 15px;
+    left: 50%;
+    border-left: 2px solid #4f575e;
+}
+
+.splashBaseball #joomsport-container .jsTblVerticalTimeLine > tbody > tr:last-child > td.jstimeevent:after {
+    display: none;
+}
+
+/*JoomSport prediction*/
+body[class*="single-jswprediction"].splashBaseball #joomsport-container .jstable {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body[class*="single-jswprediction"].splashBaseball #joomsport-container .jstable .jstable-row {
+    background-color: #ffffff;
+}
+
+body[class*="single-jswprediction"].splashBaseball #joomsport-container .jstable .jstable-row .jstable-cell {
+    border-bottom: 1px solid #d9d9d9;
+    padding: 15px 10px;
+}
+
+body[class*="single-jswprediction"].splashBaseball #joomsport-container .jstable .jstable-row .jstable-cell a {
+    color: #262626;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+body[class*="single-jswprediction"].splashBaseball #joomsport-container .jstable .jstable-row .jstable-cell a:hover, body[class*="single-jswprediction"] #joomsport-container .jstable .jstable-row .jstable-cell a:focus {
+    color: #a10a0d;
+    text-decoration: none;
+}
+
+body[class*="single-jswprediction"].splashBaseball #joomsport-container .jstable .jstable-row:first-child {
+    background-color: #e21e22;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+body[class*="single-jswprediction"].splashBaseball #joomsport-container .jstable .jstable-row:first-child .jstable-cell {
+    border: none;
+}
+
+body[class*="single-jswprediction"].splashBaseball #joomsport-container .jspred_filterround > span {
+    padding-left: 10px;
+}
+
+body[class*="single-jswprediction"].splashBaseball #joomsport-container .jsp_prediction_score input {
+    display: inline-block;
+}
+
+body[class*="single-jswprediction"].splashBaseball #joomsport-container #jspRoundSave {
+    background-color: #5cb85c !important;
+}
+
+/*Widgets/shortcodes*/
+.splashBaseball #joomsport-container .jsmainscroll table td a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.splashBaseball #joomsport-container .jsmainscroll table td .js_div_particName > a {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.splashBaseball #joomsport-container .jsmainscroll table td a:hover, .widget #joomsport-container.jsDefaultContainer > .jsmainscroll table td a:focus {
+    color: #e21e22;
+}
+
+.splashBaseball #joomsport-container.jsDefaultContainer .jsmainscroll .jsmatchdate {
+    border-bottom: 2px solid #e21e22;
+}
+
+.splashBaseball #joomsport-container .jsmainscroll .jsmatchdate {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.splashBaseball #joomsport-container > .jsmainscroll table.jsMNS .scoreScrMod {
+    margin-left: 5px;
+    border: 0;
+    border-radius: 0;
+    padding: 0;
+}
+
+.splashBaseball #joomsport-container > .jsmainscroll table.jsMNS .scoreScrMod > a {
+    width: 100%;
+    min-width: 35px;
+    padding: 5px 10px;
+    background-color: #e21e22;
+    color: #fff;
+}
+
+.splashBaseball #joomsport-container > .jsmainscroll table.jsMNS .scoreScrMod > a:hover {
+    background-color: #a10a0d;
+}
+
+.splashBaseball #joomsport-container.jsDefaultContainer > .jsmainscroll > div {
+    background-color: transparent
+}
+
+.splashBaseball #joomsport-container.jsDefaultContainer > .jsmainscroll .jsmatchdate, #joomsport-container.jsDefaultContainer > .jsmainscroll .jsmatchseason {
+    background-color: #262626;
+}
+
+.splashBaseball #joomsport-container.jsDefaultContainer > .jsmainscroll .jsmatchseason {
+    padding-top: 0;
+    color: #a10a0d;
+}
+
+.splashBaseball #joomsport-container.jsDefaultContainer > .jsmainscroll .jsview2 table tr, .splashBaseball #joomsport-container.jsDefaultContainer .jsview1 li > .jsmatchcont {
+    border-bottom: none;
+    background-color: #3b3b3b
+}
+
+.splashBaseball #joomsport-container.jsDefaultContainer > .jsmainscroll .jsview2 table tr:last-child {
+    border-bottom: none;
+}
+
+.splashBaseball #joomsport-container .jsmainscroll table .jsScoreDiv {
+    line-height: 30px;
+    margin: 0 15px;
+    padding: 10px 5px;
+    border-radius: 0;
+    background-color: #999999;
+    color: #fff;
+    font-size: 25px;
+}
+
+.splashBaseball #joomsport-container.jsSliderContainer .jsmainscroll table .jsScoreDiv {
+    background-color: #a10a0d;
+}
+
+.splashBaseball #joomsport-container .jsmainscroll table .jsScoreDiv > a {
+    color: #fff !important;
+}
+
+.splashBaseball #joomsport-container.jsSliderContainer .jsmainscroll li {
+    margin: 3px 10px;
+}
+
+.splashBaseball #joomsport-container.jsDefaultContainer > .jsmainscroll table td.jsvalignmdl {
+    vertical-align: middle
+}
+
+.splashBaseball #joomsport-container .jsmainscroll .jsview2 table td.tdminwdt {
+    padding: 25px 0;
+}
+
+.splashBaseball #joomsport-container > .jsmainscroll .jsview1 table td.tdminwdt {
+    padding: 10px 0;
+}
+
+.splashBaseball #joomsport-container.jsSliderContainer > .jsmainscroll .jsview2 table {
+    background-color: #f4f4f4;
+}
+
+.splashBaseball #joomsport-container.jsSliderContainer > .jsmainscroll > div {
+    border: none;
+    background-color: transparent !important;
+}
+
+.splashBaseball #joomsport-container.jsSliderContainer .jsmainscroll .jsmatchdate {
+    min-height: 39px;
+    background-color: #e21e22;
+}
+
+.splashBaseball #joomsport-container.jsSliderContainer > .jsmainscroll .jsmatchseason {
+    background-color: #e21e22;
+    color: #fff;
+    padding: 0 10px;
+}
+
+.splashBaseball #joomsport-container.jsSliderContainer .jsview1 li > div {
+    background-color: #f4f4f4;
+}
+
+.splashBaseball #joomsport-container.jsSliderContainer .jsmainscroll table td a {
+    color: #262626;
+    text-decoration: none
+}
+
+.splashBaseball #joomsport-container.jsSliderContainer .jsmainscroll table .js_div_particName a:hover {
+    color: #a10a0d;
+}
+
+.splashBaseball #joomsport-container .jsview1 table td.tdminwdt {
+    max-width: 128px;
+}
+
+.splashBaseball #joomsport-container .jsview1 table td.tdminwdt > .js_div_particName {
+    white-space: nowrap;
+    overflow: hidden;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+
+.splashBaseball #joomsport-container .jsmainscroll .jsview2 table {
+    table-layout: fixed !important;
+}
+
+.splashBaseball .widget #joomsport-container.jsSliderContainer .jsmainscroll {
+    padding-top: 0;
+    padding-bottom: 35px;
+}
+
+.splashBaseball .widget #joomsport-container.jsSliderContainer > .jsmainscroll > button[class^="js"] {
+    bottom: 0;
+    top: auto;
+}
+
+.splashBaseball .widget_wpb_joomsport_standings #joomsport-container > .groups {
+    font-size: 18px !important;
+}
+
+.splashBaseball .widget #joomsport-container table {
+    font-size: 15px;
+}
+
+.splashBaseball .widget #joomsport-container .jsmainscroll li {
+    margin: 0;
+    border-bottom: none;
+    padding: 0;
+}
+
+.splashBaseball .widget #joomsport-container.jsDefaultContainer .jsmainscroll li {
+    padding-bottom: 10px;
+}
+
+.splashBaseball #joomsport-container.jsSliderContainer .jsmainscroll .jsview2 li, .splashBaseball #joomsport-container.jsSliderContainer .jsmainscroll .jsview1 li > div {
+    border-bottom: 1px solid #d8d8d8;
+}
+
+.splashBaseball .widget #joomsport-container .jsmainscroll .jsMNS {
+    table-layout: fixed;
+}
+
+.splashBaseball .widget #joomsport-container .jsmainscroll .jsview1 .tdminembl {
+    width: 55px;
+    padding: 7px 5px;
+    padding-right: 0;
+}
+
+.splashBaseball .widget #joomsport-container .jsmainscroll .jsview1 .tdminembl .img-thumbnail {
+    max-width: 45px !important;
+}
+
+.splashBaseball .widget #joomsport-container .jsmainscroll .jsview1 table td:last-child {
+    width: 45px;
+}
+
+.splashBaseball .widget #joomsport-container .jsmainscroll .jsview1 table .scoreScrMod {
+    margin-right: 5px;
+}
+
+.splashBaseball .widget #joomsport-container .jsview1 table .scoreScrMod > a, .splashBaseball .widget #joomsport-container .jsmainscroll table .jsScoreDiv > a {
+    font-weight: bold;
+}
+
+.splashBaseball .widget #joomsport-container .jsview2 table td.tdminwdt {
+    padding: 7px 5px;
+}
+
+.splashBaseball .widget #joomsport-container .jsview2 table td.jstdhometeam {
+    direction: ltr;
+}
+
+.splashBaseball .widget #joomsport-container .jsmainscroll table .jsScoreDiv {
+    min-width: 70px;
+    margin: 0;
+    line-height: 20px;
+    font-size: 18px;
+}
+
+.splashBaseball .widget #joomsport-container .jsmainscroll table td .js_div_particName {
+    white-space: nowrap;
+}
+
+.splashBaseball .widget #joomsport-container .jsmainscroll table td .js_div_particName > a {
+    font-size: 16px;
+    overflow: hidden;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+}
+
+.splashBaseball .widget #joomsport-container .jsmainscroll .jsview2 .js_div_particName > a {
+    display: inline-block;
+    max-width: 61px;
+}
+
+@media (max-width: 992px) {
+    .splashAmericanFootball #joomsport-container.jsSliderContainer .jsmainscroll .jsview2 table {
+        width: 100%;
+        margin: 0;
+    }
+    .splashAmericanFootball #joomsport-container #jsMatchViewID .jsmatchHeader .jstable-row > div {
+        display: block;
+        width: 250px;
+        margin: 0 auto;
+    }
+    .splashAmericanFootball #joomsport-container #jsMatchViewID .jsmatchHeader .jstable-row > .mainScoreDiv {
+        padding: 0;
+        margin: 10px auto;
+    }
+    .splashAmericanFootball #joomsport-container #jsMatchViewID .jsmatchHeader .jsScoreDivM {
+        height: 100%;
+    }
+    .splashAmericanFootball #joomsport-container #jsMatchViewID .jsmatchHeader .jsScoreDivM > div {
+        height: 100px;
+        line-height: 100px;
+        font-size: 50px;
+        color: inherit;
+    }
+    .splashAmericanFootball #joomsport-container #jsMatchViewID .jsmatchHeader .jsScoreDivM > div:after, .splashAmericanFootball #joomsport-container #jsMatchViewID .jsmatchHeader .jsMatchPartName:after {
+        display: none;
+    }
+
+    .splashAmericanFootball #joomsport-container #jsMatchViewID .jsMatchScore > .heading > div {
+        display: inline-block;
+        width: 45%;
+        padding: 0 5px;
+    }
+    .splashAmericanFootball #joomsport-container #jsMatchViewID .jsMatchScore > .heading > .jsTextAlignCenter {
+        width: 10%;
+    }
+}
+
+@media (max-width: 768px) {
+    .splashSoccer #joomsport-container #jsMatchViewID .jsmatchHeader .jstable-row > div {
+        display: block;
+        width: 250px;
+        margin: 0 auto;
+        text-align: center !important;
+    }
+    .splashSoccer #joomsport-container #jsMatchViewID .jsmatchHeader .jstable-row > .mainScoreDiv {
+        padding: 0;
+        margin: 10px auto;
+    }
+    .splashSoccer #joomsport-container #jsMatchViewID .jsmatchHeader .jsScoreDivM {
+        height: 100%;
+    }
+    .splashSoccer #joomsport-container #jsMatchViewID .jsmatchHeader .jsScoreDivM > div {
+        height: 100px;
+        line-height: 100px;
+        font-size: 50px;
+        color: inherit;
+    }
+    .splashSoccer #joomsport-container #jsMatchViewID .jsmatchHeader .jsScoreDivM > .BigMScore2 {
+        background-color: #595959;
+    }
+    .splashSoccer #joomsport-container #jsMatchViewID .jsmatchHeader .jsScoreDivM > div:after, .splashSoccer #joomsport-container #jsMatchViewID .jsmatchHeader .jsMatchPartName:after {
+        display: none;
+    }
+    .splashSoccer #joomsport-container #jsMatchViewID .jsMatchScore > .heading > div {
+        display: inline-block;
+        width: 45%;
+        padding: 0 5px;
+    }
+    .splashSoccer #joomsport-container #jsMatchViewID .jsMatchScore > .heading > .jsTextAlignCenter {
+        width: 10%;
+    }
+    .splashSoccer #joomsport-container.jsSliderContainer .jsmainscroll .jsview2 li {
+        margin: 0;
+    }
+
+    .splashSoccer #joomsport-container.jsSliderContainer .jsmainscroll .jsview2 .jsmatchdate {
+        border-bottom: 3px solid #ff9500;
+        margin-bottom: 10px;
+    }
+
+    .splashSoccer #joomsport-container.jsSliderContainer .jsmainscroll .jsview2 .jsmatchseason, .splashSoccer #joomsport-container.jsSliderContainer .jsmainscroll .jsview2 .jsmatchdate {
+        background-color: #252b32;
+    }
+
+    .splashAmericanFootball #joomsport-container .jsmainscroll .jsmatchdate {
+        font-weight: 400;
+    }
+
+    .splashAmericanFootball #joomsport-container .jsmainscroll .jsview2 table tr td.tdminwdt {
+        padding: 7px 0;
+    }
+}
+
+@media (max-width: 568px) {
+    .splashAmericanFootball #joomsport-container .jsmainscroll .jsview2 table tr td.tdminwdt {
+        margin: 7px auto;
+        padding: 0;
+    }
+    .splashBaseball #joomsport-container .jsmainscroll .jsview2 table tr td.tdminwdt {
+        margin: 10px auto;
+        padding: 0;
+    }
+}
